@@ -1,3 +1,6 @@
+# changes to vendored source
+#   - removed automake generated files that were checked into upstream for some reason
+
 pkgname=joshuarli-spacefm
 pkgver=1.0.6.r80.ge257d15
 pkgrel=1
