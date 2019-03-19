@@ -1,5 +1,6 @@
 # changes to vendored source
 #   - removed automake generated files that were checked into upstream for some reason
+#   - removed locale files, it was getting too painful to strip away everything locale without breaking the build
 
 pkgname=joshuarli-spacefm
 pkgver=1.0.6.r80.ge257d15
@@ -25,8 +26,4 @@ build () {
 package () {
     cd "../spacefm-${pkgver}"
     make DESTDIR="$pkgdir" install
-    rm -rf \
-        "${pkgdir}/usr/bin/spacefm-installer" \
-        "${pkgdir}/usr/share/doc" \
-        "${pkgdir}/usr/share/locale"
 }

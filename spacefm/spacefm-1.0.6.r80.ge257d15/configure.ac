@@ -31,7 +31,7 @@ AC_CHECK_LIB(X11, XClearWindow)
 AC_DEFINE(G_DISABLE_ASSERT, [1], [do not enable g_asserts])
 AC_DEFINE(G_LOG_DOMAIN, "SpaceFM")
 
-AC_ARG_WITH([bash-path], 
+AC_ARG_WITH([bash-path],
         AC_HELP_STRING([--with-bash-path=PATH], [Absolute path to GENUINE bash v4 - other shells lack features REQUIRED by SpaceFM (default: /bin/bash)]),
         AC_DEFINE_UNQUOTED(BASHPATH, "$withval", [path to bash]),
         AC_DEFINE_UNQUOTED(BASHPATH, "/bin/bash", [path to bash]))
@@ -58,7 +58,7 @@ gtk2_modules="gtk+-2.0 >= 2.18.0 \
 gtk3_modules="gtk+-3.0 >= 3.0.0 \
               gthread-2.0 \
               gobject-2.0"
-              
+
 AC_ARG_WITH([gtk3], AS_HELP_STRING([--with-gtk3], [Build with GTK3 interface instead of GTK2 (default: with GTK2 unless GTK2 not installed)]), with_gtk3=$withval, with_gtk3="no")
 
 AC_ARG_WITH([gtk2], AS_HELP_STRING([--with-gtk2], [Build with GTK2 interface only (default: with GTK2 unless GTK2 not installed)]), with_gtk2=$withval, with_gtk2="no")
@@ -134,7 +134,7 @@ case `$LD -Bsymbolic-functions -v 2>&1 </dev/null` in
   LDFLAGS="$LDFLAGS -Wl,-Bsymbolic-functions"
   AC_MSG_RESULT([yes])
   ;;
-*)                                                                              
+*)
   AC_MSG_RESULT([no])
   ;;
 esac
@@ -296,7 +296,7 @@ AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
 dnl Add the languages which your application supports here.
-ALL_LINGUAS="af ar da ca cs de es et eu fa fi fr gl he hr hu id it ja ko lt ml ms nb nl nn pl ps pt pt_BR ru sk sl sv tr uk ur ur_PK vi zh_CN zh_TW"
+ALL_LINGUAS=""
 AM_GLIB_GNU_GETTEXT
 
 AC_OUTPUT([
