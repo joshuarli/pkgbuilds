@@ -1,0 +1,6 @@
+[submodule "vape"]
+	path = aur/vape
+	url = ssh://aur@aur.archlinux.org/vape.git
+[submodule "vape-bin"]
+	path = aur/vape-bin
+	url = ssh://aur@aur.archlinux.org/vape-bin.git
