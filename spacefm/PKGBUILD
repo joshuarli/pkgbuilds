@@ -1,0 +1,29 @@
+pkgname=joshuarli-spacefm
+pkgver=1.0.6.r80.ge257d15
+pkgrel=1
+arch=('x86_64')
+url="https://ignorantguru.github.io/spacefm"
+license=('GPL3')
+conflicts=("spacefm")
+provides=("spacefm")
+makedepends=('intltool' 'gettext')
+depends=('ffmpegthumbnailer' 'hicolor-icon-theme' 'shared-mime-info' 'desktop-file-utils' 'cairo' 'pango')
+
+prepare () {
+    cd "../spacefm-${pkgver}"
+    ./autogen.sh --prefix=/usr --with-gtk3
+}
+
+build () {
+    cd "../spacefm-${pkgver}"
+    make
+}
+
+package () {
+    cd "../spacefm-${pkgver}"
+    make DESTDIR="$pkgdir" install
+    rm -rf \
+        "${pkgdir}/usr/bin/spacefm-installer" \
+        "${pkgdir}/usr/share/doc" \
+        "${pkgdir}/usr/share/locale"
+}

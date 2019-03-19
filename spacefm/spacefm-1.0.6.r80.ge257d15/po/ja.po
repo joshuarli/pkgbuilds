@@ -1,0 +1,7931 @@
+# SpaceFM PO Template    http://ignorantguru.github.io/spacefm/
+# This file is distributed under the same copyright and license as the SpaceFM
+# package.
+# 
+# Translators:
+# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
+# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2016
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2013
+# YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo.co.jp>, 2017
+# 山影 秀夫 <yamakage9@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: spacefm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-07 14:23+0000\n"
+"PO-Revision-Date: 2017-09-22 01:08+0000\n"
+"Last-Translator: YAMADA Shinichirou <yamada_strong_yamada_nice_64bit@yahoo.co.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/ignorantguru/spacefm/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/spacefm-folder-handler.desktop.in.h:1
+msgid "SpaceFM Open Folder"
+msgstr "SpaceFM でフォルダを開く"
+
+#: ../data/spacefm-folder-handler.desktop.in.h:2
+msgid "Open folder"
+msgstr "フォルダを開く"
+
+#: ../data/spacefm-find.desktop.in.h:1
+msgid "SpaceFM File Search"
+msgstr "SpaceFM ファイル検索"
+
+#: ../data/spacefm-find.desktop.in.h:2
+msgid "Search for files and folders"
+msgstr "ファイルとフォルダの検索"
+
+#: ../data/spacefm.desktop.in.h:1
+msgid "SpaceFM"
+msgstr "SpaceFM"
+
+#: ../data/spacefm.desktop.in.h:2
+msgid "File Manager"
+msgstr "ファイルマネージャー"
+
+#: ../data/spacefm.desktop.in.h:3
+msgid "Browse the file system"
+msgstr "ファイルシステムを閲覧"
+
+#: ../data/ui/about-dlg.ui.h:1
+msgid "by IgnorantGuru"
+msgstr "by IgnorantGuru"
+
+#: ../data/ui/about-dlg.ui.h:2
+msgid "Copyright (C) 2016   GPL3+"
+msgstr "Copyright (C) 2016   GPL3+"
+
+#: ../data/ui/about-dlg.ui.h:3
+msgid ""
+"SpaceFM - Copyright (C) 2016 IgnorantGuru  GPL3+\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.\n"
+"\n"
+"USE AT YOUR OWN RISK.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"\n"
+"The 'exo' libraries and source code used by this software are licensed under the GNU General Public License and the GNU Lesser General Public License version 3 (LGPL3).\n"
+"\n"
+"You should have received a copy of the GNU General Public License and the GNU Lesser General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA."
+msgstr ""
+
+#: ../data/ui/about-dlg.ui.h:12
+msgid ""
+"IgnorantGuru <ignorantguru@gmx.com>\n"
+"\n"
+"Contributors:\n"
+"    BwackNinja <BwackNinja@gmail.com>\n"
+"    OmegaPhil <OmegaPhil@startmail.com>\n"
+"\n"
+"Artwork:\n"
+"    SpaceFM icons and logo by Goran Simovic\n"
+"\n"
+"Thanks to SpaceFM users for valuable feedback and to SpaceFM translators and\n"
+"packagers!\n"
+"\n"
+"Special thanks to:\n"
+"    Jean-Philippe Fleury\n"
+"    Vladimir Kudrya\n"
+"    VastOne\n"
+"    Hasufell\n"
+"\n"
+"SpaceFM is developed on geany, gcc, and git, with a little help from gdb.\n"
+"\n"
+"Source code taken from other projects:\n"
+" * pcmanfm-mod: IgnorantGuru\n"
+" * pcmanfm v0.5.2: Hon Jen Yee (PCMan)\n"
+" * libmd5-rfc: Aladdin Enterprises\n"
+" * Working area detection: Gary Kramlich\n"
+" * ExoIconView: os-cillation e.K, Anders Carlsson, Benedikt Meurer\n"
+" * Text and icon renderer uses code from Jonathan Blandford\n"
+" * Desktop icons use code from Brian Tarricone\n"
+" * HAL support (deprecated): gnome-vfs, thunar-vfs, libexo, gnome-mount"
+msgstr ""
+
+#: ../data/ui/about-dlg.ui.h:41
+msgid ""
+"SpaceFM icons and logo by Goran Simovic\n"
+"\n"
+"Additional icons were taken from the Tango Desktop Project icon set"
+msgstr ""
+
+#: ../data/ui/about-dlg.ui.h:44
+msgid "translator-credits"
+msgstr "Hironao Komatsu <hironao@users.sourceforge.net>\nYAMAKAGE Hideo\nKeiichi SHIGA (BALLOON a.k.a. Fu-sen.) <balloonakafusen+spacefm@gmail.com>"
+
+#: ../data/ui/appchooserdlg.ui.h:1
+msgid "Choose Application"
+msgstr "アプリケーションを選択"
+
+#: ../data/ui/appchooserdlg.ui.h:2
+msgid "Please choose an application or enter a command:"
+msgstr "アプリケーションを選択するかコマンドを入力してください:"
+
+#: ../data/ui/appchooserdlg.ui.h:3
+msgid "File Type:"
+msgstr "ファイルの種類:"
+
+#: ../data/ui/appchooserdlg.ui.h:4
+msgid "_Associated Apps"
+msgstr "関連アプリ(_A)"
+
+#: ../data/ui/appchooserdlg.ui.h:5
+msgid "A_ll Apps"
+msgstr "全てのアプリ(_L)"
+
+#: ../data/ui/appchooserdlg.ui.h:6
+msgid "_Command:"
+msgstr "コマンド(_C)"
+
+#: ../data/ui/appchooserdlg.ui.h:7 ../src/settings.c:11611
+#: ../src/ptk/ptk-file-misc.c:2155 ../src/item-prop.c:1744
+msgid "_Browse"
+msgstr "参照(_B)"
+
+#: ../data/ui/appchooserdlg.ui.h:8
+msgid "Opened in Terminal"
+msgstr "ターミナルで開く"
+
+#: ../data/ui/appchooserdlg.ui.h:9
+msgid "_Set as default application for this file type"
+msgstr "この種類のファイルのデフォルトアプリケーションにする(_S)"
+
+#: ../data/ui/file_properties.ui.h:1
+msgid "File Properties"
+msgstr "ファイルのプロパティ"
+
+#: ../data/ui/file_properties.ui.h:2
+msgid "<b>File _Name:</b>"
+msgstr "<b>ファイル名(_N)</b>"
+
+#: ../data/ui/file_properties.ui.h:3
+msgid "<b>_Location:</b>"
+msgstr "<b>場所(_L)</b>"
+
+#: ../data/ui/file_properties.ui.h:4
+msgid "<b>Link _Target:</b>"
+msgstr "<b>リンク先(_T)</b>"
+
+#: ../data/ui/file_properties.ui.h:5 ../src/ptk/ptk-file-misc.c:2207
+msgid "<b>Type:</b>"
+msgstr "<b>種類:</b>"
+
+#: ../data/ui/file_properties.ui.h:6
+msgid "<b>Opens _With:</b>"
+msgstr "<b>これで開く(_W)</b>"
+
+#: ../data/ui/file_properties.ui.h:7
+msgid "<b>Total Size:</b>"
+msgstr "<b>合計サイズ</b>"
+
+#: ../data/ui/file_properties.ui.h:8
+msgid "<b>Size On Disk:</b>"
+msgstr "<b>ディスク上のサイズ</b>"
+
+#: ../data/ui/file_properties.ui.h:9
+msgid "<b>Count:</b>"
+msgstr "<b>総数</b>"
+
+#: ../data/ui/file_properties.ui.h:10
+msgid "<b>_Modified:</b>"
+msgstr "<b>更新日時(_M)</b>"
+
+#: ../data/ui/file_properties.ui.h:11
+msgid "<b>_Accessed:</b>"
+msgstr "<b>アクセス日時(_A)</b>"
+
+#: ../data/ui/file_properties.ui.h:12 ../src/settings.c:12444
+msgid "_Info"
+msgstr "情報(_I)"
+
+#: ../data/ui/file_properties.ui.h:13
+msgid "<b>_Owner:</b>"
+msgstr "<b>所有者(_O):</b>"
+
+#: ../data/ui/file_properties.ui.h:14
+msgid "<b>_Group:</b>"
+msgstr "<b>グループ(_G)</b>:"
+
+#: ../data/ui/file_properties.ui.h:15
+msgid "<b>Owner:</b>"
+msgstr "<b>所有者:</b>"
+
+#: ../data/ui/file_properties.ui.h:16
+msgid "<b>Group:</b>"
+msgstr "<b>グループ:</b>"
+
+#: ../data/ui/file_properties.ui.h:17
+msgid "<b>Other:</b>"
+msgstr "<b>その他:</b>"
+
+#: ../data/ui/file_properties.ui.h:18
+msgid "Read"
+msgstr "読み込み"
+
+#: ../data/ui/file_properties.ui.h:19
+msgid "Write"
+msgstr "書き込み"
+
+#: ../data/ui/file_properties.ui.h:20
+msgid "Execute"
+msgstr "実行"
+
+#: ../data/ui/file_properties.ui.h:21
+msgid "Set UID"
+msgstr "SUID"
+
+#: ../data/ui/file_properties.ui.h:22
+msgid "Set GID"
+msgstr "SGID"
+
+#: ../data/ui/file_properties.ui.h:23
+msgid "Sticky"
+msgstr "スティッキー"
+
+#: ../data/ui/file_properties.ui.h:24
+msgid "Recursive (apply changes to folders and their contents)"
+msgstr "再帰的 (フォルダや中身も変更する)"
+
+#: ../data/ui/file_properties.ui.h:25 ../src/settings.c:12447
+msgid "_Permissions"
+msgstr "パーミッション(_P)"
+
+#: ../data/ui/find-files.ui.h:1 ../data/ui/find-files2.ui.h:1
+msgid "Bytes"
+msgstr "Bytes"
+
+#: ../data/ui/find-files.ui.h:2 ../data/ui/find-files2.ui.h:2
+#: ../data/ui/prefdlg.ui.h:24 ../data/ui/prefdlg2.ui.h:24
+msgid "KB"
+msgstr "KB"
+
+#: ../data/ui/find-files.ui.h:3 ../data/ui/find-files2.ui.h:3
+msgid "MB"
+msgstr "MB"
+
+#: ../data/ui/find-files.ui.h:4 ../data/ui/find-files2.ui.h:4
+msgid "GB"
+msgstr "GB"
+
+#: ../data/ui/find-files.ui.h:5 ../data/ui/find-files2.ui.h:5
+msgid "Any"
+msgstr "全期間"
+
+#: ../data/ui/find-files.ui.h:6 ../data/ui/find-files2.ui.h:6
+msgid "Within One Day"
+msgstr "1日以内"
+
+#: ../data/ui/find-files.ui.h:7 ../data/ui/find-files2.ui.h:7
+msgid "Within One Week"
+msgstr "1週間以内"
+
+#: ../data/ui/find-files.ui.h:8 ../data/ui/find-files2.ui.h:8
+msgid "Within One Month"
+msgstr "1ヶ月以内"
+
+#: ../data/ui/find-files.ui.h:9 ../data/ui/find-files2.ui.h:9
+msgid "Within One Year"
+msgstr "1年以内"
+
+#: ../data/ui/find-files.ui.h:10 ../data/ui/find-files2.ui.h:10
+msgid "Within Selected Date Range"
+msgstr "選択した日付の期間内"
+
+#: ../data/ui/find-files.ui.h:11 ../data/ui/find-files2.ui.h:11
+msgid "Find Files"
+msgstr "ファイルの検索"
+
+#: ../data/ui/find-files.ui.h:12 ../data/ui/find-files2.ui.h:12
+#: ../src/ptk/ptk-file-task.c:2413
+msgid "<b>Filename:</b>"
+msgstr "<b>ファイル名</b>"
+
+#: ../data/ui/find-files.ui.h:13 ../data/ui/find-files2.ui.h:13
+msgid "Case Sensitive"
+msgstr "大文字・小文字を区別する"
+
+#: ../data/ui/find-files.ui.h:14 ../data/ui/find-files2.ui.h:14
+msgid "Video Files (avi, mpg,...)"
+msgstr "動画ファイル (avi, mpg,...)"
+
+#: ../data/ui/find-files.ui.h:15 ../data/ui/find-files2.ui.h:15
+msgid "Audio Files (mp3, ogg,...)"
+msgstr "音声ファイル (mp3, ogg,...)"
+
+#: ../data/ui/find-files.ui.h:16 ../data/ui/find-files2.ui.h:16
+msgid "Image Files (jpg, png,...)"
+msgstr "画像ファイル (jpg, png,...)"
+
+#: ../data/ui/find-files.ui.h:17 ../data/ui/find-files2.ui.h:17
+msgid "Plain Text Files"
+msgstr "プレーンテキストファイル"
+
+#: ../data/ui/find-files.ui.h:18 ../data/ui/find-files2.ui.h:18
+msgid "All Files and Folders"
+msgstr "すべてのファイルとフォルダ"
+
+#: ../data/ui/find-files.ui.h:19 ../data/ui/find-files2.ui.h:19
+msgid "<b>File Types to Search</b>"
+msgstr "<b>検索するファイルの種類</b>"
+
+#: ../data/ui/find-files.ui.h:20 ../data/ui/find-files2.ui.h:20
+msgid "Search in subfolders"
+msgstr "サブフォルダの中も検索"
+
+#: ../data/ui/find-files.ui.h:21 ../data/ui/find-files2.ui.h:21
+msgid "Search hidden files"
+msgstr "隠しファイルも検索"
+
+#: ../data/ui/find-files.ui.h:22 ../data/ui/find-files2.ui.h:22
+msgid "<b>Places to Search</b>"
+msgstr "<b>検索する場所</b>"
+
+#: ../data/ui/find-files.ui.h:23 ../data/ui/find-files2.ui.h:23
+msgid "General"
+msgstr "一般"
+
+#: ../data/ui/find-files.ui.h:24 ../data/ui/find-files2.ui.h:24
+msgid "File Contains:"
+msgstr "ファイルに含む:"
+
+#: ../data/ui/find-files.ui.h:25 ../data/ui/find-files2.ui.h:25
+msgid "Use Regular Expression"
+msgstr "正規表現を使用する"
+
+#: ../data/ui/find-files.ui.h:26 ../data/ui/find-files2.ui.h:26
+msgid "<b>File Content</b>"
+msgstr "<b>ファイルの内容</b>"
+
+#: ../data/ui/find-files.ui.h:27 ../data/ui/find-files2.ui.h:27
+msgid "Content"
+msgstr "内容"
+
+#: ../data/ui/find-files.ui.h:28 ../data/ui/find-files2.ui.h:28
+msgid "Greater Than:"
+msgstr "〜より大きい:"
+
+#: ../data/ui/find-files.ui.h:29 ../data/ui/find-files2.ui.h:29
+msgid "Smaller Than:"
+msgstr "〜より小さい:"
+
+#: ../data/ui/find-files.ui.h:30 ../data/ui/find-files2.ui.h:30
+msgid "<b>File Size</b>"
+msgstr "<b>ファイルのサイズ</b>"
+
+#: ../data/ui/find-files.ui.h:31 ../data/ui/find-files2.ui.h:31
+msgid "<b>Last Modified</b>"
+msgstr "<b>最終更新時刻</b>"
+
+#: ../data/ui/find-files.ui.h:32 ../data/ui/find-files2.ui.h:32
+msgid "Size & Date"
+msgstr "サイズと日付"
+
+#: ../data/ui/find-files.ui.h:33 ../data/ui/find-files2.ui.h:33
+msgid "<b>Search Result:</b>"
+msgstr "<b>検索結果:</b>"
+
+#: ../data/ui/find-files.ui.h:34 ../data/ui/find-files2.ui.h:34
+msgid "Search Again"
+msgstr "もう一度検索"
+
+#: ../data/ui/godlg.ui.h:1
+msgid "Go to folder"
+msgstr "フォルダへ移動"
+
+#: ../data/ui/prefdlg.ui.h:1 ../data/ui/prefdlg2.ui.h:1
+msgid "Open In Current Tab"
+msgstr "このタブで開く"
+
+#: ../data/ui/prefdlg.ui.h:2 ../data/ui/prefdlg2.ui.h:2
+msgid "Open In New Tab"
+msgstr "新しいタブで開く"
+
+#: ../data/ui/prefdlg.ui.h:3 ../data/ui/prefdlg2.ui.h:3
+msgid "Stretch"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:4 ../data/ui/prefdlg2.ui.h:4
+msgid "Fit"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:5 ../data/ui/prefdlg2.ui.h:5
+msgid "Center"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:6 ../data/ui/prefdlg2.ui.h:6
+msgid "Tile"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:7 ../data/ui/prefdlg2.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:8 ../data/ui/prefdlg2.ui.h:8
+msgid "Transparent"
+msgstr "透過"
+
+#: ../data/ui/prefdlg.ui.h:9 ../data/ui/prefdlg2.ui.h:9
+msgid "Automatic"
+msgstr "自動"
+
+#: ../data/ui/prefdlg.ui.h:10 ../data/ui/prefdlg2.ui.h:10
+msgid "Copy (Ctrl+Drag)"
+msgstr "コピー (Ctrl+ドラッグ)"
+
+#: ../data/ui/prefdlg.ui.h:11 ../data/ui/prefdlg2.ui.h:11
+msgid "Move (Shift+Drag)"
+msgstr "移動 (Shift+ドラッグ)"
+
+#: ../data/ui/prefdlg.ui.h:12 ../data/ui/prefdlg2.ui.h:12
+msgid "Link (Ctrl+Shift+Drag)"
+msgstr "リンク (Ctrl+Shift+ドラッグ)"
+
+#: ../data/ui/prefdlg.ui.h:13 ../data/ui/prefdlg2.ui.h:13
+msgid "Preferences"
+msgstr "設定"
+
+#: ../data/ui/prefdlg.ui.h:14 ../data/ui/prefdlg2.ui.h:14
+msgid "Small Icons:"
+msgstr "小さいアイコン:"
+
+#: ../data/ui/prefdlg.ui.h:15 ../data/ui/prefdlg2.ui.h:15
+msgid "Large Icons:"
+msgstr "大きいアイコン:"
+
+#: ../data/ui/prefdlg.ui.h:16 ../data/ui/prefdlg2.ui.h:16
+msgid "Toolbar Icons:"
+msgstr "ツールバーのアイコン:"
+
+#: ../data/ui/prefdlg.ui.h:17 ../data/ui/prefdlg2.ui.h:17
+msgid "<b>Icons</b>"
+msgstr "<b>アイコン</b>"
+
+#: ../data/ui/prefdlg.ui.h:18 ../data/ui/prefdlg2.ui.h:18
+msgid "Single click opens files"
+msgstr "シングルクリックでファイルを開く"
+
+#: ../data/ui/prefdlg.ui.h:19 ../data/ui/prefdlg2.ui.h:19
+msgid "Hover selects"
+msgstr "ホバーで選択"
+
+#: ../data/ui/prefdlg.ui.h:20 ../data/ui/prefdlg2.ui.h:20
+msgid "Bookmarks:"
+msgstr "ブックマーク:"
+
+#: ../data/ui/prefdlg.ui.h:21 ../data/ui/prefdlg2.ui.h:21
+#: ../src/settings.c:171
+msgid "Show Thumbnails"
+msgstr "サムネイルを表示"
+
+#: ../data/ui/prefdlg.ui.h:22 ../data/ui/prefdlg2.ui.h:22
+#: ../src/settings.c:173
+msgid "Show Folder Sizes"
+msgstr ""
+
+#: ../data/ui/prefdlg.ui.h:23 ../data/ui/prefdlg2.ui.h:23
+msgid "Max Pic Size To Thumbnail:"
+msgstr "サムネイルの最大画像サイズ"
+
+#: ../data/ui/prefdlg.ui.h:25 ../data/ui/prefdlg2.ui.h:25
+msgid "<b>File List</b>"
+msgstr "<b>ファイルリスト</b>"
+
+#: ../data/ui/prefdlg.ui.h:26 ../data/ui/prefdlg2.ui.h:26
+msgid "_General"
+msgstr "一般(_G)"
+
+#: ../data/ui/prefdlg.ui.h:27 ../data/ui/prefdlg2.ui.h:27
+msgid "Always show the tab bar"
+msgstr "タブバーを常に表示する"
+
+#: ../data/ui/prefdlg.ui.h:28 ../data/ui/prefdlg2.ui.h:28
+msgid "Hide 'Close Tab' buttons"
+msgstr "タブを閉じるボタンを隠す"
+
+#: ../data/ui/prefdlg.ui.h:29 ../data/ui/prefdlg2.ui.h:29
+msgid "Confirm delete/remove"
+msgstr "削除・取り外しのときに確認する"
+
+#: ../data/ui/prefdlg.ui.h:30 ../data/ui/prefdlg2.ui.h:30
+msgid "Click runs executables"
+msgstr "実行ファイルをクリックで動かす"
+
+#: ../data/ui/prefdlg.ui.h:31 ../data/ui/prefdlg2.ui.h:31
+msgid "SI File Sizes (1K = 1000) (requires restart)"
+msgstr "SIファイルサイズ (1K = 1000) (要再起動)"
+
+#: ../data/ui/prefdlg.ui.h:32 ../data/ui/prefdlg2.ui.h:32
+msgid "Show root user indicator color"
+msgstr "rootの標識色表示"
+
+#: ../data/ui/prefdlg.ui.h:33 ../data/ui/prefdlg2.ui.h:33
+msgid "Default Drag Action:"
+msgstr "ドラッグ操作の既定値"
+
+#: ../data/ui/prefdlg.ui.h:34 ../data/ui/prefdlg2.ui.h:34
+msgid "I_nterface"
+msgstr "インタフェース(_I)"
+
+#: ../data/ui/prefdlg.ui.h:35 ../data/ui/prefdlg2.ui.h:35
+msgid "Wallpaper:"
+msgstr "壁紙:"
+
+#: ../data/ui/prefdlg.ui.h:36 ../data/ui/prefdlg2.ui.h:36
+msgid "Please select an image file"
+msgstr "画像ファイルを選んでください"
+
+#: ../data/ui/prefdlg.ui.h:37 ../data/ui/prefdlg2.ui.h:37
+msgid "Mode:"
+msgstr "モード:"
+
+#: ../data/ui/prefdlg.ui.h:38 ../data/ui/prefdlg2.ui.h:38
+msgid "Background:"
+msgstr "背景:"
+
+#: ../data/ui/prefdlg.ui.h:39 ../data/ui/prefdlg2.ui.h:39
+msgid "Text:"
+msgstr "テキスト:"
+
+#: ../data/ui/prefdlg.ui.h:40 ../data/ui/prefdlg2.ui.h:40
+msgid "Shadow:"
+msgstr "影:"
+
+#: ../data/ui/prefdlg.ui.h:41 ../data/ui/prefdlg2.ui.h:41
+msgid "Font:"
+msgstr "フォント:"
+
+#: ../data/ui/prefdlg.ui.h:42 ../data/ui/prefdlg2.ui.h:42
+msgid "Top:"
+msgstr "上端:"
+
+#: ../data/ui/prefdlg.ui.h:43 ../data/ui/prefdlg2.ui.h:43
+msgid "Left:"
+msgstr "左端:"
+
+#: ../data/ui/prefdlg.ui.h:44 ../data/ui/prefdlg2.ui.h:44
+msgid "Right:"
+msgstr "右端:"
+
+#: ../data/ui/prefdlg.ui.h:45 ../data/ui/prefdlg2.ui.h:45
+msgid "Bottom:"
+msgstr "下端:"
+
+#: ../data/ui/prefdlg.ui.h:46 ../data/ui/prefdlg2.ui.h:46
+msgid "Pad:"
+msgstr "パッド:"
+
+#: ../data/ui/prefdlg.ui.h:47 ../data/ui/prefdlg2.ui.h:47
+msgid "<b>Margins</b>"
+msgstr "<b>マージン</b>"
+
+#: ../data/ui/prefdlg.ui.h:48 ../data/ui/prefdlg2.ui.h:48
+msgid "Right click shows WM menu"
+msgstr "右クリックで WM メニューを開く"
+
+#: ../data/ui/prefdlg.ui.h:49 ../data/ui/prefdlg2.ui.h:49
+msgid "Open folders using associated MIME application"
+msgstr "MIMEで関連付けられたアプリケーションでフォルダを開く"
+
+#: ../data/ui/prefdlg.ui.h:50 ../data/ui/prefdlg2.ui.h:50
+msgid "_Desktop"
+msgstr "デスクトップ(_D)"
+
+#: ../data/ui/prefdlg.ui.h:51 ../data/ui/prefdlg2.ui.h:51
+msgid "_Volume Management"
+msgstr "ボリューム管理(_V)"
+
+#: ../data/ui/prefdlg.ui.h:52 ../data/ui/prefdlg2.ui.h:52
+msgid "Terminal:"
+msgstr "端末:"
+
+#: ../data/ui/prefdlg.ui.h:53 ../data/ui/prefdlg2.ui.h:53
+msgid "Terminal SU:"
+msgstr "端末での SU:"
+
+#: ../data/ui/prefdlg.ui.h:54 ../data/ui/prefdlg2.ui.h:54
+msgid "Graphical SU:"
+msgstr "GUI での SU:"
+
+#: ../data/ui/prefdlg.ui.h:55 ../data/ui/prefdlg2.ui.h:55
+msgid "Filename Encoding:"
+msgstr "ファイル名のエンコード:"
+
+#: ../data/ui/prefdlg.ui.h:56 ../data/ui/prefdlg2.ui.h:56
+msgid "Editor:"
+msgstr "エディタ:"
+
+#: ../data/ui/prefdlg.ui.h:57 ../data/ui/prefdlg2.ui.h:57
+msgid "Run editor in terminal"
+msgstr "ターミナルでエディタを実行"
+
+#: ../data/ui/prefdlg.ui.h:58 ../data/ui/prefdlg2.ui.h:58
+msgid "Root's Editor:"
+msgstr "rootのエディタ:"
+
+#: ../data/ui/prefdlg.ui.h:59 ../data/ui/prefdlg2.ui.h:59
+msgid "Run root's editor in terminal"
+msgstr "ターミナルでrootのエディタを実行"
+
+#: ../data/ui/prefdlg.ui.h:60 ../data/ui/prefdlg2.ui.h:60
+msgid "Date Format:"
+msgstr "日付:"
+
+#: ../data/ui/prefdlg.ui.h:61 ../data/ui/prefdlg2.ui.h:61
+msgid "(requires reload)"
+msgstr "(要再読み込み)"
+
+#: ../data/ui/prefdlg.ui.h:62 ../data/ui/prefdlg2.ui.h:62
+msgid "Date Display"
+msgstr "日付表示"
+
+#: ../data/ui/prefdlg.ui.h:63 ../data/ui/prefdlg2.ui.h:63
+msgid "_Advanced"
+msgstr "高度な設定(_A)"
+
+#: ../src/cust-dialog.c:395
+#, c-format
+msgid "Too many columns (>%d) in %s"
+msgstr "の列数が多すぎます (> %d) %s"
+
+#: ../src/cust-dialog.c:635 ../src/cust-dialog.c:1654
+#: ../src/cust-dialog.c:1668 ../src/cust-dialog.c:1887 ../src/item-prop.c:799
+#, c-format
+msgid "error reading file %s: %s"
+msgstr "%s ファイルの読み込みエラー: %s"
+
+#. modified = TRUE;
+#: ../src/cust-dialog.c:643 ../src/cust-dialog.c:1688
+#: ../src/cust-dialog.c:1901 ../src/ptk/ptk-handler.c:706
+#: ../src/item-prop.c:811
+#, c-format
+msgid "file '%s' contents are not valid UTF-8"
+msgstr "ファイル「%s」の内容は正しい UTF-8 ではありません"
+
+#: ../src/cust-dialog.c:698
+#, c-format
+msgid "Cannot set missing element '%s'"
+msgstr "エレメント '%s' が見つからないのでセットできません"
+
+#: ../src/cust-dialog.c:826 ../src/cust-dialog.c:915
+#, c-format
+msgid "file '%s' is not a regular file"
+msgstr "'%s' ファイルは正しいファイルではありません"
+
+#: ../src/cust-dialog.c:998 ../src/cust-dialog.c:1332
+#: ../src/cust-dialog.c:3473
+msgid "Dynamic resize requires width and height > 0"
+msgstr "動的なサイズ変更には0より大きな幅と高さが必要です"
+
+#: ../src/cust-dialog.c:1305
+#, c-format
+msgid "internal command %s requires an argument"
+msgstr "内部コマンド %s には引数が必要です"
+
+#: ../src/cust-dialog.c:1353
+#, c-format
+msgid "element '%s' does not exist"
+msgstr "エレメント '%s' はありません"
+
+#: ../src/cust-dialog.c:1398
+#, c-format
+msgid "internal command press is invalid for non-button %s"
+msgstr ""
+
+#: ../src/cust-dialog.c:1432
+#, c-format
+msgid "internal command un/select is invalid for %s"
+msgstr "内部コマンド un/select は %s には無効です"
+
+#: ../src/cust-dialog.c:1466 ../src/cust-dialog.c:1615
+#: ../src/cust-dialog.c:1622
+#, c-format
+msgid "error writing file %s: %s"
+msgstr "%s ファイルの書き込みエラー: %s"
+
+#: ../src/cust-dialog.c:1595
+#, c-format
+msgid "'%s' is not an internal command"
+msgstr "'%s' は内部コマンドではありません"
+
+#: ../src/cust-dialog.c:1641
+#, c-format
+msgid "error creating file %s: %s"
+msgstr "%s ファイルの作成エラー: %s"
+
+#: ../src/cust-dialog.c:1757
+#, c-format
+msgid "pipe '%s' data is not valid UTF-8"
+msgstr "パイプ '%s' データは正しい UTF-8 ではありません"
+
+#: ../src/cust-dialog.c:1793 ../src/ptk/ptk-file-task.c:1778
+msgid "[ SNIP - additional output above has been trimmed from this log ]\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:1898
+msgid "( file contents are not valid UTF-8 )"
+msgstr "(ファイルの内容は正しい UTF-8 ではありません)"
+
+#: ../src/cust-dialog.c:2022
+#, c-format
+msgid "prefix '%s' is not a valid variable name"
+msgstr "プレフィックス '%s' は正しい変数名ではありません"
+
+#. pack timeout button first
+#: ../src/cust-dialog.c:2293 ../src/cust-dialog.c:3641
+#: ../src/cust-dialog.c:3701
+msgid "Pause"
+msgstr "一時停止"
+
+#: ../src/cust-dialog.c:3021
+#, c-format
+msgid "file '%s' is not a regular file or a pipe"
+msgstr "'%s' ファイルは正しいファイルかパイプではありません"
+
+#: ../src/cust-dialog.c:3762
+#, c-format
+msgid ""
+"SpaceFM Dialog creates a custom GTK dialog based on the GUI elements you\n"
+"specify on the command line, features run-time internal/external commands which\n"
+"can modify elements, and outputs evaluatable/parsable results.\n"
+msgstr "SpaceFM ダイアログはあなたがコマンドラインで指定する GUI 要素に基づく\nカスタム GTK ダイアログを作成し、要素を修正することができる実行時\n内部・外部コマンドを特徴とし、評価可能・パーサブルな結果を出力します。\n"
+
+#: ../src/cust-dialog.c:3763
+#, c-format
+msgid "Usage:\n"
+msgstr "用法:\n"
+
+#: ../src/cust-dialog.c:3764
+#, c-format
+msgid "    spacefm --dialog|-g {ELEMENT [OPTIONS] [ARGUMENTS...]} ...\n"
+msgstr "    spacefm --dialog|-g {ELEMENT [OPTIONS] [ARGUMENTS...]} ...\n"
+
+#: ../src/cust-dialog.c:3765
+#, c-format
+msgid "Example:\n"
+msgstr "例:\n"
+
+#: ../src/cust-dialog.c:3766
+#, c-format
+msgid "    spacefm -g --label \"A message\" --button ok\n"
+msgstr "    spacefm -g --label \"A message\" --button ok\n"
+
+#: ../src/cust-dialog.c:3767
+#, c-format
+msgid ""
+"\n"
+"ELEMENT:       OPTIONS & ARGUMENTS:\n"
+msgstr "\nELEMENT:       OPTIONS & ARGUMENTS:\n"
+
+#: ../src/cust-dialog.c:3768
+#, c-format
+msgid "--------       --------------------\n"
+msgstr "--------       --------------------\n"
+
+#: ../src/cust-dialog.c:3779
+#, c-format
+msgid ""
+"\n"
+"The following arguments may be used as shown above:\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3780
+#, c-format
+msgid "    STOCK    %s\n"
+msgstr "    STOCK    %s\n"
+
+#: ../src/cust-dialog.c:3781
+#, c-format
+msgid "    ICON     An icon name, eg:  gtk-open\n"
+msgstr "    ICON     アイコン名、例: gtk-open\n"
+
+#: ../src/cust-dialog.c:3782
+#, c-format
+msgid ""
+"    @FILE    A text file from which to read a value.  In some cases this file\n"
+"             is monitored, so writing a new value to the file will update the\n"
+"             element.  In other cases, the file specifies an initial value.\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3783
+#, c-format
+msgid "    SAVEFILE A viewer's or editor's contents are saved to this file.\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3784
+#, c-format
+msgid ""
+"    COMMAND  An internal command or executable followed by arguments. Separate\n"
+"             multiple commands with a -- argument.\n"
+"             The following substitutions may be used in COMMANDs:\n"
+"                 %%n           Name of the current element\n"
+"                 %%v           Value of the current element\n"
+"                 %%NAME        Value of element named NAME (eg: %%input1)\n"
+"                 %%(command)   stdout from a bash command line\n"
+"                 %%%%           %%\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3785
+#, c-format
+msgid ""
+"    LABEL    The following escape sequences in LABEL are unescaped:\n"
+"                 \\n   newline\n"
+"                 \\t   tab\n"
+"                 \\\"   \"\n"
+"                 \\\\   \\\n"
+"             In --label elements only, if the first character in LABEL is a\n"
+"             tilde (~), pango markup may be used.  For example:\n"
+"                 --label '~This is plain. <b>This is bold.</b>'\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3787
+#, c-format
+msgid ""
+"\n"
+"In addition to the OPTIONS listed above, --compact or --expand options may be\n"
+"added to any element.  Also, a --font option may be used with most element\n"
+"types to change the element's font and font size.  For example:\n"
+"    --input --font \"Times New Roman 16\" \"Default Text\"\n"
+msgstr ""
+
+#: ../src/cust-dialog.c:3789
+#, c-format
+msgid ""
+"\n"
+"INTERNAL COMMANDS:\n"
+msgstr "\n内部コマンド:\n"
+
+#: ../src/cust-dialog.c:3800
+#, c-format
+msgid ""
+"\n"
+"EXAMPLE WITH COMMANDS:\n"
+msgstr "\nコマンドを用いた例:\n"
+
+#: ../src/cust-dialog.c:3801
+#, c-format
+msgid ""
+"    spacefm -g --label \"Enter some text and press Enter:\" \\\n"
+"               --input \"\" set label2 %%v -- echo '# %%n = %%v' \\\n"
+"               --label \\\n"
+"               --button ok\n"
+msgstr "    spacefm -g --label \"文字列を入力してEnterを押してください:\" \\\n               --input \"\" set label2 %%v -- echo '# %%n = %%v' \\\n               --label \\\n               --button ok\n"
+
+#: ../src/cust-dialog.c:3803
+#, c-format
+msgid ""
+"\n"
+"EXAMPLE SCRIPT:\n"
+msgstr "\nスクリプトの例:\n"
+
+#: ../src/cust-dialog.c:3804
+#, c-format
+msgid ""
+"    #!%s\n"
+"    # This script shows a Yes/No dialog\n"
+"    # Use QUOTED eval to read variables output by SpaceFM Dialog:\n"
+"    eval \"`spacefm -g --label \"Are you sure?\" --button yes --button no`\"\n"
+"    if [[ \"$dialog_pressed\" == \"button1\" ]]; then\n"
+"        echo \"User pressed Yes - take some action\"\n"
+"    else\n"
+"        echo \"User did NOT press Yes - abort\"\n"
+"    fi\n"
+msgstr "    #!%s\n    # このスクリプトは「はい・いいえ」ダイアログを表示します\n    # クォートで囲まれた eval は SpaceFM ダイアログの変数出力を読みます\n    eval \"`spacefm -g --label \"よろしいですか?\" --button はい --button いいえ`\"\n    if [[ \"$dialog_pressed\" == \"button1\" ]]; then\n        echo \"ユーザは「はい」を押しました - 何かアクションを起こす\"\n    else\n        echo \"ユーザは「はい」を押しませんでした - 中止\"\n    fi\n"
+
+#: ../src/cust-dialog.c:3805
+#, c-format
+msgid ""
+"\n"
+"For full documentation and examples see the SpaceFM User's Manual:\n"
+msgstr "\n詳しい文書や例は SpaceFM ユーザーズマニュアルをご覧ください:\n"
+
+#: ../src/cust-dialog.c:3832
+#, c-format
+msgid "spacefm: argument is not valid UTF-8\n"
+msgstr "spacefm: 引数は正しい UTF-8 ではありません\n"
+
+#: ../src/cust-dialog.c:3879
+msgid "invalid dialog option"
+msgstr "無効なダイアログオプション"
+
+#: ../src/cust-dialog.h:12
+msgid "Set window title"
+msgstr "ウィンドウタイトル設定"
+
+#: ../src/cust-dialog.h:14
+msgid "Set window icon"
+msgstr "ウィンドウアイコン設定"
+
+#: ../src/cust-dialog.h:16
+msgid "Add a text label"
+msgstr "テキストラベルの追加"
+
+#: ../src/cust-dialog.h:18
+msgid "Add STOCK dialog button, or LABEL button with ICON"
+msgstr "STOCK ダイアログボタン、もしくは ICON を用いた LABEL ボタンの追加"
+
+#: ../src/cust-dialog.h:20
+msgid "Add STOCK button, or LABEL button with ICON anywhere"
+msgstr ""
+
+#: ../src/cust-dialog.h:22
+msgid "Add a text entry"
+msgstr "テキスト入力欄の追加"
+
+#: ../src/cust-dialog.h:24
+msgid "Add a large text entry"
+msgstr "大きなテキスト入力欄の追加"
+
+#: ../src/cust-dialog.h:26
+msgid "Add a password entry"
+msgstr "パスワード入力欄の追加"
+
+#: ../src/cust-dialog.h:28
+msgid "Add a file or pipe viewer"
+msgstr "ファイルもしくはパイプのビューワーを追加"
+
+#: ../src/cust-dialog.h:30
+msgid "Add multi-line text editor"
+msgstr "複数行のテキスト入力欄を追加"
+
+#: ../src/cust-dialog.h:32
+msgid "Add a checkbox option"
+msgstr "チェックボックスオプションを追加"
+
+#: ../src/cust-dialog.h:34
+msgid "Add a radio option"
+msgstr "ラジオボタンオプションを追加"
+
+#: ../src/cust-dialog.h:36
+msgid "Add an icon"
+msgstr "アイコンを追加"
+
+#: ../src/cust-dialog.h:38
+msgid "Add an image"
+msgstr "画像を追加"
+
+#: ../src/cust-dialog.h:44
+msgid "Add a progress bar"
+msgstr "進捗バーを追加"
+
+#: ../src/cust-dialog.h:46
+msgid "Add a horizontal line separator"
+msgstr "水平なセパレーター線を追加"
+
+#: ../src/cust-dialog.h:48
+msgid "Add a vertical line separator"
+msgstr "垂直なセパレーター線を追加"
+
+#: ../src/cust-dialog.h:50
+msgid "Automatically close window after DELAY seconds"
+msgstr "DELAY 秒後に自動的にウィンドウを閉じる"
+
+#: ../src/cust-dialog.h:52
+msgid "Add a drop-down list.  COMMAND run when clicked."
+msgstr "ドロップダウンリストを追加。クリックされたら COMMAND を実行。"
+
+#: ../src/cust-dialog.h:54
+msgid "Add a combo list.  COMMAND run when Enter pressed."
+msgstr "コンボリストを追加。Enter を押されたら COMMAND を実行。"
+
+#. ^HIDE   hidden column (must be first) for data return  (int or double or
+#. string no progress)
+#. use --colwidth=W inside column list
+#: ../src/cust-dialog.h:58
+msgid "Add a list box.  COMMAND run when double-clicked."
+msgstr "リストボックスを追加。ダブルクリックされたら COMMAND を実行。"
+
+#: ../src/cust-dialog.h:60
+msgid "Add a list box with multiple selections"
+msgstr "複数選択可能なリストボックスを追加。"
+
+#: ../src/cust-dialog.h:62
+msgid "Options: [--save] [--dir] [--multi] [--filter F[:F...]]"
+msgstr "Options: [--save] [--dir] [--multi] [--filter F[:F...]]"
+
+#: ../src/cust-dialog.h:64
+msgid "Set base variable name  (Default: \"dialog\")"
+msgstr "基礎変数名の設定 (デフォルト: \"dialog\")"
+
+#: ../src/cust-dialog.h:66
+msgid "Set minimum width, height, padding (-1 = don't change)"
+msgstr "最小の幅・高さ・パディングの設定 (-1 = 変更不可)"
+
+#: ../src/cust-dialog.h:68
+msgid "Add following widgets to a horizontal box"
+msgstr "水平ボックスに次のウィジットを追加"
+
+#: ../src/cust-dialog.h:70
+msgid "Add following widgets to a vertical box"
+msgstr "垂直ボックスに次のウィジットを追加"
+
+#: ../src/cust-dialog.h:72
+msgid "Close the current box of widgets"
+msgstr "現在のウィジットボックスを閉じる"
+
+#: ../src/cust-dialog.h:74
+msgid "Run COMMAND when a key combination is pressed"
+msgstr "キーの組み合わせが押されたときに COMMAND を実行する"
+
+#: ../src/cust-dialog.h:76
+msgid "Run COMMAND when an element is clicked or focused"
+msgstr "要素がクリックもしくはフォーカスされたときに COMMAND を実行する"
+
+#: ../src/cust-dialog.h:78
+msgid "Run COMMAND on window close attempt"
+msgstr "ウィンドウが閉じられようとしたら COMMAND を実行する"
+
+#: ../src/cust-dialog.h:80
+msgid "Read commands from FILE or PIPE.  COMMAND for init."
+msgstr ""
+
+#: ../src/cust-dialog.h:144
+msgid "No operation - does nothing but evaluate arguments"
+msgstr ""
+
+#. exit status ?
+#: ../src/cust-dialog.h:146
+msgid "Close the dialog"
+msgstr ""
+
+#: ../src/cust-dialog.h:148
+msgid "Press button named BUTTON-NAME"
+msgstr ""
+
+#: ../src/cust-dialog.h:150
+msgid "Set element NAME to VALUE"
+msgstr ""
+
+#. also do for inputs?
+#: ../src/cust-dialog.h:152
+msgid "Select item VALUE (or first/all) in element NAME"
+msgstr ""
+
+#: ../src/cust-dialog.h:154
+msgid "Unselect item VALUE (or all) in element NAME"
+msgstr ""
+
+#: ../src/cust-dialog.h:156
+msgid "Focus element NAME, or raise dialog window"
+msgstr ""
+
+#: ../src/cust-dialog.h:158
+msgid "Hide element NAME"
+msgstr ""
+
+#: ../src/cust-dialog.h:160
+msgid "Show element NAME if previously hidden"
+msgstr ""
+
+#: ../src/cust-dialog.h:162
+msgid "Disable element NAME"
+msgstr ""
+
+#: ../src/cust-dialog.h:164
+msgid "Enable element NAME if previously disabled"
+msgstr ""
+
+#: ../src/cust-dialog.h:166
+msgid "Save files and write source output to FILE"
+msgstr ""
+
+#: ../src/main.c:128
+msgid "Open folders in new tab of last window (default)"
+msgstr "最後のウィンドウの新しいタブでフォルダを開く (デフォルト)"
+
+#: ../src/main.c:129
+msgid "Open folder in current tab of last used window"
+msgstr "最後に使用したウィンドウの現在のタブでフォルダを開く"
+
+#: ../src/main.c:130
+msgid "Don't load saved tabs"
+msgstr "保存したタブを読み込まない"
+
+#: ../src/main.c:131
+msgid "Open folders in new window"
+msgstr "新しいウィンドウでフォルダを開く"
+
+#: ../src/main.c:132
+msgid "Open folders in panel 'P' (1-4)"
+msgstr "パネル 'P' (1-4)でフォルダを開く"
+
+#: ../src/main.c:133
+msgid "Launch desktop manager daemon"
+msgstr "デスクトップマネージャーデーモンを起動する"
+
+#: ../src/main.c:134
+msgid "Show desktop settings"
+msgstr "デスクトップ設定を参照する"
+
+#: ../src/main.c:135
+msgid "Show Preferences ('N' is the Pref tab number)"
+msgstr "設定を参照する ('N'は設定タブ番号)"
+
+#: ../src/main.c:136
+msgid "Run as a daemon"
+msgstr "デーモンとして実行する"
+
+#: ../src/main.c:137
+msgid "Use DIR as configuration directory"
+msgstr "DIR をコンフィグレーションディレクトリとする"
+
+#: ../src/main.c:138
+msgid "Show File Search"
+msgstr "ファイル検索を表示する"
+
+#: ../src/main.c:145
+msgid "Set desktop wallpaper to FILE"
+msgstr "デスクトップの壁紙を指定する"
+
+#: ../src/main.c:147
+msgid "Show a custom dialog (See -g help)"
+msgstr "カスタムダイアログを表示する (参照 -g help)"
+
+#: ../src/main.c:148
+msgid "Send a socket command (See -s help)"
+msgstr "ソケットコマンドを送る (参照 -s help)"
+
+#: ../src/main.c:149 ../src/main.c:150
+msgid "No function - for compatibility only"
+msgstr "機能せず - 互換性のため"
+
+#: ../src/main.c:151
+msgid "Show version information"
+msgstr "バージョン情報を表示する"
+
+#: ../src/main.c:161
+msgid "[DIR | FILE | URL]..."
+msgstr "[DIR | FILE | URL]..."
+
+#: ../src/main.c:464
+msgid "Option --config-dir ignored - an instance is already running"
+msgstr "オプション --config-dir は無視します - インスタンスはすでに実行中です"
+
+#: ../src/main.c:476
+msgid "Option --config-dir contains invalid chars - cannot start"
+msgstr "オプション --config-dir には無効な文字が含まれています - 開始できません"
+
+#: ../src/main.c:600
+#, c-format
+msgid "spacefm: --socket-cmd requires an argument\n"
+msgstr "spacefm: --socket-cmd には引数が必要です\n"
+
+#: ../src/main.c:607
+#, c-format
+msgid "spacefm: could not create socket\n"
+msgstr "spacefm: ソケットを作成できませんでした\n"
+
+#: ../src/main.c:622
+#, c-format
+msgid ""
+"spacefm: could not connect to socket (not running? or DISPLAY not set?)\n"
+msgstr "spacefm: ソケットに接続できませんでした (実行中ではない? もしくは DISPLAY が設定されていない?)\n"
+
+#: ../src/main.c:665
+#, c-format
+msgid "spacefm: invalid response from socket\n"
+msgstr "spacefm: ソケットからの応答が無効です\n"
+
+#. TRANSLATOR:  These three lines should be limited to 80 chars each
+#: ../src/main.c:675
+msgid ""
+"SpaceFM socket commands permit external processes (such as command scripts)\n"
+"to read and set GUI property values and execute methods inside running SpaceFM\n"
+"windows.  To handle events see View|Events in the main menu bar."
+msgstr "SpaceFM ソケットコマンドは実行中の SpaceFM ウィンドウ内の実行メソッドと\nGUI プロパティ値を読んだり設定するための外部プロセス (コマンドスクリプトの様に)\nを許可します。イベントを扱うためにメインメニューバーの「表示→イベント」をご覧ください。"
+
+#: ../src/main.c:677
+msgid "Usage:"
+msgstr "用法:"
+
+#: ../src/main.c:679
+msgid "Example:"
+msgstr "例:"
+
+#: ../src/main.c:682
+msgid ""
+"METHODS\n"
+"-------"
+msgstr "METHODS\n-------"
+
+#: ../src/main.c:684
+msgid "Sets a property"
+msgstr "プロパティを設定する"
+
+#: ../src/main.c:687
+msgid "Gets a property"
+msgstr "プロパティを取得する"
+
+#: ../src/main.c:690
+msgid "Sets a task property"
+msgstr "タスクプロパティを設定する"
+
+#: ../src/main.c:693
+msgid "Gets a task property"
+msgstr "タスクプロパティを取得する"
+
+#: ../src/main.c:696
+msgid "Starts a new task"
+msgstr "新しいタスクを始める"
+
+#: ../src/main.c:699
+msgid "Activates a menu item by emitting its shortcut key"
+msgstr ""
+
+#: ../src/main.c:702
+msgid "Runs custom command or shows submenu named NAME"
+msgstr ""
+
+#: ../src/main.c:705
+msgid "Add asynchronous handler COMMAND to EVENT"
+msgstr ""
+
+#: ../src/main.c:708
+msgid "Add synchronous handler COMMAND to EVENT, replacing default handler"
+msgstr ""
+
+#: ../src/main.c:711
+msgid "Remove handler COMMAND from EVENT"
+msgstr ""
+
+#: ../src/main.c:714
+msgid "Shows this help reference.  (Also see manual link below.)"
+msgstr ""
+
+#: ../src/main.c:716
+msgid ""
+"OPTIONS\n"
+"-------"
+msgstr "OPTIONS\n-------"
+
+#: ../src/main.c:717
+msgid ""
+"Add options after METHOD to specify a specific window, panel, and/or tab."
+msgstr ""
+
+#: ../src/main.c:718
+msgid ""
+"Otherwise the current tab of the current panel in the last window is used."
+msgstr ""
+
+#: ../src/main.c:721
+msgid "Specify window.  eg:"
+msgstr "ウィンドウを指定する。  例:"
+
+#: ../src/main.c:723
+msgid "Specify panel 1-4.  eg:"
+msgstr "パネル 1-4 を指定する。  例:"
+
+#: ../src/main.c:725
+msgid "Specify tab 1-...  eg:"
+msgstr "タブ 1-... を指定する。  例:"
+
+#: ../src/main.c:727
+msgid ""
+"PROPERTIES\n"
+"----------"
+msgstr "PROPERTIES\n----------"
+
+#: ../src/main.c:728
+msgid "Set properties with METHOD 'set', or get the value with 'get'."
+msgstr "METHOD 'set' でプロパティを設定、'get' で値を取得する。"
+
+#: ../src/main.c:730
+msgid "eg '800x600'"
+msgstr "例 '800x600'"
+
+#: ../src/main.c:731
+msgid "eg '100x50'"
+msgstr "例 '100x50'"
+
+#: ../src/main.c:734
+msgid "eg '1024x768'  (read-only)"
+msgstr "例 '1024x768'  (read-only)"
+
+#: ../src/main.c:735 ../src/main.c:736 ../src/main.c:737 ../src/main.c:738
+#: ../src/main.c:754 ../src/main.c:755 ../src/main.c:756
+msgid "eg '100'"
+msgstr "例 '100'"
+
+#: ../src/main.c:743
+msgid "Open DIR or default in a new tab"
+msgstr ""
+
+#: ../src/main.c:767
+msgid "eg 'Current Status: Example'"
+msgstr ""
+
+#: ../src/main.c:769
+msgid "DIR            eg '/etc'"
+msgstr ""
+
+#: ../src/main.c:770
+msgid "[FILENAME...]"
+msgstr ""
+
+#: ../src/main.c:771
+msgid "[PATTERN]      eg '*.jpg'"
+msgstr ""
+
+#: ../src/main.c:772 ../src/main.c:773
+msgid "eg 'Some\\nlines\\nof text'"
+msgstr ""
+
+#: ../src/main.c:774 ../src/main.c:775
+msgid "eg '~/copy-file-contents-to-clipboard.txt'"
+msgstr ""
+
+#: ../src/main.c:776
+msgid "FILE...  Files copied to clipboard"
+msgstr ""
+
+#: ../src/main.c:777
+msgid "FILE...  Files cut to clipboard"
+msgstr ""
+
+#: ../src/main.c:779
+msgid ""
+"TASK PROPERTIES\n"
+"---------------"
+msgstr "TASK PROPERTIES\n---------------"
+
+#: ../src/main.c:780
+msgid "contents of Status task column  (read-only)"
+msgstr ""
+
+#: ../src/main.c:781
+msgid "eg 'gtk-open'"
+msgstr "例 'gtk-open'"
+
+#: ../src/main.c:782
+msgid "text to show in Count task column"
+msgstr ""
+
+#: ../src/main.c:783
+msgid "text to show in Folder task column"
+msgstr ""
+
+#: ../src/main.c:784
+msgid "text to show in Item task column"
+msgstr ""
+
+#: ../src/main.c:785
+msgid "text to show in To task column"
+msgstr ""
+
+#: ../src/main.c:786
+msgid "progress percent (1..100) or '' to pulse"
+msgstr ""
+
+#: ../src/main.c:787
+msgid "text to show in Total task column"
+msgstr ""
+
+#: ../src/main.c:788
+msgid "text to show in Current task column"
+msgstr ""
+
+#: ../src/main.c:789
+msgid "text to show in CRemain task column"
+msgstr ""
+
+#: ../src/main.c:790
+msgid "text to show in Average task column"
+msgstr ""
+
+#: ../src/main.c:791
+msgid "text to show in Remain task column"
+msgstr ""
+
+#: ../src/main.c:792
+msgid "contents of Elapsed task column (read-only)"
+msgstr ""
+
+#: ../src/main.c:793
+msgid "contents of Started task column (read-only)"
+msgstr ""
+
+#: ../src/main.c:795
+msgid "COMMAND  command to show a custom task dialog\n"
+msgstr ""
+
+#: ../src/main.c:797
+msgid ""
+"TASK TYPES\n"
+"----------"
+msgstr "TASK TYPES\n----------"
+
+#: ../src/main.c:799
+msgid "Run COMMAND in DIR"
+msgstr "DIR で COMMAND を実行する"
+
+#: ../src/main.c:801
+msgid "Copy|Move|Link FILE(s) or DIR(s) to TARGET dir"
+msgstr "FILE(s) もしくは DIR を TARGET ディレクトリに Copy|Move|Link する"
+
+#: ../src/main.c:802
+msgid "Recursively delete FILE(s) or DIR(s)"
+msgstr "FILE(s) もしくは DIR(s) を再帰的に削除する"
+
+#: ../src/main.c:803
+msgid "Refresh tab or specified DIR(s)"
+msgstr ""
+
+#: ../src/main.c:804
+msgid "Open FILE in user's or root's text editor"
+msgstr "FILE をユーザ指定の root テキストエディタで開く"
+
+#: ../src/main.c:805
+msgid "Open URL in user's web browser"
+msgstr "URL をユーザ指定のウェブブラウザで開く"
+
+#: ../src/main.c:806
+msgid "Mount DEVICE or URL"
+msgstr "DEVICE もしくは URL のマウント"
+
+#: ../src/main.c:807
+msgid "Unmount DEVICE or mount point DIR"
+msgstr "DEVICE もしくは DIR マウントポイントのアンマウント"
+
+#: ../src/main.c:809
+msgid ""
+"EVENTS\n"
+"------"
+msgstr "EVENTS\n------"
+
+#: ../src/main.c:810
+#, c-format
+msgid "Instance start        %e"
+msgstr "インスタンス開始            %e"
+
+#: ../src/main.c:811
+#, c-format
+msgid "Instance exit         %e"
+msgstr "インスタンス終了            %e"
+
+#: ../src/main.c:812
+msgid "Window new            %e %w %p %t"
+msgstr "新規ウィンドウ              %e %w %p %t"
+
+#: ../src/main.c:813
+msgid "Window focus          %e %w %p %t"
+msgstr "ウィンドウフォーカス        %e %w %p %t"
+
+#: ../src/main.c:814
+msgid "Window move/resize    %e %w %p %t"
+msgstr "ウィンドウ移動・サイズ変更  %e %w %p %t"
+
+#: ../src/main.c:815
+msgid "Mouse click           %e %w %p %t %b %m %f"
+msgstr "マウスクリック              %e %w %p %t %b %m %f"
+
+#: ../src/main.c:816
+msgid "Window keypress       %e %w %p %t %k %m"
+msgstr "ウィンドウでのキー押下      %e %w %p %t %k %m"
+
+#: ../src/main.c:817
+msgid "Window close          %e %w %p %t"
+msgstr "ウィンドウを閉じる          %e %w %p %t"
+
+#: ../src/main.c:818
+msgid "Panel focus           %e %w %p %t"
+msgstr "パネルフォーカス            %e %w %p %t"
+
+#: ../src/main.c:819
+msgid "Panel show/hide       %e %w %p %t %f %v"
+msgstr "パネル表示・隠す            %e %w %p %t %f %v"
+
+#: ../src/main.c:820
+msgid "Selection changed     %e %w %p %t"
+msgstr "選択パネル変更              %e %w %p %t"
+
+#: ../src/main.c:821
+msgid "Tab new               %e %w %p %t"
+msgstr "新規タブ                    %e %w %p %t"
+
+#: ../src/main.c:822
+msgid "Tab change dir        %e %w %p %t %d"
+msgstr "タブディレクトリ変更        %e %w %p %t %d"
+
+#: ../src/main.c:823
+msgid "Tab focus             %e %w %p %t"
+msgstr "タブフォーカス              %e %w %p %t"
+
+#: ../src/main.c:824
+msgid "Tab close             %e %w %p %t"
+msgstr "タブを閉じる                %e %w %p %t"
+
+#: ../src/main.c:825
+msgid "Device change         %e %f %v"
+msgstr "デバイス変更                %e %f %v"
+
+#: ../src/main.c:827
+msgid "Event COMMAND Substitution Variables:"
+msgstr "イベント COMMAND の置換変数:"
+
+#: ../src/main.c:828
+msgid "event type (evt_start|evt_exit|...)"
+msgstr "イベント種類 (evt_start|evt_exit|...)"
+
+#: ../src/main.c:829
+msgid "window ID"
+msgstr "ウィンドウ ID"
+
+#: ../src/main.c:830
+msgid "panel number (1-4)"
+msgstr "パネル番号 (1-4)"
+
+#: ../src/main.c:831
+msgid "tab number (1-...)"
+msgstr "タブ番号 (1-...)"
+
+#: ../src/main.c:832
+msgid "quoted directory ('/etc')"
+msgstr "引用符で囲まれたディレクトリ ('/etc')"
+
+#: ../src/main.c:833
+msgid "mouse button (0=double 1=left 2=middle 3=right ...)"
+msgstr "マウスボタン (0=ダブル、1=左、2=中、3=右 ...)"
+
+#: ../src/main.c:834
+msgid "key code  (eg 0x63)"
+msgstr "キーコード (例 0x63)"
+
+#: ../src/main.c:835
+msgid "modifier key (eg 0x4  used with clicks and keypresses)"
+msgstr ""
+
+#: ../src/main.c:836
+msgid "focus element (panelN|filelist|devices|bookmarks|dirtree|pathbar)"
+msgstr ""
+
+#: ../src/main.c:837
+msgid "focus element is visible (0 or 1, or device state change)"
+msgstr ""
+
+#: ../src/main.c:839
+msgid "Examples"
+msgstr "例"
+
+#: ../src/main.c:855
+msgid "These files have been copied to the clipboard"
+msgstr ""
+
+#: ../src/main.c:866
+msgid "For full documentation and examples see the SpaceFM User's Manual:"
+msgstr "詳しい文書や例は SpaceFM ユーザーズマニュアルをご覧ください:"
+
+#: ../src/main.c:1156 ../src/main.c:1419
+msgid "This build of SpaceFM has desktop integration disabled"
+msgstr ""
+
+#: ../src/main.c:1197
+#, c-format
+msgid ""
+"spacefm: Error: Unable to save session\n"
+"       %s\n"
+msgstr "spacefm: エラー: セッションを保存できません\n%s\n\n"
+
+#: ../src/main.c:1268
+msgid "File doesn't exist"
+msgstr "ファイルが存在しません"
+
+#: ../src/main.c:1270 ../src/main.c:1348 ../src/main.c:1350 ../src/main.c:1458
+#: ../src/main.c:1486 ../src/main.c:1488 ../src/main.c:1627
+#: ../src/settings.c:5903 ../src/settings.c:9257
+#: ../src/ptk/ptk-file-browser.c:2400 ../src/ptk/ptk-file-browser.c:2417
+#: ../src/ptk/ptk-file-browser.c:5795 ../src/ptk/ptk-file-browser.c:5803
+#: ../src/ptk/ptk-console-output.c:232 ../src/ptk/ptk-file-misc.c:2793
+#: ../src/ptk/ptk-file-misc.c:3454 ../src/ptk/ptk-file-misc.c:3724
+#: ../src/ptk/ptk-file-misc.c:3832 ../src/ptk/ptk-file-misc.c:4038
+#: ../src/ptk/ptk-file-properties.c:887 ../src/ptk/ptk-file-properties.c:898
+#: ../src/vfs/vfs-file-task.c:1513 ../src/item-prop.c:979
+#, c-format
+msgid "Error"
+msgstr "エラー"
+
+#: ../src/main.c:1348 ../src/main.c:1486
+msgid ""
+"Error: Unable to initialize inotify file change monitor.\n"
+"\n"
+"Do you have an inotify-capable kernel?"
+msgstr ""
+
+#: ../src/main.c:1350 ../src/main.c:1488
+msgid ""
+"Error: Unable to establish connection with FAM.\n"
+"\n"
+"Do you have \"FAM\" or \"Gamin\" installed and running?"
+msgstr "エラー: FAM への接続に失敗しました。\n\n\"FAM\" ないし \"Gamin\" はインストールされ実行されていますか?"
+
+#: ../src/main.c:1404
+msgid "--dialog must be first option"
+msgstr "--dialog には第一オプションが必要です"
+
+#: ../src/main.c:1411
+msgid "--socket-cmd must be first option"
+msgstr "--socket-cmd には第一オプションが必要です"
+
+#: ../src/main.c:1456
+#, c-format
+msgid ""
+"SpaceFM requires bash to be installed.  Other shells are NOT equivalent as SpaceFM uses features only found in genuine bash (v4+).\n"
+"\n"
+"The program %s was not found.  Install bash or use configure option --with-bash-path to specify a custom location at build time."
+msgstr ""
+
+#: ../src/main.c:1622
+msgid "Don't know how to open the file"
+msgstr "ファイルを開く方法が不明です"
+
+#: ../src/main.c:1624
+#, c-format
+msgid ""
+"Unable to open file:\n"
+"\"%s\"\n"
+"%s"
+msgstr "ファイルが開けません:\n\"%s\"\n%s"
+
+#: ../src/main-window.c:312 ../src/settings.c:7238
+msgid "Choose Plugin File"
+msgstr "プラグインファイルの選択"
+
+#. get url
+#: ../src/main-window.c:323 ../src/settings.c:7250
+msgid "Enter Plugin URL"
+msgstr "プラグインの URL を入力"
+
+#: ../src/main-window.c:323 ../src/settings.c:7250
+msgid ""
+"Enter SpaceFM Plugin URL:\n"
+"\n"
+"(wget will be used to download the plugin file)"
+msgstr "SpaceFM プラグインのURLを入力:\n\n(wget がプラグインをダウンロードするのに使用されます)"
+
+#: ../src/main-window.c:343
+#, c-format
+msgid ""
+"This plugin's filename is invalid.  Please rename it using alpha-numeric "
+"ASCII characters and try again."
+msgstr "このプラグインのファイル名は無効です。英数字の ASCII 文字列に変更して試してください。"
+
+#: ../src/main-window.c:345
+msgid "Invalid Plugin Filename"
+msgstr "無効なプラグインファイル名"
+
+#: ../src/main-window.c:368
+#, c-format
+msgid ""
+"There is already a plugin installed as '%s'.  Overwrite ?\n"
+"\n"
+"Tip: You can also rename this plugin file to install it under a different name."
+msgstr "'%s' としてプラグインはインストール済みです。上書きしますか?\n\nヒント: 別の名前としてインストールするためにプラグインファイルの名前を変更することもできます。"
+
+#: ../src/main-window.c:370
+msgid "Overwrite Plugin ?"
+msgstr "プラグインを上書きしますか ?"
+
+#: ../src/main-window.c:391 ../src/settings.c:7258
+#: ../src/ptk/ptk-handler.c:2769
+msgid "Error Creating Temp Directory"
+msgstr "一時ディレクトリ作成エラー"
+
+#: ../src/main-window.c:392 ../src/settings.c:7259
+#: ../src/ptk/ptk-handler.c:2770
+msgid "Unable to create temporary directory"
+msgstr "一時ディレクトリが作成できません"
+
+#: ../src/main-window.c:653
+#, c-format
+msgid ""
+"Error: Unable to save session file\n"
+"\n"
+"( %s )"
+msgstr "エラー: セッションファイルを保存できません\n\n( %s )"
+
+#: ../src/main-window.c:655
+msgid "Save Session Error"
+msgstr "セッション保存エラー"
+
+#. root task
+#: ../src/main-window.c:687
+msgid "Open Root Window"
+msgstr "ルートウィンドウを開く"
+
+#: ../src/main-window.c:717 ../src/vfs/vfs-file-task.c:1545
+msgid "Terminal Not Available"
+msgstr "ターミナル利用不可"
+
+#: ../src/main-window.c:718
+msgid "Please set your terminal program in View|Preferences|Advanced"
+msgstr ""
+
+#: ../src/main-window.c:729
+msgid "Open Terminal"
+msgstr "ターミナルを開く"
+
+#: ../src/main-window.c:1033
+msgid "Design Mode Help"
+msgstr "デザインモードヘルプ"
+
+#: ../src/main-window.c:1033
+msgid ""
+"Design Mode allows you to change the name, shortcut key and icon of menu, toolbar and bookmark items, show help for an item, and add your own custom commands and applications.\n"
+"\n"
+"To open the Design Menu, simply right-click on a menu item, bookmark, or toolbar item.  To open the Design Menu for a submenu, first close the submenu (by clicking on it).\n"
+"\n"
+"For more information, click the Help button below."
+msgstr ""
+
+#: ../src/main-window.c:1924
+msgid "Panel"
+msgstr "パネル"
+
+#: ../src/main-window.c:1978 ../src/settings.c:5792 ../src/settings.c:6103
+#: ../src/settings.c:7089 ../src/settings.c:7204
+#, c-format
+msgid "New _Command"
+msgstr "新規コマンド(_C)"
+
+#: ../src/main-window.c:2088
+#, c-format
+msgid "Show Panel %d"
+msgstr "パネル %d 表示"
+
+#: ../src/main-window.c:2116 ../src/settings.c:8199 ../src/settings.c:11584
+#: ../src/settings.c:11600 ../src/settings.c:12124
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../src/main-window.c:2119 ../src/settings.c:12213
+msgid "_View"
+msgstr "表示(_V)"
+
+#: ../src/main-window.c:2122 ../src/settings.c:12556
+msgid "_Devices"
+msgstr "デバイス(_D)"
+
+#: ../src/main-window.c:2126 ../src/settings.c:11205 ../src/settings.c:11957
+#: ../src/settings.c:12189 ../src/settings.c:12568
+msgid "_Bookmarks"
+msgstr "ブックマーク(_B)"
+
+#: ../src/main-window.c:2129
+msgid "_Plugins"
+msgstr "プラグイン(_P)"
+
+#: ../src/main-window.c:2133
+msgid "_Tools"
+msgstr "ツール(_T)"
+
+#. Help
+#: ../src/main-window.c:2136 ../src/settings.c:1195 ../src/settings.c:8237
+#: ../src/settings.c:8809 ../src/settings.c:9175 ../src/settings.c:11265
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../src/main-window.c:2446
+#, c-format
+msgid ""
+"Error: Unable to save session file.  Do you want to exit without saving?\n"
+"\n"
+"( %s )"
+msgstr "エラー: セッションファイルを保存できません。保存せずに終了しますか?\n\n( %s )"
+
+#: ../src/main-window.c:2455
+msgid "SpaceFM Error"
+msgstr "SpaceFM エラー"
+
+#: ../src/main-window.c:2471
+msgid "Stop all tasks running in this window?"
+msgstr "このウィンドウで動作しているすべてのタスクを停止しますか?"
+
+#: ../src/main-window.c:2480
+msgid "Aborting tasks..."
+msgstr "タスクの中止中..."
+
+#: ../src/main-window.c:3712
+msgctxt "Status Bar"
+msgid "free"
+msgstr "空き"
+
+#: ../src/main-window.c:3721
+msgctxt "Status Bar"
+msgid "Reading"
+msgstr "読み込み中"
+
+#: ../src/main-window.c:3779 ../src/main-window.c:3782
+#: ../src/main-window.c:3793
+msgctxt "Status Bar"
+msgid "Link"
+msgstr "リンク:"
+
+#: ../src/main-window.c:3786 ../src/main-window.c:3796
+#: ../src/main-window.c:3804
+msgctxt "Status Bar"
+msgid "Broken"
+msgstr "破損"
+
+#: ../src/main-window.c:3806
+msgctxt "Status Bar"
+msgid "error reading target"
+msgstr "ターゲット読み込みエラー"
+
+#: ../src/main-window.c:3867
+msgid "hidden"
+msgid_plural "hidden"
+msgstr[0] "隠す"
+
+#: ../src/main-window.c:3875
+msgid "visible"
+msgid_plural "visible"
+msgstr[0] "表示"
+
+#: ../src/main-window.c:3890
+msgid "No files"
+msgstr "ファイルなし"
+
+#: ../src/main-window.c:3899
+msgid "file"
+msgid_plural "files"
+msgstr[0] "ファイル"
+
+#: ../src/main-window.c:3902
+msgid "folder"
+msgid_plural "folders"
+msgstr[0] "フォルダ"
+
+#: ../src/main-window.c:4162
+msgid "Device manager key shortcuts are disabled in HAL mode"
+msgstr ""
+
+#. If you change "Status", also change it in on_task_button_press_event
+#: ../src/main-window.c:4385 ../src/main-window.c:5884
+msgid "Status"
+msgstr "状態"
+
+#: ../src/main-window.c:4385
+msgid "#"
+msgstr "#"
+
+#: ../src/main-window.c:4385 ../src/ptk/ptk-file-misc.c:2110
+#: ../src/find-files.c:921 ../src/exo/exo-thumbnail-preview.c:273
+msgid "Folder"
+msgstr "フォルダ"
+
+#: ../src/main-window.c:4385
+msgid "Item"
+msgstr "アイテム"
+
+#: ../src/main-window.c:4386
+msgid "To"
+msgstr "送り先"
+
+#: ../src/main-window.c:4386
+msgid "Progress"
+msgstr "進捗"
+
+#: ../src/main-window.c:4386
+msgid "Total"
+msgstr "合計"
+
+#: ../src/main-window.c:4387
+msgid "Started"
+msgstr "開始時間"
+
+#: ../src/main-window.c:4387
+msgid "Elapsed"
+msgstr "経過時間"
+
+#: ../src/main-window.c:4387
+msgid "Current"
+msgstr "現在速度"
+
+#: ../src/main-window.c:4387
+msgid "CRemain"
+msgstr "この残り時間"
+
+#: ../src/main-window.c:4388
+msgid "Average"
+msgstr "平均"
+
+#: ../src/main-window.c:4388
+msgid "Remain"
+msgstr "残り時間"
+
+#: ../src/main-window.c:4401
+msgid "Reorder Columns Help"
+msgstr "列の再配置ヘルプ"
+
+#: ../src/main-window.c:4401
+msgid ""
+"To change the order of the columns, drag the column header to the desired "
+"location."
+msgstr "列の配置を変えるには、列の見出しを望みの場所にドラッグしてください。"
+
+#: ../src/main-window.c:5996
+msgid "moving"
+msgstr "移動中"
+
+#: ../src/main-window.c:5997
+msgid "copying"
+msgstr "コピー中"
+
+#: ../src/main-window.c:5998
+msgid "trashing"
+msgstr ""
+
+#: ../src/main-window.c:5999
+msgid "deleting"
+msgstr "削除中"
+
+#: ../src/main-window.c:6000
+msgid "linking"
+msgstr "リンク中"
+
+#: ../src/main-window.c:6001
+msgid "changing"
+msgstr "変更中"
+
+#: ../src/main-window.c:6002
+msgid "running"
+msgstr "実行中"
+
+#: ../src/main-window.c:6077
+#, c-format
+msgid "%d error %s"
+msgstr "%d エラー %s"
+
+#: ../src/main-window.c:6078
+#, c-format
+msgid "%d errors %s"
+msgstr "%d エラー %s"
+
+#: ../src/main-window.c:6094 ../src/ptk/ptk-file-task.c:1671
+#, c-format
+msgid "paused"
+msgstr "一時停止中"
+
+#: ../src/main-window.c:6096 ../src/ptk/ptk-file-task.c:1673
+#, c-format
+msgid "queued"
+msgstr "キュー"
+
+#: ../src/main-window.c:6431 ../src/ptk/ptk-file-browser.c:266
+#: ../src/find-files.c:906
+msgid "Name"
+msgstr "名前"
+
+#: ../src/main-window.c:6431 ../src/ptk/ptk-file-browser.c:266
+#: ../src/find-files.c:927
+msgid "Size"
+msgstr "サイズ"
+
+#: ../src/main-window.c:6431 ../src/ptk/ptk-file-browser.c:266
+#: ../src/find-files.c:931
+msgid "Type"
+msgstr "種類"
+
+#: ../src/main-window.c:6432 ../src/ptk/ptk-file-browser.c:267
+msgid "Permission"
+msgstr "パーミッション"
+
+#: ../src/main-window.c:6432 ../src/ptk/ptk-file-browser.c:267
+msgid "Owner"
+msgstr "所有者"
+
+#: ../src/main-window.c:6432 ../src/ptk/ptk-file-browser.c:267
+msgid "Modified"
+msgstr "更新日時"
+
+#: ../src/main-window.c:6444
+msgid "spacefm: invalid socket command\n"
+msgstr "spacefm: 無効なソケットコマンドです\n"
+
+#: ../src/main-window.c:6473
+#, c-format
+msgid "spacefm: invalid option '%s'\n"
+msgstr "spacefm: 無効なオプション '%s' です\n"
+
+#: ../src/main-window.c:6476
+#, c-format
+msgid "spacefm: option %s requires an argument\n"
+msgstr "spacefm: オプション %s には引数が必要です\n"
+
+#: ../src/main-window.c:6486
+msgid "spacefm: invalid window\n"
+msgstr "spacefm: 無効なウィンドウです\n"
+
+#: ../src/main-window.c:6506
+#, c-format
+msgid "spacefm: invalid window %s\n"
+msgstr "spacefm: 無効なウィンドウ %s です\n"
+
+#: ../src/main-window.c:6516
+#, c-format
+msgid "spacefm: invalid panel %d\n"
+msgstr "spacefm: 無効なパネル %d です\n"
+
+#: ../src/main-window.c:6523
+#, c-format
+msgid "spacefm: panel %d is not visible\n"
+msgstr "spacefm: パネル %d は非表示です\n"
+
+#: ../src/main-window.c:6536
+#, c-format
+msgid "spacefm: invalid tab %d\n"
+msgstr "spacefm: 無効なタブ %d です\n"
+
+#: ../src/main-window.c:6548
+msgid "spacefm: command set requires an argument\n"
+msgstr "spacefm: コマンドセットには引数が必要です\n"
+
+#: ../src/main-window.c:6574 ../src/main-window.c:6881
+#, c-format
+msgid "spacefm: invalid %s value\n"
+msgstr "spacefm: 無効な %s 値です\n"
+
+#: ../src/main-window.c:6607 ../src/main-window.c:6759
+msgid "spacefm: invalid slider value\n"
+msgstr "spacefm: 無効なスライダー値です\n"
+
+#: ../src/main-window.c:6636
+msgid "spacefm: invalid panel number\n"
+msgstr "spacefm: 無効なパネル番号です\n"
+
+#: ../src/main-window.c:6677
+msgid "spacefm: invalid tab number\n"
+msgstr "spacefm: 無効なタブ番号です\n"
+
+#: ../src/main-window.c:6730 ../src/main-window.c:7070
+#: ../src/main-window.c:7197 ../src/main-window.c:7480
+#, c-format
+msgid "spacefm: invalid property %s\n"
+msgstr "spacefm: 無効なプロパティ %s です\n"
+
+#: ../src/main-window.c:6779
+msgid "spacefm: invalid column width\n"
+msgstr "spacefm: 無効な列幅です\n"
+
+#: ../src/main-window.c:6815 ../src/main-window.c:6842
+#: ../src/main-window.c:7263
+#, c-format
+msgid "spacefm: invalid column name '%s'\n"
+msgstr "spacefm: 無効な列名 '%s' です\n"
+
+#: ../src/main-window.c:6957
+msgid "spacefm: text is not valid UTF-8\n"
+msgstr "spacefm: 文字列は有効な UTF-8 ではありません\n"
+
+#: ../src/main-window.c:6974
+#, c-format
+msgid "spacefm: %s requires a file path\n"
+msgstr "spacefm: %s にはファイルパスが必要です\n"
+
+#: ../src/main-window.c:6980
+#, c-format
+msgid "spacefm: error reading file '%s'\n"
+msgstr "spacefm: %s ファイルの読み込みエラーです\n"
+
+#: ../src/main-window.c:6986
+#, c-format
+msgid "spacefm: file '%s' does not contain valid UTF-8 text\n"
+msgstr "spacefm: '%s' ファイルは有効な UTF-8 文字列が含まれていません\n"
+
+#: ../src/main-window.c:7027
+#, c-format
+msgid "spacefm: %s requires a directory path\n"
+msgstr "spacefm: %s にはディレクトリパスが必要です\n"
+
+#: ../src/main-window.c:7033
+#, c-format
+msgid "spacefm: directory '%s' does not exist\n"
+msgstr "spacefm: ディレクトリ '%s' はありません\n"
+
+#: ../src/main-window.c:7079 ../src/main-window.c:8113
+#: ../src/main-window.c:8140
+#, c-format
+msgid "spacefm: command %s requires an argument\n"
+msgstr "spacefm: コマンド %s には引数が必要です\n"
+
+#: ../src/main-window.c:7488 ../src/main-window.c:7618
+#: ../src/main-window.c:7722 ../src/main-window.c:7779
+#: ../src/main-window.c:7830 ../src/main-window.c:8189
+#, c-format
+msgid "spacefm: %s requires two arguments\n"
+msgstr "spacefm: %s には二つの引数が必要です\n"
+
+#: ../src/main-window.c:7516 ../src/main-window.c:7646
+#, c-format
+msgid "spacefm: invalid task '%s'\n"
+msgstr "spacefm: 無効なタスク '%s' です\n"
+
+#: ../src/main-window.c:7521
+#, c-format
+msgid "spacefm: internal task %s is read-only\n"
+msgstr "spacefm: 内部タスク %s は読み込み専用です\n"
+
+#: ../src/main-window.c:7573
+#, c-format
+msgid "spacefm: task property '%s' is read-only\n"
+msgstr "spacefm: タスクプロパティ '%s' は読み込み専用です\n"
+
+#: ../src/main-window.c:7590
+#, c-format
+msgid "spacefm: invalid queue_state '%s'\n"
+msgstr "spacefm: 無効なキュー状態 '%s' です\n"
+
+#: ../src/main-window.c:7608 ../src/main-window.c:7709
+#, c-format
+msgid "spacefm: invalid task property '%s'\n"
+msgstr "spacefm: 無効なタスクプロパティ %s です\n"
+
+#: ../src/main-window.c:7765 ../src/main-window.c:7995
+#: ../src/main-window.c:8016 ../src/main-window.c:8094
+#, c-format
+msgid "spacefm: no such directory '%s'\n"
+msgstr "spacefm: そのようなディレクトリはありません '%s'\n"
+
+#: ../src/main-window.c:7772 ../src/main-window.c:7823
+#: ../src/main-window.c:7858 ../src/main-window.c:8002
+#, c-format
+msgid "spacefm: invalid %s task option '%s'\n"
+msgstr ""
+
+#: ../src/main-window.c:7839
+#, c-format
+msgid "spacefm: no such file '%s'\n"
+msgstr "spacefm: そのようなファイルはありません '%s'\n"
+
+#: ../src/main-window.c:7852
+#, c-format
+msgid "spacefm: task type %s requires udev build\n"
+msgstr ""
+
+#: ../src/main-window.c:7864
+#, c-format
+msgid "spacefm: task type %s requires TARGET argument\n"
+msgstr ""
+
+#. not a valid url
+#: ../src/main-window.c:7889 ../src/main-window.c:7912
+#: ../src/main-window.c:7956
+#, c-format
+msgid "spacefm: invalid TARGET '%s'\n"
+msgstr ""
+
+#: ../src/main-window.c:8035
+#, c-format
+msgid "spacefm: relative path '%s' requires %s option --dir DIR\n"
+msgstr ""
+
+#: ../src/main-window.c:8059
+#, c-format
+msgid "spacefm: task type %s requires FILE argument(s)\n"
+msgstr ""
+
+#: ../src/main-window.c:8104
+#, c-format
+msgid "spacefm: invalid task type '%s'\n"
+msgstr ""
+
+#: ../src/main-window.c:8128
+#, c-format
+msgid "spacefm: invalid keycode '%s'\n"
+msgstr ""
+
+#: ../src/main-window.c:8147
+#, c-format
+msgid "spacefm: custom command or submenu '%s' not found\n"
+msgstr ""
+
+#: ../src/main-window.c:8159
+#, c-format
+msgid "spacefm: item '%s' context hidden or disabled\n"
+msgstr ""
+
+#: ../src/main-window.c:8195
+#, c-format
+msgid "spacefm: invalid event type '%s'\n"
+msgstr ""
+
+#: ../src/main-window.c:8221
+#, c-format
+msgid "spacefm: event handler not found\n"
+msgstr ""
+
+#: ../src/main-window.c:8232
+#, c-format
+msgid "spacefm: invalid socket method '%s'\n"
+msgstr ""
+
+#: ../src/pref-dialog.c:166 ../src/pref-dialog.c:178 ../src/settings.c:161
+msgid "Default"
+msgstr "デフォルト"
+
+#: ../src/pref-dialog.c:198
+msgid "Choose Desktop Font"
+msgstr "デスクトップのフォントを選択"
+
+#: ../src/pref-dialog.c:199
+msgid "Example Item 0123456789"
+msgstr ""
+
+#: ../src/pref-dialog.c:445
+msgid "Transparency Requirements"
+msgstr ""
+
+#: ../src/pref-dialog.c:446
+msgid ""
+"General Note: For desktop transparency to work, you need to be running a compositing window manager or separate compositor like compton or xcompmgr. You can then use use nitrogen or xwinwrap to set wallpaper on the background.\n"
+"\n"
+"This message will not repeat."
+msgstr ""
+
+#: ../src/pref-dialog.c:794
+#, c-format
+msgid ""
+"Use of some terminals (%s) with SpaceFM may prevent the Run As Task and Run "
+"In Terminal options being used together to run commands, due to limitations "
+"in these terminals.  For example, this may cause protocols mounted in a "
+"terminal to fail to automatically open after being mounted.  For full use of"
+" SpaceFM's features, selecting another terminal is recommended."
+msgstr ""
+
+#: ../src/pref-dialog.c:797
+msgid "Limited Terminal Emulator Selected"
+msgstr ""
+
+#. task
+#: ../src/pref-dialog.c:851
+#, c-format
+msgid ""
+"You will now be asked for your root password to save the root settings for "
+"this user to a file in %s/spacefm/  Supplying the password in the next "
+"window is recommended.  Because SpaceFM runs some commands as root via su, "
+"these settings are best protected by root."
+msgstr ""
+
+#: ../src/pref-dialog.c:852 ../src/pref-dialog.c:854
+msgid "Save Root Settings"
+msgstr "root 設定の保存"
+
+#. also in aboutdlg.ui
+#: ../src/settings.c:147
+#, c-format
+msgid ""
+"Enter program or bash command line:\n"
+"\n"
+"Use:\n"
+"\t%%F\tselected files  or  %%f first selected file\n"
+"\t%%N\tselected filenames  or  %%n first selected filename\n"
+"\t%%d\tcurrent directory\n"
+"\t%%v\tselected device (eg /dev/sda1)\n"
+"\t%%m\tdevice mount point (eg /media/dvd);  %%l device label\n"
+"\t%%b\tselected bookmark\n"
+"\t%%t\tselected task directory;  %%p task pid\n"
+"\t%%a\tmenu item value\n"
+"\t$fm_panel, $fm_tab, $fm_command, etc"
+msgstr ""
+
+#: ../src/settings.c:149
+msgid ""
+"Enter an icon name, icon file path, or stock item name:\n"
+"\n"
+"Or click Choose to select an icon.  Not all icons may work properly due to various issues."
+msgstr "アイコン名、もしくはアイコンファイルパス、標準名を入力してください。\n\nまたは、選択ボタンからアイコンを選んでください。すべてのアイコンがいろいろな問題のためにうまく動くとは言えないかもしれません。"
+
+#: ../src/settings.c:151
+msgid ""
+"Enter item name:\n"
+"\n"
+"Precede a character with an underscore (_) to underline that character as a shortcut key if desired."
+msgstr ""
+
+#: ../src/settings.c:152
+msgid ""
+"Enter new item name:\n"
+"\n"
+"Precede a character with an underscore (_) to underline that character as a shortcut key if desired.\n"
+"\n"
+"TIP: To change this item later, right-click on the item to open the Design Menu."
+msgstr ""
+
+#: ../src/settings.c:157
+msgid "Show Devices"
+msgstr "デバイスを表示"
+
+#: ../src/settings.c:158
+msgid "Show Bookmarks"
+msgstr "ブックマークを表示"
+
+#: ../src/settings.c:159
+msgid "Show Tree"
+msgstr "ツリーを表示"
+
+#: ../src/settings.c:160 ../src/ptk/ptk-location-view.c:4325
+#: ../src/ptk/ptk-location-view.c:4787
+#, c-format
+msgid "Home"
+msgstr "ホーム"
+
+#: ../src/settings.c:162
+msgid "Up"
+msgstr "上へ"
+
+#: ../src/settings.c:163
+msgid "Back"
+msgstr "戻る"
+
+#: ../src/settings.c:164
+msgid "Back History"
+msgstr "戻る履歴"
+
+#: ../src/settings.c:165
+msgid "Forward"
+msgstr "進む"
+
+#: ../src/settings.c:166
+msgid "Forward History"
+msgstr "進む履歴"
+
+#: ../src/settings.c:167
+msgid "Refresh"
+msgstr "更新"
+
+#: ../src/settings.c:168
+msgid "New Tab"
+msgstr "新規タブ"
+
+#: ../src/settings.c:169
+msgid "New Tab Here"
+msgstr "同じタブを新規に作成"
+
+#: ../src/settings.c:170
+msgid "Show Hidden"
+msgstr ""
+
+#: ../src/settings.c:172
+msgid "Large Icons"
+msgstr "大きなアイコン"
+
+#: ../src/settings.c:449
+#, c-format
+msgid "%s: %s contains invalid characters - ignored"
+msgstr "%s: %s には無効な文字が含まれています - 無視しました"
+
+#: ../src/settings.c:454
+#, c-format
+msgid "%s: tmp_dir '%s' does not exist - reverting to %s"
+msgstr ""
+
+#: ../src/settings.c:468
+msgid "file not found"
+msgstr "ファイルが見つかりません"
+
+#: ../src/settings.c:1059 ../src/settings.c:10927
+msgid "Ignore _Hide Policy"
+msgstr ""
+
+#: ../src/settings.c:1066 ../src/settings.c:11021
+msgid "Ignore _No Policy"
+msgstr ""
+
+#: ../src/settings.c:1076 ../src/settings.c:11630
+msgid "_FAQ"
+msgstr "FAQ(_F)"
+
+#: ../src/settings.c:1086 ../src/settings.c:1091 ../src/settings.c:11774
+#: ../src/settings.c:11794
+msgid "_Stop"
+msgstr "停止(_S)"
+
+#: ../src/settings.c:1098 ../src/settings.c:11807
+msgid "Show _Manager"
+msgstr "マネージャー表示(_M)"
+
+#. set->x  used for task man height >=0.9.4
+#: ../src/settings.c:1105 ../src/settings.c:11813
+msgid "Auto-_Hide Manager"
+msgstr "マネージャーを自動的に隠す(_H)"
+
+#: ../src/settings.c:1112 ../src/settings.c:11878
+msgid "Err_ors"
+msgstr "エラー(_O)"
+
+#: ../src/settings.c:1119 ../src/settings.c:11753
+msgid "Current Re_main"
+msgstr "この残り時間(_M)"
+
+#: ../src/settings.c:1126 ../src/settings.c:11765
+msgid "A_verage Remain"
+msgstr "平均残り時間(_V)"
+
+#: ../src/settings.c:1133 ../src/settings.c:11703
+msgid "_Folder"
+msgstr "フォルダ(_F)"
+
+#: ../src/settings.c:1165 ../src/settings.c:11855
+msgid "_Detailed Stats"
+msgstr "詳細な状態(_D)"
+
+#: ../src/settings.c:1176 ../src/settings.c:10665
+msgid "Remo_ve / Eject"
+msgstr "削除・取り出し(_V)"
+
+#. Note: this is the last config version which should require menu_label
+#. changes of this nature due to defaults no longer being saved
+#. in session file
+#. New > Import >
+#: ../src/settings.c:1187 ../src/settings.c:8187 ../src/settings.c:11594
+msgid "_Import"
+msgstr "インポート(_I)"
+
+#: ../src/settings.c:1188 ../src/settings.c:11687
+msgid "_Task Manager"
+msgstr "タスクマネージャー(_T)"
+
+#. for rename dialog
+#: ../src/settings.c:1191 ../src/settings.c:11214
+msgid "F_ilename"
+msgstr "ファイル名(_I)"
+
+#: ../src/settings.c:1192 ../src/settings.c:11225
+msgid "Typ_e"
+msgstr "種類(_E)"
+
+#: ../src/settings.c:1193 ../src/settings.c:11229
+msgid "Ta_rget"
+msgstr "ターゲット(_R)"
+
+#: ../src/settings.c:1194 ../src/settings.c:11233
+msgid "Te_mplate"
+msgstr "テンプレート(_M)"
+
+#. Change Save Session to Open URL - remove custom label/icon
+#. was previously used for 'Save Session' < 0.9.4 as XSET_MENU_NORMAL
+#: ../src/settings.c:1320 ../src/settings.c:11332
+msgid "Open _URL"
+msgstr "URLを開く(_U)"
+
+#. General
+#: ../src/settings.c:1698
+msgid ""
+"# SpaceFM Session File\n"
+"\n"
+"# THIS FILE IS NOT DESIGNED TO BE EDITED - it will be read and OVERWRITTEN\n"
+"\n"
+"# If you delete all session* files, SpaceFM will be reset to factory defaults.\n"
+"\n"
+msgstr "# SpaceFM Session File\n\n# THIS FILE IS NOT DESIGNED TO BE EDITED - it will be read and OVERWRITTEN\n\n# If you delete all session* files, SpaceFM will be reset to factory defaults.\n\n"
+
+#: ../src/settings.c:1875
+#, c-format
+msgid "Error saving file"
+msgstr "ファイル保存エラー"
+
+#: ../src/settings.c:1956
+#, c-format
+msgid "SpaceFM Error: Unable to autosave session file ( %s )\n"
+msgstr "SpaceFM エラー: セッションファイルの自動保存ができません (%s)\n"
+
+#: ../src/settings.c:3409
+#, c-format
+msgid ""
+"\n"
+"Selected Menu Item '%s' As Handler\n"
+msgstr ""
+
+#: ../src/settings.c:3494
+#, c-format
+msgid ""
+"Error reading root settings from %s/spacefm/  Commands run as root may "
+"present a security risk"
+msgstr ""
+
+#: ../src/settings.c:3496
+#, c-format
+msgid ""
+"No root settings found in %s/spacefm/  Setting a root editor in Preferences "
+"should remove this warning on startup.   Otherwise commands run as root may "
+"present a security risk."
+msgstr ""
+
+#: ../src/settings.c:4368
+msgid "Help Not Available"
+msgstr ""
+
+#: ../src/settings.c:4369
+msgid "This plugin does not include a README file."
+msgstr ""
+
+#: ../src/settings.c:4375
+msgid "Create README"
+msgstr "README 作成"
+
+#: ../src/settings.c:4377
+msgid ""
+"No README file exists for this command.\n"
+"\n"
+"Create a default README file for you to fill in?"
+msgstr ""
+
+#: ../src/settings.c:4401
+msgid "Creation Failed"
+msgstr "作成に失敗しました"
+
+#: ../src/settings.c:4402
+msgid "An error occured creating a README file for this command."
+msgstr ""
+
+#: ../src/settings.c:4563 ../src/ptk/ptk-handler.c:1281
+#, c-format
+msgid ""
+"An error occured copying command files\n"
+"\n"
+"%s"
+msgstr ""
+
+#. due to dialog run causes low level thread lock
+#: ../src/settings.c:4565 ../src/settings.c:4600 ../src/ptk/ptk-handler.c:1284
+msgid "Copy Command Error"
+msgstr "コピーコマンドエラー"
+
+#: ../src/settings.c:4598
+#, c-format
+msgid ""
+"An error occured copying command data files\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/settings.c:4991
+#, c-format
+msgid "Error reading plugin file %s"
+msgstr "%s プラグインファイルの読み込みエラー"
+
+#: ../src/settings.c:5090
+#, c-format
+msgid ""
+"The imported plugin folder does not contain a valid plugin.\n"
+"\n"
+"(%s/)"
+msgstr ""
+
+#: ../src/settings.c:5092
+msgid "Invalid Plugin"
+msgstr "無効なプラグイン"
+
+#: ../src/settings.c:5191
+#, c-format
+msgid ""
+"The '%s' plugin has been copied to the design clipboard.  Use View|Design Mode to paste it into a menu.\n"
+"\n"
+"Because it has not been installed, this plugin will not appear in the Plugins menu."
+msgstr ""
+
+#: ../src/settings.c:5193
+#, c-format
+msgid ""
+"The '%s' plugin has been copied to the design clipboard.  Use View|Design Mode to paste it into a menu.\n"
+"\n"
+"Because it has not been installed, this plugin will not appear in the Plugins menu, and its contents are not protected by root (once pasted it will be saved with normal ownership).\n"
+"\n"
+"If this plugin contains su commands or will be run as root, installing it to and running it only from the Plugins menu is recommended to improve your system security."
+msgstr ""
+
+#: ../src/settings.c:5225
+#, c-format
+msgid ""
+"Uninstall the '%s' plugin?\n"
+"\n"
+"( %s )"
+msgstr "プラグイン '%s' をアンインストールしますか?\n\n( %s )"
+
+#: ../src/settings.c:5228 ../src/settings.c:5236
+msgid "Uninstall Plugin"
+msgstr "プラグインをアンインストールする"
+
+#. task
+#: ../src/settings.c:5274
+msgid "Install Plugin"
+msgstr "プラグインをインストールする"
+
+#: ../src/settings.c:5528
+msgid "Save As Plugin File"
+msgstr "プラグインファイルとして保存"
+
+#. tar and delete tmp files
+#. task
+#: ../src/settings.c:5596
+msgid "Export Plugin"
+msgstr "エクスポートプラグイン"
+
+#: ../src/settings.c:5630
+msgid "Export Error"
+msgstr "エクスポートエラー"
+
+#: ../src/settings.c:5631
+msgid "Unable to create temporary files"
+msgstr "一時ファイルが作成できません"
+
+#: ../src/settings.c:5738
+#, c-format
+msgid "Bookmark target '%s' is missing or invalid."
+msgstr "ブックマーク先 '%s' は見つからないか無効です。"
+
+#: ../src/settings.c:5742
+msgid "Invalid Bookmark Target"
+msgstr "無効なブックマーク先です"
+
+#: ../src/settings.c:5794
+msgid "Change Item Name"
+msgstr "アイテム名を変更する"
+
+#: ../src/settings.c:6371
+msgid "Editor Not Set"
+msgstr "エディタが設定されていません"
+
+#: ../src/settings.c:6372
+msgid "Please set your editor in View|Preferences|Advanced"
+msgstr "エディタを「表示→設定→高度な設定」で指定してください"
+
+#: ../src/settings.c:6383
+msgid "Root Editor Not Set"
+msgstr "root エディターが設定されていません"
+
+#: ../src/settings.c:6384
+msgid "Please set root's editor in View|Preferences|Advanced"
+msgstr "root エディタを「表示→設定→高度な設定」で指定してください"
+
+#. task
+#: ../src/settings.c:6405
+#, c-format
+msgid "Edit %s"
+msgstr "%s を編集する"
+
+#: ../src/settings.c:6586
+msgid "User's Manual Not Found"
+msgstr "ユーザーズマニュアルが見つかりません"
+
+#: ../src/settings.c:6588
+msgid ""
+"Read the user's manual online?\n"
+"\n"
+"The local copy of the SpaceFM user's manual was not found.  Click Yes to read it online, or click No and then set the correct location in Help|Options|Manual Location."
+msgstr "ユーザーズマニュアルをオンラインで読みますか?\n\nローカルにコピーされた SpaceFM ユーザーズマニュアルは見つかりませんでした。「はい」をクリックしてオンラインで読むか、「いいえ」をクリックして「ヘルプ→オプション→マニュアルの場所」から正しい場所を設定してください。"
+
+#: ../src/settings.c:6637
+msgid "Manual Opened ?"
+msgstr ""
+
+#: ../src/settings.c:6637
+msgid ""
+"The SpaceFM user's manual should have opened in your browser.  If it didn't open, or if you would like to use a different browser, set your browser in Help|Options|Browser.\n"
+"\n"
+"This message will not repeat."
+msgstr ""
+
+#: ../src/settings.c:6656
+msgid "( none )"
+msgstr "( なし )"
+
+#: ../src/settings.c:6790
+#, c-format
+msgid ""
+"\t%s\n"
+"\tKeycode: %#4x  Modifier: %#x\n"
+"\n"
+"%s is already assigned to '%s'.\n"
+"\n"
+"Press a different key or click Set to replace the current key assignment."
+msgstr ""
+
+#: ../src/settings.c:6794
+#, c-format
+msgid ""
+"\t%s\n"
+"\tKeycode: %#4x [%#4x]  Modifier: %#x\n"
+"\n"
+"%s is already assigned to '%s'.\n"
+"\n"
+"Press a different key or click Set to replace the current key assignment."
+msgstr ""
+
+#: ../src/settings.c:6806
+#, c-format
+msgid ""
+"\t%s\n"
+"\tKeycode: %#4x  Modifier: %#x"
+msgstr ""
+
+#: ../src/settings.c:6836
+#, c-format
+msgid ""
+"Press your key combination for item '%s' then click Set.  To remove the "
+"current key assignment, click Unset."
+msgstr ""
+
+#: ../src/settings.c:6849
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../src/settings.c:6855
+msgid "Unset"
+msgstr ""
+
+#: ../src/settings.c:6868
+msgid "Set"
+msgstr ""
+
+#: ../src/settings.c:6882
+msgid "Set Key"
+msgstr ""
+
+#. Note: xset_text_dialog uses the title passed to know this is an
+#. icon chooser, so it adds a Choose button.  If you change the title,
+#. change xset_text_dialog.
+#. Special hack to add an icon chooser button when this dialog is called
+#. * to set icons - see xset_menu_cb() and set init "main_icon"
+#. * and xset_design_job
+#: ../src/settings.c:6965 ../src/settings.c:8741 ../src/settings.c:9195
+msgid "Set Icon"
+msgstr "アイコンを設定"
+
+#: ../src/settings.c:7033
+msgid "Edit Command Line"
+msgstr "コマンドライン編集"
+
+#: ../src/settings.c:7059
+msgid "Choose Custom Executable"
+msgstr ""
+
+#: ../src/settings.c:7070
+msgid "Run As User"
+msgstr "ユーザーで実行"
+
+#: ../src/settings.c:7070
+msgid ""
+"Run this command as username:\n"
+"\n"
+"( Leave blank for current user )"
+msgstr ""
+
+#: ../src/settings.c:7078
+#, c-format
+msgid ""
+"You are adding a custom command to the Default menu item.  This item will automatically have a pre-context - it will only appear when the MIME type of the first selected file matches the current type '%s'.\n"
+"\n"
+"Add commands or menus here which you only want to appear for this one MIME type."
+msgstr ""
+
+#: ../src/settings.c:7079
+msgid "New Context Command"
+msgstr ""
+
+#: ../src/settings.c:7090
+msgid "Set Item Name"
+msgstr ""
+
+#: ../src/settings.c:7127 ../src/item-prop.c:1224
+msgid "Choose Folder"
+msgstr "フォルダ選択"
+
+#: ../src/settings.c:7169
+#, c-format
+msgid ""
+"You are adding a custom submenu to the Default menu item.  This item will automatically have a pre-context - it will only appear when the MIME type of the first selected file matches the current type '%s'.\n"
+"\n"
+"Add commands or menus here which you only want to appear for this one MIME type."
+msgstr ""
+
+#: ../src/settings.c:7169
+msgid "(none)"
+msgstr "(なし)"
+
+#: ../src/settings.c:7178
+msgid "Set Submenu Name"
+msgstr ""
+
+#: ../src/settings.c:7178
+msgid ""
+"Enter submenu name:\n"
+"\n"
+"Precede a character with an underscore (_) to underline that character as a shortcut key if desired."
+msgstr ""
+
+#: ../src/settings.c:7178
+msgid "New _Submenu"
+msgstr ""
+
+#: ../src/settings.c:7289
+#, c-format
+msgid ""
+"GTK bookmarks (%s) will be imported into the current or selected submenu.  "
+"Note that importing large numbers of bookmarks (eg more than 500) may impact"
+" performance."
+msgstr ""
+
+#: ../src/settings.c:7291
+msgid "Import GTK Bookmarks"
+msgstr "GTK ブックマークのインポート"
+
+#: ../src/settings.c:7375
+msgid "( no name )"
+msgstr ""
+
+#: ../src/settings.c:7379
+#, c-format
+msgid ""
+"Permanently remove the '%s' SUBMENU AND ALL ITEMS WITHIN IT?\n"
+"\n"
+"This action will delete all settings and files associated with these items."
+msgstr ""
+
+#: ../src/settings.c:7384
+#, c-format
+msgid ""
+"Permanently remove the '%s' item?\n"
+"\n"
+"This action will delete all settings and files associated with this item."
+msgstr ""
+
+#: ../src/settings.c:7405 ../src/ptk/ptk-handler.c:1888
+msgid "Confirm Remove"
+msgstr ""
+
+#: ../src/settings.c:7479 ../src/item-prop.c:705 ../src/item-prop.c:717
+msgid "Are you sure?"
+msgstr "よろしいですか?"
+
+#: ../src/settings.c:7480 ../src/settings.c:7484 ../src/settings.c:7488
+msgid "Dialog Message"
+msgstr ""
+
+#: ../src/settings.c:7480 ../src/settings.c:7484 ../src/settings.c:7488
+msgid ""
+"Enter the message to be displayed in this dialog:\n"
+"\n"
+"Use:\n"
+"\t\\n\tnewline\n"
+"\t\\t\ttab"
+msgstr ""
+
+#. Cut
+#. EDIT
+#: ../src/settings.c:8107 ../src/settings.c:12292
+msgid "Cu_t"
+msgstr "切り取り(_T)"
+
+#. Copy
+#: ../src/settings.c:8115 ../src/settings.c:11241 ../src/settings.c:12295
+msgid "_Copy"
+msgstr "コピー(_C)"
+
+#. Paste
+#: ../src/settings.c:8123 ../src/settings.c:12298
+msgid "_Paste"
+msgstr "貼り付け(_P)"
+
+#. Remove
+#. gtk_widget_add_accelerator( newitem, "activate", accel_group,
+#. GDK_k, GDK_CONTROL_MASK, GTK_ACCEL_VISIBLE);
+#. Remove
+#. menu is shown from right-click on list
+#. Treeview widgets
+#. list buttons
+#: ../src/settings.c:8131 ../src/ptk/ptk-file-menu.c:2313
+#: ../src/ptk/ptk-handler.c:2849 ../src/ptk/ptk-handler.c:3076
+#: ../src/item-prop.c:1806
+msgid "_Remove"
+msgstr "削除(_R)"
+
+#. Export
+#: ../src/settings.c:8141
+msgid "E_xport"
+msgstr "エクスポート(_X)"
+
+#. // New submenu
+#: ../src/settings.c:8149 ../src/settings.c:12119
+msgid "_New"
+msgstr "新規(_N)"
+
+#. New > Bookmark
+#: ../src/settings.c:8162 ../src/settings.c:10697
+msgid "_Bookmark"
+msgstr "ブックマーク(_B)"
+
+#. New > Application
+#: ../src/settings.c:8166
+msgid "_Application"
+msgstr "アプリケーション(_A)"
+
+#. New > Command
+#: ../src/settings.c:8170
+msgid "_Command"
+msgstr "コマンド(_C)"
+
+#. New > Submenu
+#: ../src/settings.c:8177
+msgid "Sub_menu"
+msgstr "サブメニュー(_M)"
+
+#. New > Separator
+#: ../src/settings.c:8183
+msgid "S_eparator"
+msgstr "区切り(_E)"
+
+#: ../src/settings.c:8201 ../src/settings.c:11587 ../src/settings.c:11603
+msgid "_URL"
+msgstr "_URL"
+
+#: ../src/settings.c:8204
+msgid "_GTK Bookmarks"
+msgstr "GTKブックマーク(_G)"
+
+#. "Add" submenu for builtin tool items
+#: ../src/settings.c:8210 ../src/item-prop.c:1813
+msgid "_Add"
+msgstr "追加(_A)"
+
+#: ../src/settings.c:8248
+msgid "T_ooltips"
+msgstr "ツールチップ(_o)"
+
+#. Key
+#: ../src/settings.c:8257
+msgid "_Key Shortcut"
+msgstr "ショートカットキー(_K)"
+
+#. edit as user
+#: ../src/settings.c:8276
+msgid "_Edit Script"
+msgstr "スクリプトの編集(_E)"
+
+#. edit as root
+#: ../src/settings.c:8286
+msgid "E_dit As Root"
+msgstr "root で編集(_D)"
+
+#. edit command line
+#: ../src/settings.c:8300
+msgid "_Edit Command"
+msgstr "コマンド編集(_E)"
+
+#. Properties
+#: ../src/settings.c:8310 ../src/settings.c:10883
+msgid "_Properties"
+msgstr "プロパティ(_P)"
+
+#: ../src/settings.c:9060
+msgid "Choose Icon"
+msgstr "アイコンの選択"
+
+#: ../src/settings.c:9184
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#. Note: xset_text_dialog uses the title passed to know this is an
+#. icon chooser, so it adds a Choose button.  If you change the title,
+#. change xset_text_dialog.
+#: ../src/settings.c:9196 ../src/settings.c:11552
+msgid "Set Window Icon"
+msgstr "ウィンドウアイコン設定"
+
+#: ../src/settings.c:9198 ../src/ptk/ptk-handler.c:3185
+#: ../src/item-prop.c:1683 ../src/item-prop.c:1734
+msgid "C_hoose"
+msgstr "選択(_H)"
+
+#: ../src/settings.c:9217 ../src/settings.c:9398 ../src/settings.c:12171
+msgid "_Default"
+msgstr "デフォルト(_D)"
+
+#: ../src/settings.c:9258
+msgid "Your input is invalid because it contains linefeeds"
+msgstr "入力内容に改行が含まれているため無効です"
+
+#: ../src/settings.c:9401
+msgid "_OK"
+msgstr "OK(_O)"
+
+#: ../src/settings.c:9538
+msgid "_Unset"
+msgstr ""
+
+#: ../src/settings.c:10669 ../src/settings.c:10721
+#: ../src/ptk/ptk-location-view.c:3575 ../src/ptk/ptk-location-view.c:3991
+msgid "_Unmount"
+msgstr "アンマウント(_U)"
+
+#: ../src/settings.c:10673
+msgid "Re_load"
+msgstr "再読み込み(_L)"
+
+#: ../src/settings.c:10677
+msgid "_Sync"
+msgstr "同期(_S)"
+
+#. Bookmark list
+#. Removed items config version 30
+#. set = xset_get( "sep_bk1" );
+#. set->menu_style = XSET_MENU_SEP;
+#. set = xset_get( "sep_bk2" );
+#. set->menu_style = XSET_MENU_SEP;
+#. set = xset_set( "book_new", "lbl", _("_New") );
+#. xset_set_set( set, "icn", "gtk-new" );
+#. set = xset_set( "book_rename", "lbl", _("_Rename") );
+#. xset_set_set( set, "icn", "gtk-edit" );
+#. set = xset_set( "book_edit", "lbl", _("_Edit") );
+#. xset_set_set( set, "icn", "gtk-edit" );
+#. set = xset_set( "book_remove", "lbl", _("Re_move") );
+#. xset_set_set( set, "icn", "gtk-remove" );
+#. set = xset_set( "book_tab", "lbl", C_("Bookmarks|Open|", "_Tab") );
+#. xset_set_set( set, "icn", "gtk-add" );
+#: ../src/settings.c:10681 ../src/settings.c:11177 ../src/settings.c:12003
+#: ../src/find-files.c:278
+msgid "_Open"
+msgstr "開く(_O)"
+
+#: ../src/settings.c:10685
+msgctxt "Devices|Open|"
+msgid "Open In _Tab"
+msgstr "タブで開く(_T)"
+
+#: ../src/settings.c:10689 ../src/settings.c:10716
+#: ../src/ptk/ptk-location-view.c:3568 ../src/ptk/ptk-location-view.c:3985
+msgid "_Mount"
+msgstr "マウント(_M)"
+
+#: ../src/settings.c:10693
+msgid "Re_/mount"
+msgstr ""
+
+#: ../src/settings.c:10710 ../src/settings.c:12482
+msgid "_Root"
+msgstr "root(_R)"
+
+#: ../src/settings.c:10726
+msgid "_Label"
+msgstr "ラベル(_L)"
+
+#: ../src/settings.c:10776
+msgid "_Check"
+msgstr "検査(_C)"
+
+#: ../src/settings.c:10780
+msgid "_Edit fstab"
+msgstr "fstab 編集(_E)"
+
+#: ../src/settings.c:10784
+msgid "Edit u_devil.conf"
+msgstr "udevil.conf 編集(_d)"
+
+#: ../src/settings.c:10788
+msgid "_Format"
+msgstr "フォーマット(_F)"
+
+#: ../src/settings.c:10848
+msgid "_Backup"
+msgstr "バックアップ(_B)"
+
+#: ../src/settings.c:10870
+msgid "_Restore"
+msgstr "リストア(_R)"
+
+#: ../src/settings.c:10875
+msgid "_From File"
+msgstr ""
+
+#: ../src/settings.c:10880 ../src/settings.c:11296
+msgid "File _Info"
+msgstr "ファイル情報(_I)"
+
+#: ../src/settings.c:10887
+msgid "Setti_ngs"
+msgstr "設定(_n)"
+
+#. dev settings
+#: ../src/settings.c:10893
+msgid "S_how"
+msgstr "表示(_H)"
+
+#: ../src/settings.c:10898
+msgid "_Internal Drives"
+msgstr "内蔵ドライブ(_I)"
+
+#: ../src/settings.c:10903
+msgid "_Empty Drives"
+msgstr "空のドライブ(_E)"
+
+#: ../src/settings.c:10908
+msgid "_Partition Tables"
+msgstr "パーティションテーブル(_P)"
+
+#: ../src/settings.c:10912
+msgid "Mounted _Networks"
+msgstr ""
+
+#: ../src/settings.c:10917
+msgid "Mounted _Other"
+msgstr ""
+
+#: ../src/settings.c:10922
+msgid "_Volumes..."
+msgstr "ボリューム...(_V)"
+
+#: ../src/settings.c:10923
+msgid "Show/Hide Volumes"
+msgstr ""
+
+#: ../src/settings.c:10924
+msgid ""
+"To force showing or hiding of some volumes, overriding other settings, you can specify the devices, volume labels, or device IDs in the space-separated list below.\n"
+"\n"
+"Example:  +/dev/sdd1 -Label With Space +ata-OCZ-part4\n"
+"This would cause /dev/sdd1 and the OCZ device to be shown, and the volume with label \"Label With Space\" to be hidden.\n"
+"\n"
+"There must be a space between entries and a plus or minus sign directly before each item.  This list is case-sensitive.\n"
+"\n"
+msgstr ""
+
+#: ../src/settings.c:10931
+msgid "_Display Name"
+msgstr ""
+
+#: ../src/settings.c:10933
+msgid "Set Display Name Format"
+msgstr ""
+
+#: ../src/settings.c:10934
+#, c-format
+msgid ""
+"Enter device display name format:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice filename (eg sdd1)\n"
+"\t%%s\ttotal size (eg 800G)\n"
+"\t%%t\tfstype (eg ext4)\n"
+"\t%%l\tvolume label (eg Label or [no media])\n"
+"\t%%m\tmount point if mounted, or ---\n"
+"\t%%i\tdevice ID\n"
+"\t%%n\tmajor:minor device numbers (eg 15:3)\n"
+msgstr ""
+
+#: ../src/settings.c:10940
+msgid "_Auto Mount"
+msgstr "自動マウント(_A)"
+
+#: ../src/settings.c:10945
+msgid "Mount _Optical"
+msgstr ""
+
+#: ../src/settings.c:10950
+msgid "_Mount Removable"
+msgstr ""
+
+#: ../src/settings.c:10955
+msgid "Mount _Volumes..."
+msgstr ""
+
+#: ../src/settings.c:10956
+msgid "Auto-Mount Volumes"
+msgstr ""
+
+#: ../src/settings.c:10957
+msgid ""
+"To force or prevent automounting of some volumes, overriding other settings, you can specify the devices, volume labels, or device IDs in the space-separated list below.\n"
+"\n"
+"Example:  +/dev/sdd1 -Label With Space +ata-OCZ-part4\n"
+"This would cause /dev/sdd1 and the OCZ device to be auto-mounted when detected, and the volume with label \"Label With Space\" to be ignored.\n"
+"\n"
+"There must be a space between entries and a plus or minus sign directly before each item.  This list is case-sensitive.\n"
+"\n"
+msgstr ""
+
+#: ../src/settings.c:10960
+msgid "Mount _Dirs..."
+msgstr ""
+
+#: ../src/settings.c:10961
+msgid "Automatic Mount Point Dirs"
+msgstr ""
+
+#: ../src/settings.c:10963
+#, c-format
+msgid ""
+"Enter the directory where SpaceFM should automatically create mount point directories for fuse and similar filesystems (%%a in handler commands).  This directory must be user-writable (do NOT use /media), and empty subdirectories will be removed.  If left blank, ~/.cache/spacefm/ (or $XDG_CACHE_HOME/spacefm/) is used.  The following variables are recognized: $USER $UID $HOME $XDG_RUNTIME_DIR $XDG_CACHE_HOME\n"
+"\n"
+"Note that some handlers or mount programs may not obey this setting.\n"
+msgstr ""
+
+#: ../src/settings.c:10966
+msgid "Open _Tab"
+msgstr ""
+
+#: ../src/settings.c:10971
+msgid "_Unmount On Exit"
+msgstr ""
+
+#: ../src/settings.c:10979
+msgid "Auto _Run"
+msgstr "自動実行(_R)"
+
+#: ../src/settings.c:10985
+msgid "On _Mount"
+msgstr ""
+
+#: ../src/settings.c:10987
+msgid "Auto Run On Mount"
+msgstr ""
+
+#: ../src/settings.c:10988
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically after a removable drive or data disc is auto-mounted:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:10991
+msgid "On _Audio CD"
+msgstr ""
+
+#: ../src/settings.c:10993
+msgid "Auto Run On Audio CD"
+msgstr ""
+
+#: ../src/settings.c:10994
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when an audio CD is inserted in a qualified device:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:10997
+msgid "On _Video DVD"
+msgstr ""
+
+#: ../src/settings.c:10999
+msgid "Auto Run On Video DVD"
+msgstr ""
+
+#: ../src/settings.c:11000
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when a video DVD is auto-mounted:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:11003
+msgid "On _Insert"
+msgstr ""
+
+#: ../src/settings.c:11005
+msgid "Auto Run On Insert"
+msgstr ""
+
+#: ../src/settings.c:11006
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when any device is inserted:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice added (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:11009
+msgid "On _Unmount"
+msgstr ""
+
+#: ../src/settings.c:11011
+msgid "Auto Run On Unmount"
+msgstr ""
+
+#: ../src/settings.c:11012
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when any device is unmounted by any means:\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice unmounted (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:11015
+msgid "On _Remove"
+msgstr ""
+
+#: ../src/settings.c:11017
+msgid "Auto Run On Remove"
+msgstr ""
+
+#: ../src/settings.c:11018
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when any device is removed (ejection of media does not qualify):\n"
+"\n"
+"Use:\n"
+"\t%%v\tdevice removed (eg /dev/sda1)\n"
+"\t%%l\tdevice label\n"
+"\t%%m\tdevice mount point (eg /media/disk)"
+msgstr ""
+
+#: ../src/settings.c:11025
+msgid "_Mount Options"
+msgstr "マウントオプション(_M)"
+
+#: ../src/settings.c:11026
+#, c-format
+msgid ""
+"Enter your comma- or space-separated list of default mount options below (%%o in handlers).\n"
+"\n"
+"In addition to regular options, you can also specify options to be added or removed for a specific filesystem type by using the form OPTION+FSTYPE or OPTION-FSTYPE.\n"
+"\n"
+"Example:  nosuid, sync+vfat, sync+ntfs, noatime, noatime-ext4\n"
+"This will add nosuid and noatime for all filesystem types, add sync for vfat and ntfs only, and remove noatime for ext4.\n"
+"\n"
+"Note: Some options, such as nosuid, may be added by the mount program even if you don't include them.  Options in fstab take precedence.  pmount and some handlers may ignore options set here."
+msgstr ""
+
+#: ../src/settings.c:11028
+msgid "Default Mount Options"
+msgstr "デフォルトのマウントオプション"
+
+#: ../src/settings.c:11036
+msgid "Re/mount With Options"
+msgstr ""
+
+#: ../src/settings.c:11037
+msgid ""
+"Device will be (re)mounted using the options below.\n"
+"\n"
+"In addition to regular options, you can also specify options to be added or removed for a specific filesystem type by using the form OPTION+FSTYPE or OPTION-FSTYPE.\n"
+"\n"
+"Example:  nosuid, sync+vfat, sync+ntfs, noatime, noatime-ext4\n"
+"This will add nosuid and noatime for all filesystem types, add sync for vfat and ntfs only, and remove noatime for ext4.\n"
+"\n"
+"Note: Some options, such as nosuid, may be added by the mount program even if you don't include them.  Options in fstab take precedence.  pmount ignores options set here."
+msgstr ""
+
+#: ../src/settings.c:11041
+msgid "_Change Detection"
+msgstr ""
+
+#: ../src/settings.c:11042
+msgid ""
+"Enter your comma- or space-separated list of filesystems which should NOT be"
+" monitored for file changes.  This setting only affects non-block devices "
+"(such as nfs or fuse), and is usually used to prevent SpaceFM becoming "
+"unresponsive with network filesystems.  Loading of thumbnails and "
+"subdirectory sizes will also be disabled."
+msgstr ""
+
+#: ../src/settings.c:11044
+msgid "Change Detection Blacklist"
+msgstr ""
+
+#. Removed 0.9.4
+#. set = xset_set( "dev_mount_cmd", "lbl", _("Mount _Command") );
+#. set->menu_style = XSET_MENU_STRING;
+#. xset_set_set( set, "desc", _("Enter the command to mount a
+#. device:\n\nUse:\n\t%%v\tdevice file ( eg /dev/sda5 )\n\t%%o\tvolume-
+#. specific mount options\n\nudevil:\t/usr/bin/udevil mount -o %%o
+#. %%v\npmount:\t/usr/bin/pmount %%v\nUdisks2:\t/usr/bin/udisksctl mount -b
+#. %%v -o %%o\nUdisks1:\t/usr/bin/udisks --mount %%v --mount-options
+#. %%o\n\nLeave blank for auto-detection.") );
+#. xset_set_set( set, "title", _("Mount Command") );
+#. xset_set_set( set, "icn", "gtk-edit" );
+#. set->line = g_strdup( "#devices-settings-mcmd" );
+#. set = xset_set( "dev_unmount_cmd", "lbl", _("_Unmount Command") );
+#. set->menu_style = XSET_MENU_STRING;
+#. xset_set_set( set, "desc", _("Enter the command to unmount a
+#. device:\n\nUse:\n\t%%v\tdevice file ( eg /dev/sda5
+#. )\n\nudevil:\t/usr/bin/udevil umount %%v\npmount:\t/usr/bin/pumount
+#. %%v\nUdisks1:\t/usr/bin/udisks --unmount %%v\nUdisks2:\t/usr/bin/udisksctl
+#. unmount -b %%v\n\nLeave blank for auto-detection.") );
+#. xset_set_set( set, "title", _("Unmount Command") );
+#. xset_set_set( set, "icn", "gtk-edit" );
+#. set->line = g_strdup( "#devices-settings-ucmd" );
+#: ../src/settings.c:11066
+msgid "_Device Handlers"
+msgstr "デバイスハンドラ(_D)"
+
+#: ../src/settings.c:11070 ../src/settings.c:12282
+msgid "_Protocol Handlers"
+msgstr "プロトコルハンドラ(_P)"
+
+#: ../src/settings.c:11087 ../src/settings.c:12639 ../src/settings.c:12651
+msgid "_Icon"
+msgstr "アイコン(_I)"
+
+#: ../src/settings.c:11092
+msgid "Audio CD"
+msgstr "音楽 CD"
+
+#: ../src/settings.c:11098
+msgid "Optical Mounted"
+msgstr ""
+
+#: ../src/settings.c:11103
+msgid "Optical Has Media"
+msgstr ""
+
+#: ../src/settings.c:11108
+msgid "Optical No Media"
+msgstr ""
+
+#: ../src/settings.c:11113
+msgid "Floppy Mounted"
+msgstr ""
+
+#: ../src/settings.c:11118
+msgid "Floppy Unmounted"
+msgstr ""
+
+#: ../src/settings.c:11123
+msgid "Removable Mounted"
+msgstr ""
+
+#: ../src/settings.c:11128
+msgid "Removable Unmounted"
+msgstr ""
+
+#: ../src/settings.c:11133
+msgid "Internal Mounted"
+msgstr ""
+
+#: ../src/settings.c:11138
+msgid "Internal Unmounted"
+msgstr ""
+
+#: ../src/settings.c:11143
+msgid "Mounted Network"
+msgstr ""
+
+#: ../src/settings.c:11148
+msgid "Mounted Other"
+msgstr ""
+
+#: ../src/settings.c:11181
+msgid "_Settings"
+msgstr "設定(_S)"
+
+#: ../src/settings.c:11186
+msgid "Bookmark _Icon"
+msgstr "ブックマークアイコン(_I)"
+
+#: ../src/settings.c:11191
+msgid "Sub_menu Icon"
+msgstr "サブメニューアイコン(_M)"
+
+#: ../src/settings.c:11196
+msgid "_Show Bookmarks"
+msgstr "ブックマークを表示(_S)"
+
+#: ../src/settings.c:11201
+msgid "New _Bookmark"
+msgstr "新規ブックマーク(_B)"
+
+#. Rename/Move Dialog
+#: ../src/settings.c:11211 ../src/settings.c:12242 ../src/settings.c:12657
+msgid "_Name"
+msgstr "名前(_N)"
+
+#: ../src/settings.c:11218
+msgid "_Parent"
+msgstr "親(_P)"
+
+#: ../src/settings.c:11221 ../src/ptk/ptk-file-misc.c:1075
+msgid "P_ath"
+msgstr "パス(_a)"
+
+#: ../src/settings.c:11237
+msgid "_Option"
+msgstr "オプション(_O)"
+
+#: ../src/settings.c:11245 ../src/settings.c:12132
+#: ../src/ptk/ptk-file-misc.c:1256 ../src/ptk/ptk-file-misc.c:1267
+msgid "_Link"
+msgstr "リンク(_L)"
+
+#: ../src/settings.c:11249 ../src/ptk/ptk-file-misc.c:2538
+msgid "Copy _Target"
+msgstr ""
+
+#: ../src/settings.c:11252
+msgid "Lin_k Target"
+msgstr ""
+
+#: ../src/settings.c:11255
+msgid "_As Root"
+msgstr "root で(_A)"
+
+#: ../src/settings.c:11259 ../src/settings.c:11818 ../src/settings.c:11870
+#: ../src/settings.c:11968 ../src/settings.c:11997 ../src/settings.c:12606
+#: ../src/settings.c:12612 ../src/settings.c:12619 ../src/settings.c:12626
+#: ../src/settings.c:12633 ../src/settings.c:12643
+msgid "_Font"
+msgstr "フォント(_F)"
+
+#: ../src/settings.c:11262
+msgid "Move Dialog Font"
+msgstr ""
+
+#: ../src/settings.c:11263
+msgid "/home/user/Example Filename.ext"
+msgstr ""
+
+#: ../src/settings.c:11268
+msgid "_Confirm Create"
+msgstr ""
+
+#: ../src/settings.c:11276
+msgid "Highlight _Bar"
+msgstr ""
+
+#: ../src/settings.c:11277
+msgid "Status Bar Highlight Color"
+msgstr ""
+
+#: ../src/settings.c:11281
+msgid "Highlight _Text"
+msgstr ""
+
+#: ../src/settings.c:11282
+msgid "Status Bar Text Highlight Color"
+msgstr ""
+
+#: ../src/settings.c:11286
+msgid "_Middle Click"
+msgstr ""
+
+#: ../src/settings.c:11290 ../src/settings.c:12322
+msgid "Copy _Name"
+msgstr "名前をコピー(_N)"
+
+#: ../src/settings.c:11293 ../src/settings.c:12325
+msgid "Copy _Path"
+msgstr "パスをコピー(_P)"
+
+#: ../src/settings.c:11300
+msgid "_Hide Panel"
+msgstr "パネルを隠す(_H)"
+
+#: ../src/settings.c:11316
+msgid "New _Window"
+msgstr "新規ウィンドウ(_W)"
+
+#: ../src/settings.c:11319
+msgid "R_oot Window"
+msgstr "root ウィンドウ(_o)"
+
+#: ../src/settings.c:11322
+msgid "_File Search"
+msgstr "ファイル検索(_F)"
+
+#: ../src/settings.c:11325
+msgid "_Terminal"
+msgstr "ターミナル(_T)"
+
+#. discovery notification
+#: ../src/settings.c:11328
+msgid "_Root Terminal"
+msgstr "root ターミナル(_R)"
+
+#: ../src/settings.c:11335
+msgid "Open URL"
+msgstr "URLを開く"
+
+#: ../src/settings.c:11336
+msgid ""
+"Enter URL in the format:\n"
+"\tPROTOCOL://USERNAME:PASSWORD@HOST:PORT/SHARE\n"
+"\n"
+"Examples:\n"
+"\tftp://mirrors.kernel.org\n"
+"\tsmb://user:pass@10.0.0.1:50/docs\n"
+"\tssh://user@sys.domain\n"
+"\n"
+"Including a password is unsafe.  To bookmark a URL, right-click on the mounted network in Devices and select Bookmark.\n"
+msgstr ""
+
+#: ../src/settings.c:11339
+msgid "Save Ta_bs"
+msgstr "タブを保存(_B)"
+
+#: ../src/settings.c:11343
+msgid "E_xit"
+msgstr "終了(_X)"
+
+#: ../src/settings.c:11374 ../src/settings.c:11412 ../src/settings.c:12049
+#: ../src/settings.c:12374 ../src/settings.c:12412
+msgid "Panel _1"
+msgstr "パネル _1"
+
+#: ../src/settings.c:11379 ../src/settings.c:11414 ../src/settings.c:12050
+#: ../src/settings.c:12375 ../src/settings.c:12413
+msgid "Panel _2"
+msgstr "パネル _2"
+
+#: ../src/settings.c:11383 ../src/settings.c:11415 ../src/settings.c:12051
+#: ../src/settings.c:12376 ../src/settings.c:12414
+msgid "Panel _3"
+msgstr "パネル _3"
+
+#: ../src/settings.c:11387 ../src/settings.c:11416 ../src/settings.c:12052
+#: ../src/settings.c:12377 ../src/settings.c:12415
+msgid "Panel _4"
+msgstr "パネル _4"
+
+#: ../src/settings.c:11391
+msgid "Panel _Bar"
+msgstr "パネルバー(_B)"
+
+#: ../src/settings.c:11396
+msgid "F_ocus"
+msgstr "フォーカス(_o)"
+
+#: ../src/settings.c:11402 ../src/settings.c:12030 ../src/settings.c:12047
+#: ../src/settings.c:12198 ../src/settings.c:12355 ../src/settings.c:12372
+#: ../src/settings.c:12393 ../src/settings.c:12410
+msgid "_Prev"
+msgstr "前へ(_P)"
+
+#: ../src/settings.c:11404 ../src/settings.c:12031 ../src/settings.c:12048
+#: ../src/settings.c:12199 ../src/settings.c:12356 ../src/settings.c:12373
+#: ../src/settings.c:12394 ../src/settings.c:12411
+msgid "_Next"
+msgstr "次へ(_N)"
+
+#. xset_set( "panel_left", "lbl", _("_Left") );
+#. xset_set( "panel_right", "lbl", _("_Right") );
+#. xset_set( "panel_top", "lbl", _("_Top") );
+#. xset_set( "panel_bottom", "lbl", _("_Bottom") );
+#: ../src/settings.c:11411 ../src/settings.c:12417
+msgid "_Hide"
+msgstr "隠す(_H)"
+
+#: ../src/settings.c:11418
+msgid "_Event Manager"
+msgstr "イベントマネージャー(_E)"
+
+#: ../src/settings.c:11424
+msgid "_Instance"
+msgstr "インスタンス(_I)"
+
+#: ../src/settings.c:11429
+msgid "_Startup"
+msgstr "開始(_S)"
+
+#: ../src/settings.c:11431
+msgid "Set Instance Startup Command"
+msgstr ""
+
+#: ../src/settings.c:11432
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when a SpaceFM instance starts:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_start)\n"
+msgstr ""
+
+#: ../src/settings.c:11435
+msgid "_Exit"
+msgstr "終了(_E)"
+
+#: ../src/settings.c:11437
+msgid "Set Instance Exit Command"
+msgstr ""
+
+#: ../src/settings.c:11438
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically when a SpaceFM instance exits:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_exit)\n"
+msgstr ""
+
+#: ../src/settings.c:11441
+msgid "_Window"
+msgstr "ウィンドウ(_W)"
+
+#: ../src/settings.c:11446
+msgctxt "View|Events|Window|"
+msgid "_New"
+msgstr "新規(_N)"
+
+#: ../src/settings.c:11448
+msgid "Set New Window Command"
+msgstr ""
+
+#: ../src/settings.c:11449
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a new SpaceFM window is opened:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_new)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11452
+msgctxt "View|Events|Window|"
+msgid "_Focus"
+msgstr "フォーカス(_F)"
+
+#: ../src/settings.c:11454
+msgid "Set Window Focus Command"
+msgstr ""
+
+#: ../src/settings.c:11455
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a SpaceFM window gets focus:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_focus)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11458
+msgid "_Move/Resize"
+msgstr "移動・サイズ変更(_M)"
+
+#: ../src/settings.c:11460
+msgid "Set Window Move/Resize Command"
+msgstr "ウィンドウ移動・サイズ変更コマンドの設定"
+
+#: ../src/settings.c:11461
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a SpaceFM window is moved or resized:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_move)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command.\n"
+"\n"
+"Note: This command may be run multiple times during resize."
+msgstr ""
+
+#: ../src/settings.c:11464
+msgctxt "View|Events|Window|"
+msgid "_Click"
+msgstr "クリック(_C)"
+
+#: ../src/settings.c:11466
+msgid "Set Click Command"
+msgstr "クリックコマンド設定"
+
+#: ../src/settings.c:11467
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever the mouse is clicked:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_click)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\t%%b\tbutton  (mouse button pressed)\n"
+"\t%%m\tmodifier  (modifier keys)\n"
+"\t%%f\tfocus  (element which received the click)\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command when no asterisk prefix is used.\n"
+"\n"
+"Prefix your command with an asterisk (*) and conditionally return exit status 0 to inhibit the default handler.  For example:\n"
+"*if [ \"%%b\" != \"2\" ]; then exit 1; fi; spacefm -g --label \"\\nMiddle button was clicked in %%f\" --button ok &"
+msgstr ""
+
+#: ../src/settings.c:11470
+msgid "_Keypress"
+msgstr ""
+
+#: ../src/settings.c:11472
+msgid "Set Window Keypress Command"
+msgstr ""
+
+#: ../src/settings.c:11473
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a key is pressed:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_key)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\t%%k\tkey code  (key pressed)\n"
+"\t%%m\tmodifier  (modifier keys)\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command when no asterisk prefix is used.\n"
+"\n"
+"Prefix your command with an asterisk (*) and conditionally return exit status 0 to inhibit the default handler.  For example:\n"
+"*if [ \"%%k\" != \"0xffc5\" ]; then exit 1; fi; spacefm -g --label \"\\nKey F8 was pressed.\" --button ok &"
+msgstr ""
+
+#: ../src/settings.c:11476
+msgctxt "View|Events|Window|"
+msgid "Cl_ose"
+msgstr "閉じる(_O)"
+
+#: ../src/settings.c:11478
+msgid "Set Window Close Command"
+msgstr "ウィンドウを閉じるコマンドの設定"
+
+#: ../src/settings.c:11479
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a SpaceFM window is closed:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_win_close)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11482
+msgid "_Panel"
+msgstr "パネル(_P)"
+
+#: ../src/settings.c:11487
+msgctxt "View|Events|Panel|"
+msgid "_Focus"
+msgstr "フォーカス(_F)"
+
+#: ../src/settings.c:11489
+msgid "Set Panel Focus Command"
+msgstr "パネルフォーカスコマンド設定"
+
+#: ../src/settings.c:11490
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a panel gets focus:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_pnl_focus)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11493
+msgctxt "View|Events|Panel|"
+msgid "_Show"
+msgstr "表示(_S)"
+
+#: ../src/settings.c:11495
+msgid "Set Panel Show Command"
+msgstr "パネル表示コマンド設定"
+
+#: ../src/settings.c:11496
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a panel or panel element is shown or hidden:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_pnl_show)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\t%%f\tfocus  (element shown or hidden)\n"
+"\t%%v\tvisible  (1 or 0)\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11499
+msgid "S_elect"
+msgstr "選択(_E)"
+
+#: ../src/settings.c:11501
+msgid "Set Panel Select Command"
+msgstr "パネル選択コマンド設定"
+
+#: ../src/settings.c:11502
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever the file selection changes:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_pnl_sel)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command.\n"
+"\n"
+"Prefix your command with an asterisk (*) and conditionally return exit status 0 to inhibit the default handler."
+msgstr ""
+
+#: ../src/settings.c:11505
+msgctxt "View|Events|"
+msgid "_Tab"
+msgstr "タブ(_T)"
+
+#: ../src/settings.c:11510
+msgctxt "View|Events|Tab|"
+msgid "_New"
+msgstr "新規(_N)"
+
+#: ../src/settings.c:11512
+msgid "Set New Tab Command"
+msgstr ""
+
+#: ../src/settings.c:11513
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a new tab is opened:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_tab_new)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11516
+msgid "_Change Dir"
+msgstr "ディレクトリ変更(_C)"
+
+#: ../src/settings.c:11518
+msgid "Set Tab Change Dir Command"
+msgstr "タブディレクトリ変更コマンドの設定"
+
+#: ../src/settings.c:11519
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a tab changes to a different directory:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_tab_chdir)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\t%%d\tnew directory\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11522
+msgctxt "View|Events|Tab|"
+msgid "_Focus"
+msgstr "フォーカス(_F)"
+
+#: ../src/settings.c:11524
+msgid "Set Tab Focus Command"
+msgstr "タブフォーカスコマンドの設定"
+
+#: ../src/settings.c:11525
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a tab gets focus:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_tab_focus)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\ttab\n"
+"\n"
+"Exported bash variables (eg $fm_pwd, etc) can be used in this command."
+msgstr ""
+
+#: ../src/settings.c:11528
+msgctxt "View|Events|Tab|"
+msgid "_Close"
+msgstr "閉じる(_C)"
+
+#: ../src/settings.c:11530
+msgid "Set Tab Close Command"
+msgstr "タブを閉じるコマンド設定"
+
+#: ../src/settings.c:11531
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a tab is closed:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_tab_close)\n"
+"\t%%w\twindow id  (see spacefm -s help)\n"
+"\t%%p\tpanel\n"
+"\t%%t\tclosed tab"
+msgstr ""
+
+#: ../src/settings.c:11534
+msgctxt "View|Events|"
+msgid "_Device"
+msgstr "デバイス(_D)"
+
+#: ../src/settings.c:11536
+msgid "Set Device Command"
+msgstr "デバイスコマンド設定"
+
+#: ../src/settings.c:11537
+#, c-format
+msgid ""
+"Enter program or bash command line to be run automatically whenever a device state changes:\n"
+"\n"
+"Use:\n"
+"\t%%e\tevent type  (evt_device)\n"
+"\t%%f\tdevice file\n"
+"\t%%v\tchange  (added|removed|changed)\n"
+msgstr ""
+
+#: ../src/settings.c:11540
+msgid "Wi_ndow Title"
+msgstr "ウィンドウタイトル(_N)"
+
+#: ../src/settings.c:11542
+msgid "Set Window Title Format"
+msgstr "ウィンドウタイトル形式の設定"
+
+#: ../src/settings.c:11543
+#, c-format
+msgid ""
+"Set window title format:\n"
+"\n"
+"Use:\n"
+"\t%%n\tcurrent folder name (eg bin)\n"
+"\t%%d\tcurrent folder path (eg /usr/bin)\n"
+"\t%%p\tcurrent panel number (1-4)\n"
+"\t%%t\tcurrent tab number\n"
+"\t%%P\ttotal number of panels visible\n"
+"\t%%T\ttotal number of tabs in current panel\n"
+"\t*\tasterisk shown if tasks running in window"
+msgstr "ウィンドウタイトル形式の設定:\n\n要素:\n⇥%%n⇥現在のフォルダ名 (例 bin)\n⇥%%d⇥現在のフォルダパス (例 /usr/bin)\n⇥%%p⇥現在のパネル番号 (1-4)\n⇥%%t⇥現在のタブ番号\n⇥%%P⇥表示されているパネルの数\n⇥%%T⇥現在のパネルのタブの数\n⇥*⇥ウィンドウで実行中のタスクがあれば表示"
+
+#: ../src/settings.c:11547
+msgid "_Window Icon"
+msgstr "ウィンドウアイコン(_W)"
+
+#: ../src/settings.c:11553
+msgid ""
+"Enter an icon name, icon file path, or stock item name:\n"
+"\n"
+"Or click Choose to select an icon.  Not all icons may work properly due to various issues.\n"
+"\n"
+"Provided alternate SpaceFM icons:\n"
+"\tspacefm-[48|128]-[cube|pyramid]-[blue|green|red]\n"
+"\tspacefm-48-folder-[blue|red]\n"
+"\n"
+"For example: spacefm-48-pyramid-green"
+msgstr "アイコン名、もしくはアイコンファイルパス、標準名を入力してください。\n\nまたは、選択ボタンからアイコンを選んでください。すべてのアイコンがいろいろな問題のためにうまく動くとは言えないかもしれません。\n\n提供されている別の SpaceFM アイコン:\n⇥spacefm-[48|128]-[cube|pyramid]-[blue|green|red]\n⇥spacefm-48-folder-[blue|red]\n\n使用例: spacefm-48-pyramid-green"
+
+#. x and y store global icon chooser dialog size
+#: ../src/settings.c:11556
+msgid "_Fullscreen"
+msgstr "最大化(_F)"
+
+#: ../src/settings.c:11559
+msgid "_Design Mode"
+msgstr "デザインモード(_D)"
+
+#: ../src/settings.c:11562
+msgid "_Preferences"
+msgstr "設定(_P)"
+
+#: ../src/settings.c:11565
+msgid "_Tool"
+msgstr "ツール(_T)"
+
+#: ../src/settings.c:11571
+msgid "_Thumbnails (global)"
+msgstr "サムネイル(グローバル)(_T)"
+
+#: ../src/settings.c:11574
+msgid "Folder _Sizes (global)"
+msgstr ""
+
+#. Plugins
+#: ../src/settings.c:11578
+msgid "_Install"
+msgstr "インストール(_I)"
+
+#: ../src/settings.c:11606
+msgid "_Verbose"
+msgstr "詳細(_V)"
+
+#: ../src/settings.c:11613
+msgid "In_cluded"
+msgstr ""
+
+#: ../src/settings.c:11627
+msgid "_User's Manual"
+msgstr "ユーザーズマニュアル(_U)"
+
+#: ../src/settings.c:11633
+msgid "_Homepage"
+msgstr "ホームページ(_H)"
+
+#: ../src/settings.c:11636
+msgid "SpaceFM _News"
+msgstr "SpaceFM ニュース(_N)"
+
+#: ../src/settings.c:11639
+msgid "_Get Plugins"
+msgstr "プラグイン取得(_G)"
+
+#: ../src/settings.c:11642
+msgid "_Options"
+msgstr "オプション(_O)"
+
+#: ../src/settings.c:11647
+msgid "_Browser"
+msgstr "ブラウザ(_B)"
+
+#: ../src/settings.c:11649
+msgid "Choose HTML Browser"
+msgstr "HTMLブラウザの選択"
+
+#: ../src/settings.c:11650
+#, c-format
+msgid ""
+"Enter browser name or bash command line to be used to display HTML files and URLs:\n"
+"\n"
+"Use:\n"
+"\t%%u\turl\n"
+"\n"
+"(Leave blank for automatic browser detection)"
+msgstr "HTMLファイルやURLを表示するためのブラウザ名称か bash コマンドラインを入力してください:\n\n要素:\n\t%%u\turl\n\n(空にしておくと自動でブラウザを探知します)"
+
+#: ../src/settings.c:11653
+msgid "_Manual Location"
+msgstr "マニュアルの場所(_M)"
+
+#: ../src/settings.c:11655
+msgid "Choose User's Manual Location"
+msgstr "ユーザーズマニュアルの場所選択"
+
+#: ../src/settings.c:11656
+msgid ""
+"Enter local file path or remote URL for the SpaceFM User's Manual:\n"
+"\n"
+"(Leave blank for default)\n"
+msgstr "SpaceFM ユーザーズマニュアルのローカルファイルパスかリモート URL を入力してください:\n\n(空のままだとデフォルトになります)\n"
+
+#: ../src/settings.c:11659
+msgid "_About"
+msgstr "このプログラムについて(_A)"
+
+#: ../src/settings.c:11662
+msgid "_Show Devices"
+msgstr "デバイス表示(_S)"
+
+#: ../src/settings.c:11692
+msgid "_Status"
+msgstr "状態(_S)"
+
+#. column position
+#. column width
+#: ../src/settings.c:11698
+msgid "_Count"
+msgstr "カウント(_C)"
+
+#: ../src/settings.c:11709
+msgid "_Item"
+msgstr "アイテム(_I)"
+
+#: ../src/settings.c:11715
+msgid "_To"
+msgstr "送り先(_T)"
+
+#: ../src/settings.c:11721
+msgid "_Progress"
+msgstr "進捗(_P)"
+
+#: ../src/settings.c:11728
+msgid "T_otal"
+msgstr "合計(_o)"
+
+#: ../src/settings.c:11735
+msgid "Sta_rted"
+msgstr "開始時間(_r)"
+
+#: ../src/settings.c:11740
+msgid "_Elapsed"
+msgstr "経過時間(_E)"
+
+#: ../src/settings.c:11747
+msgid "C_urrent Speed"
+msgstr "現在速度(_u)"
+
+#: ../src/settings.c:11759
+msgid "_Average Speed"
+msgstr "平均速度(_A)"
+
+#: ../src/settings.c:11771
+msgid "Reor_der"
+msgstr "再配置(_d)"
+
+#: ../src/settings.c:11777 ../src/settings.c:11797
+#: ../src/ptk/ptk-file-task.c:553 ../src/ptk/ptk-file-task.c:838
+msgid "Pa_use"
+msgstr "一時停止(_u)"
+
+#: ../src/settings.c:11780 ../src/settings.c:11800
+msgid "_Queue"
+msgstr "キュー(_Q)"
+
+#: ../src/settings.c:11783 ../src/settings.c:11803
+msgid "_Resume"
+msgstr "再開(_R)"
+
+#: ../src/settings.c:11786
+msgid "Sho_w Output"
+msgstr "出力表示(_w)"
+
+#: ../src/settings.c:11789
+msgid "_All Tasks"
+msgstr "すべてのタスク(_A)"
+
+#: ../src/settings.c:11821
+msgid "Task Manager Font"
+msgstr "タスクマネージャーフォント"
+
+#: ../src/settings.c:11822
+msgid "copying  File  1:15  65.2 M  30.2 M/s"
+msgstr "ファイル コピー中 1:15  65.2 M  30.2 M/s"
+
+#: ../src/settings.c:11825
+msgid "_Columns"
+msgstr "列(_C)"
+
+#: ../src/settings.c:11830
+msgid "_Popups"
+msgstr "ポップアップ(_P)"
+
+#: ../src/settings.c:11835
+msgid "Popup _All Tasks"
+msgstr "すべてのタスクをポップアップ(_A)"
+
+#: ../src/settings.c:11840
+msgid "Stay On _Top"
+msgstr "常に最前面へ(_T)"
+
+#: ../src/settings.c:11845
+msgid "A_bove Others"
+msgstr "他より上に(_B)"
+
+#: ../src/settings.c:11850
+msgid "All _Workspaces"
+msgstr "全てのワークスペースに(_W)"
+
+#: ../src/settings.c:11860
+msgid "_Overwrite Option"
+msgstr "上書きオプション(_O)"
+
+#: ../src/settings.c:11865
+msgid "_Error Option"
+msgstr "エラーオプション(_E)"
+
+#: ../src/settings.c:11873
+msgid "Task Popup Font (affects new tasks)"
+msgstr "タスクポップアップのフォント (新しいタスクから反映)"
+
+#: ../src/settings.c:11874
+msgid "Example Output 0123456789"
+msgstr "Example Output 0123456789"
+
+#: ../src/settings.c:11883
+msgid "Stop If _First"
+msgstr ""
+
+#: ../src/settings.c:11888
+msgid "Stop On _Any"
+msgstr ""
+
+#: ../src/settings.c:11893
+msgid "_Continue"
+msgstr "継続(_C)"
+
+#: ../src/settings.c:11898
+msgid "Qu_eue"
+msgstr "キュー(_E)"
+
+#: ../src/settings.c:11903
+msgid "_Queue New Tasks"
+msgstr ""
+
+#: ../src/settings.c:11908
+msgid "_Smart Queue"
+msgstr ""
+
+#: ../src/settings.c:11913
+msgid "_Pause On Error"
+msgstr ""
+
+#: ../src/settings.c:11923
+msgid "Arrange _Icons"
+msgstr ""
+
+#: ../src/settings.c:11928
+msgid "By _Name"
+msgstr "名前順(_N)"
+
+#: ../src/settings.c:11931
+msgid "By _Type"
+msgstr "種類順(_T)"
+
+#: ../src/settings.c:11934
+msgid "By _Date"
+msgstr "日付順(_D)"
+
+#: ../src/settings.c:11937
+msgid "By _Size"
+msgstr "サイズ順(_S)"
+
+#: ../src/settings.c:11940
+msgid "_Custom"
+msgstr "カスタム(_C)"
+
+#: ../src/settings.c:11943 ../src/settings.c:12254
+msgid "_Ascending"
+msgstr "昇順(_A)"
+
+#: ../src/settings.c:11946
+msgid "D_escending"
+msgstr "降順(_e)"
+
+#: ../src/settings.c:11949
+msgid "Desktop _Settings"
+msgstr "デスクトップ設定(_S)"
+
+#. set->b keeps desktop prefs compositing wm info has been shown
+#: ../src/settings.c:11953 ../src/settings.c:12191
+msgid "De_vices"
+msgstr "デバイス(_V)"
+
+#: ../src/settings.c:11961
+msgid "_Desktop Folder"
+msgstr "デスクトップフォルダ(_D)"
+
+#: ../src/settings.c:11971
+msgid "Editor Font"
+msgstr "エディタのフォント"
+
+#: ../src/settings.c:11972 ../src/settings.c:12001
+msgid "Example Input 0123456789"
+msgstr "入力の例 0123456789"
+
+#: ../src/settings.c:12000
+msgid "Input Font"
+msgstr "入力フォント"
+
+#: ../src/settings.c:12007
+msgid "E_xecute"
+msgstr "実行(_X)"
+
+#: ../src/settings.c:12010
+msgid "Edi_t"
+msgstr "編集(_t)"
+
+#: ../src/settings.c:12013
+msgid "Edit As _Root"
+msgstr "root で編集(_R)"
+
+#: ../src/settings.c:12016
+msgid "_Choose..."
+msgstr "選択...(_C)"
+
+#: ../src/settings.c:12019
+msgid "File _Handlers..."
+msgstr "ファイルハンドラ...(_H)"
+
+#: ../src/settings.c:12023
+msgid "Open With _Default"
+msgstr "デフォルトで開く(_D)"
+
+#. virtual
+#: ../src/settings.c:12025
+msgid "In _Tab"
+msgstr "タブで(_T)"
+
+#: ../src/settings.c:12029
+msgid "N_ew"
+msgstr "新規(_E)"
+
+#: ../src/settings.c:12032 ../src/settings.c:12202 ../src/settings.c:12357
+#: ../src/settings.c:12395
+msgid "Tab _1"
+msgstr "タブ _1"
+
+#: ../src/settings.c:12033 ../src/settings.c:12203 ../src/settings.c:12358
+#: ../src/settings.c:12396
+msgid "Tab _2"
+msgstr "タブ _2"
+
+#: ../src/settings.c:12034 ../src/settings.c:12204 ../src/settings.c:12359
+#: ../src/settings.c:12397
+msgid "Tab _3"
+msgstr "タブ _3"
+
+#: ../src/settings.c:12035 ../src/settings.c:12205 ../src/settings.c:12360
+#: ../src/settings.c:12398
+msgid "Tab _4"
+msgstr "タブ _4"
+
+#: ../src/settings.c:12036 ../src/settings.c:12206 ../src/settings.c:12361
+#: ../src/settings.c:12399
+msgid "Tab _5"
+msgstr "タブ _5"
+
+#: ../src/settings.c:12037 ../src/settings.c:12207 ../src/settings.c:12362
+#: ../src/settings.c:12400
+msgid "Tab _6"
+msgstr "タブ _6"
+
+#: ../src/settings.c:12038 ../src/settings.c:12208 ../src/settings.c:12363
+#: ../src/settings.c:12401
+msgid "Tab _7"
+msgstr "タブ _7"
+
+#: ../src/settings.c:12039 ../src/settings.c:12209 ../src/settings.c:12364
+#: ../src/settings.c:12402
+msgid "Tab _8"
+msgstr "タブ _8"
+
+#: ../src/settings.c:12040 ../src/settings.c:12210 ../src/settings.c:12365
+#: ../src/settings.c:12403
+msgid "Tab _9"
+msgstr "タブ _9"
+
+#: ../src/settings.c:12041 ../src/settings.c:12211 ../src/settings.c:12366
+#: ../src/settings.c:12404
+msgid "Tab 1_0"
+msgstr "タブ 1_0"
+
+#: ../src/settings.c:12043
+msgid "In _Panel"
+msgstr "パネルで(_P)"
+
+#: ../src/settings.c:12054 ../src/settings.c:12081
+msgid "_Extract"
+msgstr "展開(_E)"
+
+#: ../src/settings.c:12058 ../src/settings.c:12086
+msgid "Extract _To"
+msgstr "展開先を指定(_T)"
+
+#: ../src/settings.c:12062 ../src/settings.c:12090
+msgid "_List Contents"
+msgstr "内容表示(_L)"
+
+#: ../src/settings.c:12072
+msgid "_Archive Defaults"
+msgstr "書庫のデフォルト(_A)"
+
+#: ../src/settings.c:12077
+msgid "_Open With App"
+msgstr "アプリケーションで開く(_O)"
+
+#: ../src/settings.c:12094
+msgid "_Create Subfolder"
+msgstr "サブフォルダ作成(_C)"
+
+#: ../src/settings.c:12099
+msgid "_Write Access"
+msgstr ""
+
+#: ../src/settings.c:12104
+msgid "Archive _Handlers"
+msgstr "書庫ハンドラ(_H)"
+
+#: ../src/settings.c:12128
+msgid "Fol_der"
+msgstr "フォルダ(_d)"
+
+#: ../src/settings.c:12136
+msgctxt "New|"
+msgid "_Bookmark"
+msgstr "ブックマーク(_B)"
+
+#: ../src/settings.c:12140
+msgid "_Archive"
+msgstr "書庫の作成(_A)"
+
+#. Extract To - Create Subfolder
+#. Extract To - Write Access
+#: ../src/settings.c:12147
+msgctxt "New|"
+msgid "_Tab"
+msgstr "タブ(_T)"
+
+#: ../src/settings.c:12149
+msgid "Tab _Here"
+msgstr "この場所のタブ(_H)"
+
+#: ../src/settings.c:12152
+msgid "_Desktop Application"
+msgstr "デスクトップアプリケーション(_D)"
+
+#: ../src/settings.c:12158
+msgid "_Go"
+msgstr "移動(_G)"
+
+#: ../src/settings.c:12163
+msgid "_Back"
+msgstr "戻る(_B)"
+
+#: ../src/settings.c:12165
+msgid "_Forward"
+msgstr "進む(_F)"
+
+#: ../src/settings.c:12167
+msgid "_Up"
+msgstr "上へ(_U)"
+
+#: ../src/settings.c:12169
+msgid "_Home"
+msgstr "ホーム(_H)"
+
+#: ../src/settings.c:12174
+msgid "_Set Default"
+msgstr "デフォルトに設定(_S)"
+
+#: ../src/settings.c:12177
+msgid "Re_al Path"
+msgstr ""
+
+#: ../src/settings.c:12179
+msgid "Fo_cus"
+msgstr "フォーカス(_c)"
+
+#: ../src/settings.c:12183
+msgid "_Path Bar"
+msgstr "パスバー(_P)"
+
+#: ../src/settings.c:12185
+msgid "_File List"
+msgstr "ファイルリスト(_F)"
+
+#: ../src/settings.c:12187
+msgid "_Tree"
+msgstr "ツリー(_T)"
+
+#: ../src/settings.c:12194
+msgctxt "Go|"
+msgid "_Tab"
+msgstr "タブ(_T)"
+
+#: ../src/settings.c:12200
+msgid "_Close"
+msgstr "閉じる(_C)"
+
+#: ../src/settings.c:12217
+msgid "Styl_e"
+msgstr "スタイル(_e)"
+
+#: ../src/settings.c:12220
+msgid "C_olumns"
+msgstr "列(_o)"
+
+#: ../src/settings.c:12223
+msgid "_Reorder"
+msgstr "再配置(_R)"
+
+#: ../src/settings.c:12225
+msgid "_Rubberband Select"
+msgstr "ラバーバンド選択(_R)"
+
+#: ../src/settings.c:12238
+msgid "_Sort"
+msgstr "並べ替え(_S)"
+
+#. visible
+#. position
+#: ../src/settings.c:12244 ../src/settings.c:12662
+msgid "_Size"
+msgstr "サイズ(_S)"
+
+#: ../src/settings.c:12246 ../src/settings.c:12669
+msgid "_Type"
+msgstr "種類(_T)"
+
+#: ../src/settings.c:12248 ../src/settings.c:12675
+msgid "_Permission"
+msgstr "パーミッション(_P)"
+
+#: ../src/settings.c:12250 ../src/settings.c:12512 ../src/settings.c:12681
+msgid "_Owner"
+msgstr "所有者(_O)"
+
+#: ../src/settings.c:12252 ../src/settings.c:12687
+msgid "_Modified"
+msgstr "更新日時(_M)"
+
+#: ../src/settings.c:12256
+msgid "_Descending"
+msgstr "降順(_D)"
+
+#: ../src/settings.c:12259
+msgid "Nat_ural"
+msgstr ""
+
+#: ../src/settings.c:12261
+msgid "_Case Sensitive"
+msgstr ""
+
+#: ../src/settings.c:12263
+msgid "Folders Fi_rst"
+msgstr "フォルダを先頭に(_R)"
+
+#: ../src/settings.c:12265
+msgid "F_iles First"
+msgstr "ファイルを先頭に(_I)"
+
+#: ../src/settings.c:12267
+msgid "Mi_xed"
+msgstr "混合(_X)"
+
+#: ../src/settings.c:12269
+msgid "_Hidden First"
+msgstr "隠しファイルを先頭に(_H)"
+
+#: ../src/settings.c:12271
+msgid "Hidden _Last"
+msgstr "隠しファイルを後方に(_L)"
+
+#: ../src/settings.c:12274
+msgid "Re_fresh"
+msgstr "更新(_F)"
+
+#: ../src/settings.c:12277
+msgid "Auto See_k"
+msgstr ""
+
+#. set->s was custom protocol handler in sfm<=0.9.3 - retained
+#: ../src/settings.c:12288
+msgid "Path Bar _Help"
+msgstr "パスバーヘルプ(_H)"
+
+#: ../src/settings.c:12301 ../src/ptk/ptk-file-misc.c:710
+#: ../src/ptk/ptk-file-misc.c:1246 ../src/ptk/ptk-file-misc.c:2179
+msgid "_Rename"
+msgstr "名前の変更(_R)"
+
+#: ../src/settings.c:12305 ../src/settings.c:12435
+msgid "_Delete"
+msgstr "削除(_D)"
+
+#: ../src/settings.c:12317
+msgid "_Actions"
+msgstr "アクション(_A)"
+
+#: ../src/settings.c:12328
+msgid "Copy Pa_rent"
+msgstr "親をコピー(_R)"
+
+#: ../src/settings.c:12331
+msgid "Paste _Link"
+msgstr "リンクを貼り付け(_L)"
+
+#: ../src/settings.c:12334
+msgid "Paste _Target"
+msgstr ""
+
+#: ../src/settings.c:12337
+msgid "Paste _As"
+msgstr ""
+
+#: ../src/settings.c:12343 ../src/settings.c:12433
+msgid "_Copy To"
+msgstr "～へコピー(_C)"
+
+#: ../src/settings.c:12347
+msgid "L_ocation"
+msgstr "場所(_O)"
+
+#: ../src/settings.c:12348 ../src/settings.c:12387
+msgid "L_ast Location"
+msgstr "最後の場所(_a)"
+
+#: ../src/settings.c:12351
+msgctxt "Edit|CopyTo|"
+msgid "_Tab"
+msgstr "タブ(_T)"
+
+#: ../src/settings.c:12368
+msgctxt "Edit|CopyTo|"
+msgid "_Panel"
+msgstr "パネル(_P)"
+
+#: ../src/settings.c:12382
+msgid "_Move To"
+msgstr "～へ移動(_M)"
+
+#: ../src/settings.c:12386
+msgid "_Location"
+msgstr "場所(_L)"
+
+#: ../src/settings.c:12389
+msgctxt "Edit|MoveTo|"
+msgid "_Tab"
+msgstr "タブ(_T)"
+
+#: ../src/settings.c:12406
+msgctxt "Edit|MoveTo|"
+msgid "_Panel"
+msgstr "パネル(_P)"
+
+#: ../src/settings.c:12419
+msgid "_Select All"
+msgstr "すべて選択(_S)"
+
+#: ../src/settings.c:12422
+msgid "_Unselect All"
+msgstr "選択解除(_U)"
+
+#: ../src/settings.c:12424
+msgid "_Invert Selection"
+msgstr "選択の反転(_I)"
+
+#: ../src/settings.c:12426
+msgid "S_elect By Pattern"
+msgstr "パターンで選択"
+
+#: ../src/settings.c:12428
+msgid "R_oot"
+msgstr "root(_O)"
+
+#: ../src/settings.c:12434
+msgid "Move _To"
+msgstr "～へ移動(_T)"
+
+#. Properties
+#: ../src/settings.c:12439
+msgid "Propert_ies"
+msgstr "プロパティ(_i)"
+
+#: ../src/settings.c:12450
+msgid "_Quick"
+msgstr "クイック(_Q)"
+
+#: ../src/settings.c:12472 ../src/settings.c:12502 ../src/settings.c:12528
+msgid "_Recursive"
+msgstr "再帰的(_R)"
+
+#: ../src/settings.c:12550
+msgid "_Toolbar"
+msgstr "ツールバー(_T)"
+
+#: ../src/settings.c:12562
+msgid "T_ree"
+msgstr "ツリー(_R)"
+
+#: ../src/settings.c:12574
+msgid "_Side Toolbar"
+msgstr "サイドツールバー(_S)"
+
+#: ../src/settings.c:12580
+msgid "_Detailed"
+msgstr "詳細リスト(_D)"
+
+#: ../src/settings.c:12586
+msgid "_Icons"
+msgstr "アイコン(_I)"
+
+#: ../src/settings.c:12591
+msgid "_Compact"
+msgstr "コンパクト(_C)"
+
+#: ../src/settings.c:12596
+msgid "_Large Icons"
+msgstr "大きなアイコン(_L)"
+
+#: ../src/settings.c:12601
+msgid "_Hidden Files"
+msgstr "隠しファイル(_H)"
+
+#: ../src/settings.c:12609
+#, c-format
+msgid "File List Font (Panel %d)"
+msgstr "ファイルリストのフォント (パネル %d)"
+
+#: ../src/settings.c:12610
+msgid "Example  1.1 M  file  -rwxr--r--  user:group  2011-01-01 01:11"
+msgstr "例  1.1 M  file  -rwxr--r--  user:group  2011-01-01 01:11"
+
+#: ../src/settings.c:12615
+#, c-format
+msgid "Devices Font (Panel %d)"
+msgstr "デバイスのフォント (パネル %d)"
+
+#: ../src/settings.c:12616
+msgid "sr0 [no media] :EXAMPLE"
+msgstr "sr0 [no media] :例"
+
+#: ../src/settings.c:12622
+#, c-format
+msgid "Bookmarks Font (Panel %d)"
+msgstr "ブックマークのフォント (パネル %d)"
+
+#: ../src/settings.c:12623
+msgid "Example Bookmark Name"
+msgstr "ブックマーク名称の例"
+
+#: ../src/settings.c:12629
+#, c-format
+msgid "Path Bar Font (Panel %d)"
+msgstr "タブバーのフォント (パネル %d)"
+
+#: ../src/settings.c:12630
+msgid "$ cat /home/user/example"
+msgstr "$ cat /home/user/example"
+
+#: ../src/settings.c:12636
+#, c-format
+msgid "Tab Font (Panel %d)"
+msgstr "タブのフォント (パネル %d)"
+
+#: ../src/settings.c:12646
+#, c-format
+msgid "Status Bar Font (Panel %d)"
+msgstr "ステータスバーのフォント (パネル %d)"
+
+#: ../src/settings.c:12647
+msgid "12 G free / 200 G   52 items"
+msgstr "12 G の空き / 200 G 52 個のアイテム"
+
+#. sort_natural
+#. sort_case
+#. PTK_LIST_SORT_DIR_FIRST from ptk-file-list.h
+#. sort_hidden_first
+#: ../src/settings.c:12699
+msgid "Follow _Dir"
+msgstr ""
+
+#. speed
+#: ../src/settings.c:12708 ../src/settings.c:12717
+msgid "_New Tab"
+msgstr "新規タブ(_N)"
+
+#: ../src/settings.c:12712 ../src/settings.c:12722
+msgid "_Single Click"
+msgstr "シングルクリック(_S)"
+
+#: ../src/ptk/ptk-file-browser.c:2397
+#, c-format
+msgid ""
+"Directory doesn't exist\n"
+"\n"
+"%s"
+msgstr "ディレクトリが存在しません\n\n%s"
+
+#: ../src/ptk/ptk-file-browser.c:2413
+#, c-format
+msgid ""
+"Unable to access %s\n"
+"\n"
+"%s"
+msgstr "%s にアクセスできません\n\n%s"
+
+#: ../src/ptk/ptk-file-browser.c:3285 ../src/desktop/desktop-window.c:2228
+msgid "Select By Pattern"
+msgstr "パターンで選択"
+
+#: ../src/ptk/ptk-file-browser.c:3287 ../src/desktop/desktop-window.c:2228
+#, c-format
+msgid ""
+"Enter pattern to select files and folders:\n"
+"\n"
+"If your pattern contains any uppercase characters, the matching will be case sensitive.\n"
+"\n"
+"Example:  *sp*e?m*\n"
+"\n"
+"TIP: You can also enter '%% PATTERN' in the path bar."
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5703 ../src/ptk/ptk-file-misc.c:4111
+#: ../src/desktop/desktop-window.c:3316
+msgid "Choose Location"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5736 ../src/ptk/ptk-file-browser.c:5770
+#: ../src/desktop/desktop-window.c:3349 ../src/desktop/desktop-window.c:3380
+msgid "Invalid Destination"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5737 ../src/desktop/desktop-window.c:3350
+msgid "Destination same as source"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5771 ../src/desktop/desktop-window.c:3381
+msgid "Invalid destination"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5778
+msgid "Hide File"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5780
+msgid ""
+"The names of the selected files will be added to the '.hidden' file located in this folder, which will hide them from view in SpaceFM.  You may need to refresh the view or restart SpaceFM for the files to disappear.\n"
+"\n"
+"To unhide a file, open the .hidden file in your text editor, remove the name of the file, and refresh."
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5795
+msgid "Error hiding files"
+msgstr ""
+
+#: ../src/ptk/ptk-file-browser.c:5803
+msgid "No files are selected"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:980 ../src/ptk/ptk-location-view.c:1060
+msgid "Unable to mount device"
+msgstr "デバイスがマウントできません"
+
+#: ../src/ptk/ptk-location-view.c:1000
+msgid "Unable to unmount device"
+msgstr "デバイスがアンマウントできません"
+
+#: ../src/ptk/ptk-location-view.c:1022 ../src/ptk/ptk-location-view.c:1036
+msgid "Unable to eject device"
+msgstr "デバイスが取り出せません"
+
+#: ../src/ptk/ptk-location-view.c:1082
+msgid "udev Not Configured"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1083
+msgid ""
+"Mounting a network share requires a udev (--disable-hal) build of SpaceFM."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1187
+msgid "Invalid URL"
+msgstr "無効なURL"
+
+#: ../src/ptk/ptk-location-view.c:1188
+msgid "The entered URL is not valid."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1246 ../src/ptk/ptk-location-view.c:1374
+msgid "Handler Not Found"
+msgstr "ハンドラが見つかりません"
+
+#: ../src/ptk/ptk-location-view.c:1247
+msgid ""
+"No network handler is configured for this URL, or no mount command is set.  "
+"Add a handler in Devices|Settings|Protocol Handlers."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1304
+#, c-format
+msgid "Open URL %s"
+msgstr "URLを開く %s"
+
+#: ../src/ptk/ptk-location-view.c:1370
+msgid "mount"
+msgstr "マウント"
+
+#: ../src/ptk/ptk-location-view.c:1372
+msgid "unmount"
+msgstr "アンマウント"
+
+#: ../src/ptk/ptk-location-view.c:1373
+#, c-format
+msgid ""
+"No handler is configured for this device type, or no %s command is set.  Add"
+" a handler in Settings|Device Handlers or Protocol Handlers."
+msgstr ""
+
+#. task
+#: ../src/ptk/ptk-location-view.c:1406 ../src/ptk/ptk-location-view.c:1972
+#: ../src/ptk/ptk-location-view.c:2047 ../src/ptk/ptk-location-view.c:2124
+#, c-format
+msgid "Mount %s"
+msgstr "マウント %s"
+
+#: ../src/ptk/ptk-location-view.c:1446
+#, c-format
+msgid "%s is currently mounted.  You must unmount it before you can check it."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1447 ../src/ptk/ptk-location-view.c:2358
+#: ../src/ptk/ptk-location-view.c:2437 ../src/ptk/ptk-location-view.c:2789
+msgid "Device Is Mounted"
+msgstr "デバイスはマウント済みです"
+
+#: ../src/ptk/ptk-location-view.c:1454
+#, c-format
+msgid ""
+"Enter filesystem check command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1459
+msgid "Check As Root"
+msgstr "root で確認"
+
+#: ../src/ptk/ptk-location-view.c:1462
+msgid "CHECK AS ROOT"
+msgstr "root で確認"
+
+#: ../src/ptk/ptk-location-view.c:1472
+#, c-format
+msgid "Check As Root %s"
+msgstr "%s を root で確認"
+
+#: ../src/ptk/ptk-location-view.c:1505
+#, c-format
+msgid ""
+"Enter mount command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\t%%%%o\tvolume-specific mount options\n"
+"\t\t( %s )\n"
+"\n"
+"Note: fstab overrides some options\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1511
+msgid "Mount As Root"
+msgstr "root でマウント"
+
+#: ../src/ptk/ptk-location-view.c:1514
+msgid "MOUNT AS ROOT"
+msgstr "root でマウント"
+
+#: ../src/ptk/ptk-location-view.c:1530
+#, c-format
+msgid "Mount As Root %s"
+msgstr "%s を root でマウント"
+
+#: ../src/ptk/ptk-location-view.c:1560
+#, c-format
+msgid ""
+"Enter unmount command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1565
+msgid "Unmount As Root"
+msgstr "root でアンマウント"
+
+#: ../src/ptk/ptk-location-view.c:1568
+msgid "UNMOUNT AS ROOT"
+msgstr "root でアンマウント"
+
+#: ../src/ptk/ptk-location-view.c:1580
+#, c-format
+msgid "Unmount As Root %s"
+msgstr "%s を root でアンマウント"
+
+#: ../src/ptk/ptk-location-view.c:1636
+#, c-format
+msgid ""
+"\n"
+"\n"
+"WARNING: %s is mounted.  You may want or need to unmount it before changing the label."
+msgstr "\n\n警告: %s はマウント中です。ラベル変更の前にアンマウントする必要があるかもしれません。"
+
+#: ../src/ptk/ptk-location-view.c:1640
+#, c-format
+msgid "Enter volume label for %s:%s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1642
+msgid "Change Volume Label"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1667
+#, c-format
+msgid ""
+"Enter remove label command for fstype '%s':\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\t%%%%l\tnew label ( \"%s\" )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root%s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1673
+#, c-format
+msgid ""
+"Enter change label command for fstype '%s':\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\t%%%%l\tnew label ( \"%s\" )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root%s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1676
+msgid "Change Label As Root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1679
+msgid "LABEL AS ROOT"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1694
+#, c-format
+msgid "Label As Root %s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:1758
+#, c-format
+msgid "Unmount %s"
+msgstr "アンマウント %s"
+
+#: ../src/ptk/ptk-location-view.c:1892 ../src/ptk/ptk-location-view.c:1905
+#, c-format
+msgid "Remove %s"
+msgstr ""
+
+#. task
+#: ../src/ptk/ptk-location-view.c:2196
+#, c-format
+msgid "Remount %s"
+msgstr "再マウント %s"
+
+#: ../src/ptk/ptk-location-view.c:2295
+#, c-format
+msgid "Reload %s"
+msgstr "再読み込み %s"
+
+#: ../src/ptk/ptk-location-view.c:2323
+msgid "Sync"
+msgstr "同期"
+
+#: ../src/ptk/ptk-location-view.c:2357
+#, c-format
+msgid ""
+"%s is currently mounted.  You must unmount it before you can format it."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2369 ../src/ptk/ptk-location-view.c:2529
+#, c-format
+msgid " ( AN ENTIRE DEVICE ) "
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2375
+#, c-format
+msgid ""
+"You are about to erase %s %s- ALL DATA WILL BE LOST.  Be patient - this can take awhile and dd gives no feedback.\n"
+"\n"
+"Enter command to overwrite entire volume with /dev/%s:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2378
+#, c-format
+msgid ""
+"You are about to format %s %s- ALL DATA WILL BE LOST.\n"
+"\n"
+"Enter %s format command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2379
+msgid "Format"
+msgstr "フォーマット"
+
+#: ../src/ptk/ptk-location-view.c:2382 ../src/ptk/ptk-location-view.c:2479
+#: ../src/ptk/ptk-location-view.c:2536
+msgid "DATA LOSS WARNING"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2391
+#, c-format
+msgid "Format %s"
+msgstr "フォーマット %s"
+
+#: ../src/ptk/ptk-location-view.c:2436
+#, c-format
+msgid ""
+"%s is currently mounted.  You must unmount it before you can restore it."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2444
+msgid "Choose Backup For Restore"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2478
+#, c-format
+msgid ""
+"You are about to overwrite the MBR boot code of %s using %s.\n"
+"\n"
+"This change may prevent your computer from booting properly.  All important data on the entire device should be backed up first.\n"
+"\n"
+"Proceed?  (If you press Yes, you still have one more opportunity to abort before the disk is modified.)"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2479
+msgid "Restore MBR"
+msgstr "MBR 復元"
+
+#: ../src/ptk/ptk-location-view.c:2491 ../src/ptk/ptk-location-view.c:2711
+msgid "Unknown Type"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2491 ../src/ptk/ptk-location-view.c:2711
+msgid ""
+"The selected file is not a recognized backup file.\n"
+"\n"
+"FSArchiver filenames contain 'fsarchiver' or end in '.fsa'.  Partimage filenames contain 'partimage' or end in '.000'.  MBR filenames end in '.mbr', '.mbr.bin', or '-MBR-back' and are 512 bytes in size.  If you are SURE this file is a valid backup, you can rename it to avoid this error."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2532
+#, c-format
+msgid ""
+"You are about to restore %s %susing %s - ALL DATA WILL BE LOST.\n"
+"\n"
+"Enter %s restore command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\t%%%%s\tbackup file ( %s )\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2533
+msgid "Restore"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2574
+#, c-format
+msgid "%s Restore %s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2631
+#, c-format
+msgid "The %s directory was not found.  Is udevil installed?"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2636
+msgid "Directory Missing"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2652
+msgid "Choose Backup For Info"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2705
+msgid "MBR File"
+msgstr "MBR ファイル"
+
+#: ../src/ptk/ptk-location-view.c:2705
+msgid ""
+"Based on its name, the selected file appears to be an MBR backup file.  No "
+"other information is available for this type of backup."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2721
+msgid "Restore Info"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2780
+#, c-format
+msgid ""
+"\n"
+"\n"
+"WARNING: %s is mounted.  By default, FSArchiver will only backup volumes mounted read-only.  To backup a read-write volume, you need to add --allow-rw-mounted to the command.  See 'man fsarchiver' for details."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2788
+#, c-format
+msgid ""
+"%s is currently mounted.  You must unmount it before you can create a backup"
+" using Partimage."
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2805
+#, c-format
+msgid "Save %s Backup"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2822
+msgid "Overwrite?"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2822
+msgid "The selected backup already exists.  Overwrite?"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2851
+#, c-format
+msgid ""
+"Enter %s backup command:\n"
+"\n"
+"Use:\n"
+"\t%%%%v\tdevice file ( %s )\n"
+"\t%%%%s\tbackup file ( %s )%s\n"
+"\n"
+"EDIT WITH CARE   This command is run as root"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:2854
+msgid "Backup"
+msgstr "バックアップ"
+
+#: ../src/ptk/ptk-location-view.c:2882
+#, c-format
+msgid "%s Backup %s"
+msgstr "%s バックアップ %s"
+
+#: ../src/ptk/ptk-location-view.c:2989
+#, c-format
+msgid "Properties %s"
+msgstr "プロパティ %s"
+
+#: ../src/ptk/ptk-location-view.c:3237 ../src/ptk/ptk-location-view.c:3264
+#, c-format
+msgid ""
+"%sCurrently Selected Device: %s\n"
+"Volume Label: %s\n"
+"Device ID: %s"
+msgstr ""
+
+#: ../src/ptk/ptk-location-view.c:3584 ../src/ptk/ptk-location-view.c:3999
+msgid "_Eject"
+msgstr "取り出し(_E)"
+
+#: ../src/ptk/ptk-file-task.c:483
+msgid "Kill As Other"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:541
+msgid "Q_ueue"
+msgstr "キュー(_U)"
+
+#: ../src/ptk/ptk-file-task.c:547
+msgid "Res_ume"
+msgstr "再開(_U)"
+
+#: ../src/ptk/ptk-file-task.c:628
+msgid "Stop As Other"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:628
+msgid "Cont As Other"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:798
+msgid "Move: "
+msgstr "移動: "
+
+#: ../src/ptk/ptk-file-task.c:799
+msgid "Copy: "
+msgstr "コピー: "
+
+#: ../src/ptk/ptk-file-task.c:800
+msgid "Trash: "
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:801
+msgid "Delete: "
+msgstr "削除: "
+
+#: ../src/ptk/ptk-file-task.c:802
+msgid "Link: "
+msgstr "リンク: "
+
+#: ../src/ptk/ptk-file-task.c:803
+msgid "Change: "
+msgstr "変更:"
+
+#: ../src/ptk/ptk-file-task.c:804
+msgid "Run: "
+msgstr "実行:"
+
+#: ../src/ptk/ptk-file-task.c:808
+msgid "Moving..."
+msgstr "移動しています..."
+
+#: ../src/ptk/ptk-file-task.c:809
+msgid "Copying..."
+msgstr "コピーしています..."
+
+#: ../src/ptk/ptk-file-task.c:810
+msgid "Trashing..."
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:811
+msgid "Deleting..."
+msgstr "削除しています..."
+
+#: ../src/ptk/ptk-file-task.c:812
+msgid "Linking..."
+msgstr "リンクしています..."
+
+#: ../src/ptk/ptk-file-task.c:813
+msgid "Changing..."
+msgstr "変更中..."
+
+#: ../src/ptk/ptk-file-task.c:814 ../src/ptk/ptk-file-task.c:984
+#: ../src/ptk/ptk-file-task.c:1502
+#, c-format
+msgid "Running..."
+msgstr "実行中..."
+
+#: ../src/ptk/ptk-file-task.c:900
+msgid "From:"
+msgstr "送り元:"
+
+#: ../src/ptk/ptk-file-task.c:917
+msgid "To:"
+msgstr "送り先:"
+
+#: ../src/ptk/ptk-file-task.c:935
+msgid "Progress:  "
+msgstr "進捗:"
+
+#: ../src/ptk/ptk-file-task.c:973
+msgid "Status:  "
+msgstr "状態:"
+
+#: ../src/ptk/ptk-file-task.c:980 ../src/ptk/ptk-file-task.c:1463
+#, c-format
+msgid "Paused"
+msgstr "一時停止中"
+
+#: ../src/ptk/ptk-file-task.c:982 ../src/ptk/ptk-file-task.c:1479
+#, c-format
+msgid "Queued"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1038
+msgid "Ask"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1039
+msgid "Overwrite All"
+msgstr "すべて上書き"
+
+#: ../src/ptk/ptk-file-task.c:1040
+msgid "Skip All"
+msgstr "すべてスキップ"
+
+#: ../src/ptk/ptk-file-task.c:1041
+msgid "Auto Rename"
+msgstr "自動で名前変更"
+
+#: ../src/ptk/ptk-file-task.c:1045
+msgid "Stop If Error First"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1046
+msgid "Stop On Any Error"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1047
+msgid "Continue"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1216 ../src/ptk/ptk-file-task.c:1434
+#, c-format
+msgid "Stopped"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1220
+msgid "Errors"
+msgstr "エラー"
+
+#: ../src/ptk/ptk-file-task.c:1222 ../src/ptk/ptk-file-task.c:1446
+#: ../src/ptk/ptk-file-task.c:1456
+#, c-format
+msgid "Done"
+msgstr "完了"
+
+#: ../src/ptk/ptk-file-task.c:1377
+#, c-format
+msgid "%s  (%s)  %s remaining"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1424
+#, c-format
+msgid "Error  ( Stop If First )"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1426
+#, c-format
+msgid "Error  ( Stop On Any )"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1428
+#, c-format
+msgid "Stopped with %d error"
+msgid_plural "Stopped with %d errors"
+msgstr[0] ""
+
+#: ../src/ptk/ptk-file-task.c:1441
+#, c-format
+msgid "Finished with %d error"
+msgid_plural "Finished with %d errors"
+msgstr[0] ""
+
+#: ../src/ptk/ptk-file-task.c:1451
+#, c-format
+msgid "Finished with error  ( exit status %d )"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1454
+#, c-format
+msgid "Finished with error"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1467
+#, c-format
+msgid "Paused  ( pid %d )"
+msgstr "一時停止中  ( pid %d )"
+
+#: ../src/ptk/ptk-file-task.c:1470
+#, c-format
+msgid "Paused  ( exit status %d )"
+msgstr "一時停止中  ( 終了ステータス %d )"
+
+#: ../src/ptk/ptk-file-task.c:1483
+#, c-format
+msgid "Queued  ( pid %d )"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1486
+#, c-format
+msgid "Queued  ( exit status %d )"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1497
+#, c-format
+msgid "Running with %d error"
+msgid_plural "Running with %d errors"
+msgstr[0] ""
+
+#: ../src/ptk/ptk-file-task.c:1507
+#, c-format
+msgid "Running...  ( pid %d )"
+msgstr "実行中...  ( pid %d )"
+
+#: ../src/ptk/ptk-file-task.c:1510
+#, c-format
+msgid "Running...  ( exit status %d )"
+msgstr "実行中...  ( 終了ステータス %d )"
+
+#: ../src/ptk/ptk-file-task.c:1675 ../src/ptk/ptk-file-task.c:2472
+#, c-format
+msgid "stalled"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:1780
+msgid "[ SNIP - additional errors above have been trimmed from this log ]\n"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:2131
+msgid "Moving from folder:"
+msgstr "移動元フォルダ:"
+
+#: ../src/ptk/ptk-file-task.c:2133
+msgid "Linking from folder:"
+msgstr "リンク元フォルダ:"
+
+#: ../src/ptk/ptk-file-task.c:2135
+msgid "Copying from folder:"
+msgstr "コピー元フォルダ:"
+
+#. Ask the user whether to overwrite dir content or not
+#: ../src/ptk/ptk-file-task.c:2151
+msgid "Folder Exists"
+msgstr "フォルダはすでにあります"
+
+#: ../src/ptk/ptk-file-task.c:2152
+msgid "<b>Folder already exists.</b>  Please rename or select an action."
+msgstr "<b>フォルダはすでにあります。</b> 名前を変更するかアクションを選択してください。"
+
+#: ../src/ptk/ptk-file-task.c:2169 ../src/ptk/ptk-file-task.c:2173
+msgid "\t<b>( link )</b>"
+msgstr "\t<b>( リンク )</b>"
+
+#: ../src/ptk/ptk-file-task.c:2177
+msgid "\t<b>! overwrite file with link !</b>"
+msgstr ""
+
+#: ../src/ptk/ptk-file-task.c:2182
+msgid "<b>( same size )</b>"
+msgstr "<b>( 同サイズ )</b>"
+
+#: ../src/ptk/ptk-file-task.c:2188 ../src/ptk/ptk-file-task.c:2211
+#, c-format
+msgid "%s\t( %lu bytes )"
+msgstr "%s\t( %lu bytes )"
+
+#: ../src/ptk/ptk-file-task.c:2190
+msgid "larger"
+msgstr "大きい"
+
+#: ../src/ptk/ptk-file-task.c:2192
+msgid "smaller"
+msgstr "小さい"
+
+#: ../src/ptk/ptk-file-task.c:2196
+msgid "<b>( same time )</b>\t"
+msgstr "<b>( 同時刻 )</b>\t"
+
+#: ../src/ptk/ptk-file-task.c:2206
+msgid "newer"
+msgstr "新しい"
+
+#: ../src/ptk/ptk-file-task.c:2208
+msgid "older"
+msgstr "古い"
+
+#: ../src/ptk/ptk-file-task.c:2229
+msgid "Filename Exists"
+msgstr "ファイル名はすでにあります"
+
+#: ../src/ptk/ptk-file-task.c:2230 ../src/ptk/ptk-file-task.c:2245
+msgid "<b>Filename already exists.</b>  Please rename or select an action."
+msgstr "<b>ファイル名はすでにあります。</b> 名前を変更するかアクションを選択してください。"
+
+#: ../src/ptk/ptk-file-task.c:2242
+msgid "Rename Required"
+msgstr "名前変更が必要"
+
+#: ../src/ptk/ptk-file-task.c:2244
+msgid "In folder:"
+msgstr "フォルダ:"
+
+#: ../src/ptk/ptk-file-task.c:2324
+msgid "_Overwrite"
+msgstr "上書き(_O)"
+
+#: ../src/ptk/ptk-file-task.c:2325
+msgid "Overwrite _All"
+msgstr "すべて上書き(_A)"
+
+#: ../src/ptk/ptk-file-task.c:2330
+msgid "_Pause"
+msgstr "一時停止(_P)"
+
+#: ../src/ptk/ptk-file-task.c:2332
+msgid "_Skip"
+msgstr "スキップ(_S)"
+
+#: ../src/ptk/ptk-file-task.c:2333
+msgid "S_kip All"
+msgstr "すべてスキップ(_k)"
+
+#: ../src/ptk/ptk-file-task.c:2386
+msgid "To folder:"
+msgstr "送り先フォルダ:"
+
+#: ../src/ptk/ptk-file-task.c:2413
+msgid "<b>Folder Name:</b>"
+msgstr "<b>フォルダ名</b>"
+
+#. extra buttons
+#: ../src/ptk/ptk-file-task.c:2441
+msgid " _Rename "
+msgstr "名前の変更(_R)"
+
+#: ../src/ptk/ptk-file-task.c:2445
+msgid " A_uto Rename "
+msgstr "自動で名前変更(_U)"
+
+#: ../src/ptk/ptk-file-task.c:2449
+msgid " Auto Re_name All "
+msgstr "すべて自動で名前変更(_N)"
+
+#: ../src/ptk/ptk-file-archiver.c:208 ../src/ptk/ptk-file-archiver.c:536
+#: ../src/ptk/ptk-file-misc.c:3558 ../src/ptk/ptk-handler.c:1456
+msgid "Error Loading Handler"
+msgstr "ハンドラの読み込みエラー"
+
+#: ../src/ptk/ptk-file-archiver.c:342 ../src/ptk/ptk-file-archiver.c:662
+#: ../src/ptk/ptk-file-archiver.c:691
+msgid "Create Archive"
+msgstr "書庫作成"
+
+#: ../src/ptk/ptk-file-archiver.c:351 ../src/ptk/ptk-file-archiver.c:1129
+msgid "Conf_igure"
+msgstr "設定(_I)"
+
+#: ../src/ptk/ptk-file-archiver.c:387
+msgid "Co_mpress Commands:"
+msgstr "圧縮コマンド(_M):"
+
+#: ../src/ptk/ptk-file-archiver.c:418
+msgid "Archive Handlers - Create Archive"
+msgstr "書庫ハンドラ - 書庫作成"
+
+#: ../src/ptk/ptk-file-archiver.c:419
+msgid ""
+"No archive handlers configured. You must add a handler before creating an "
+"archive."
+msgstr "書庫ハンドラが未設定です。書庫を作成する前にハンドラを追加しなくてはなりません。"
+
+#: ../src/ptk/ptk-file-archiver.c:503
+msgid "_Archive Format:"
+msgstr "書庫形式(_A):"
+
+#: ../src/ptk/ptk-file-archiver.c:663
+msgid "The archive creation command is empty.  Please enter a command."
+msgstr "書庫作成コマンドが空です。コマンドを入力してください。"
+
+#: ../src/ptk/ptk-file-archiver.c:692
+#, c-format
+msgid ""
+"The following variables should be in the archive creation command:\n"
+"\n"
+"One of the following:\n"
+"\n"
+"%%%%n: First selected file/directory to archive\n"
+"%%%%N: All selected files/directories to archive\n"
+"\n"
+"and one of the following:\n"
+"\n"
+"%%%%o: Resulting single archive\n"
+"%%%%O: Resulting archive per source file/directory (see %%%%n/%%%%N)\n"
+msgstr ""
+
+#: ../src/ptk/ptk-file-archiver.c:767 ../src/ptk/ptk-handler.c:2027
+msgid "Error Saving Handler"
+msgstr "ハンドラの保存エラー"
+
+#: ../src/ptk/ptk-file-archiver.c:864 ../src/ptk/ptk-file-archiver.c:1446
+#: ../src/ptk/ptk-file-archiver.c:1501 ../src/ptk/ptk-file-menu.c:2338
+#: ../src/vfs/vfs-file-task.c:137
+msgid "copy"
+msgstr "コピー"
+
+#. Creating task
+#: ../src/ptk/ptk-file-archiver.c:996 ../src/ptk/ptk-handler.c:1326
+#, c-format
+msgid "Archive"
+msgstr "書庫"
+
+#. It hasn't - generating dialog to ask user. Only dealing with
+#. * user-writable contents if the user isn't root
+#: ../src/ptk/ptk-file-archiver.c:1120
+msgid "Extract To"
+msgstr "展開先を指定"
+
+#: ../src/ptk/ptk-file-archiver.c:1160
+msgid "Cre_ate subfolder(s)"
+msgstr "サブフォルダ作成(_A)"
+
+#: ../src/ptk/ptk-file-archiver.c:1162
+msgid "Make contents user-_writable"
+msgstr ""
+
+#: ../src/ptk/ptk-file-archiver.c:1306
+msgid "No archive handler/command found for file:"
+msgstr ""
+
+#. Creating task
+#: ../src/ptk/ptk-file-archiver.c:1562
+#, c-format
+msgid "Extract %s"
+msgstr "展開 %s"
+
+#: ../src/ptk/ptk-console-output.c:74
+msgid ""
+"\n"
+"Complete!"
+msgstr "\n完了!"
+
+#: ../src/ptk/ptk-console-output.c:178
+msgid "Command:"
+msgstr "コマンド:"
+
+#: ../src/ptk/ptk-dir-tree.c:174
+msgid "File System"
+msgstr "ファイルシステム"
+
+#: ../src/ptk/ptk-dir-tree.c:405
+msgid "( no subfolder )"
+msgstr "( サブフォルダなし )"
+
+#: ../src/ptk/ptk-file-menu.c:1891
+msgid "Remove Text Type Association"
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:1891
+msgid ""
+"NOTE:  When compiling the list of applications to appear in the Open submenu"
+" for a text file, SpaceFM will include applications associated with the MIME"
+" type (eg text/html) AND applications associated with text/plain.  If you "
+"select Remove on an application, it will be removed as an associated "
+"application for the MIME type (eg text/html), but will NOT be removed as an "
+"associated application for text/plain (unless the MIME type is text/plain)."
+"  Thus using Remove may not remove the application from the Open submenu for"
+" this type, unless you also remove it from text/plain."
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:1907
+#, c-format
+msgid ""
+"The file '%s' does not exist.\n"
+"\n"
+"By copying '%s' to '%s' and editing it, you can adjust the behavior and appearance of this application for the current user.\n"
+"\n"
+"Create this copy now?"
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:1910
+msgid "Copy Desktop File"
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:2008
+#, c-format
+msgid ""
+"The file '%s' does not exist.\n"
+"\n"
+"By copying '%s' to '%s' and editing it, you can adjust how MIME type '%s' files are recognized for the current user.\n"
+"\n"
+"Create this copy now?"
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:2010
+#, c-format
+msgid ""
+"The file '%s' does not exist.\n"
+"\n"
+"By creating new file '%s' and editing it, you can define how MIME type '%s' files are recognized for the current user.\n"
+"\n"
+"Create this file now?"
+msgstr ""
+
+#: ../src/ptk/ptk-file-menu.c:2013
+msgid "Create New XML"
+msgstr "新規 XML 作成"
+
+#. Set Default
+#: ../src/ptk/ptk-file-menu.c:2307
+msgid "_Set As Default"
+msgstr "デフォルトに設定(_S)"
+
+#. Add
+#: ../src/ptk/ptk-file-menu.c:2317
+msgid "_Add..."
+msgstr "追加...(_A)"
+
+#: ../src/ptk/ptk-file-menu.c:2380 ../src/ptk/ptk-file-misc.c:1794
+msgid "new"
+msgstr "新規"
+
+#: ../src/ptk/ptk-file-misc.c:160
+#, c-format
+msgid "Delete %d selected item ?"
+msgid_plural "Delete %d selected items ?"
+msgstr[0] "%d 個の選択されたアイテムを削除しますか?"
+
+#. MOD
+#: ../src/ptk/ptk-file-misc.c:169
+msgid "Confirm Delete"
+msgstr "削除確認"
+
+#: ../src/ptk/ptk-file-misc.c:623
+msgid "<b>P_ath:</b>   <i>original</i>"
+msgstr "<b>パス(_a)</b> <i>元のまま</i>"
+
+#: ../src/ptk/ptk-file-misc.c:625
+msgid "<b>_Name:</b>   <i>original</i>"
+msgstr "<b>名前(_N)</b> <i>元のまま</i>"
+
+#: ../src/ptk/ptk-file-misc.c:627
+msgid "<b>_Filename:</b>   <i>original</i>"
+msgstr "<b>ファイル名(_F)</b> <i>元のまま</i>"
+
+#: ../src/ptk/ptk-file-misc.c:629
+msgid "<b>_Parent:</b>   <i>original</i>"
+msgstr "<b>親(_P)</b> <i>元のまま</i>"
+
+#: ../src/ptk/ptk-file-misc.c:635
+msgid "<b>P_ath:</b>   <i>exists as folder</i>"
+msgstr "<b>パス(_A)</b> <i>すでに存在しているフォルダ</i>"
+
+#: ../src/ptk/ptk-file-misc.c:637
+msgid "<b>_Name:</b>   <i>exists as folder</i>"
+msgstr "<b>名前(_N)</b> <i>すでに存在しているフォルダ</i>"
+
+#: ../src/ptk/ptk-file-misc.c:639
+msgid "<b>_Filename:</b>   <i>exists as folder</i>"
+msgstr "<b>ファイル名(_F)</b> <i>すでに存在しているフォルダ</i>"
+
+#: ../src/ptk/ptk-file-misc.c:640 ../src/ptk/ptk-file-misc.c:653
+#: ../src/ptk/ptk-file-misc.c:664 ../src/ptk/ptk-file-misc.c:701
+#: ../src/ptk/ptk-file-misc.c:2483
+msgid "<b>_Parent:</b>"
+msgstr "<b>親(_P)</b>"
+
+#: ../src/ptk/ptk-file-misc.c:648
+msgid "<b>P_ath:</b>   <i>exists as file</i>"
+msgstr "<b>パス(_a)</b> <i>すでに存在しているファイル</i>"
+
+#: ../src/ptk/ptk-file-misc.c:650
+msgid "<b>_Name:</b>   <i>exists as file</i>"
+msgstr "<b>名前(_N)</b> <i>すでに存在しているファイル</i>"
+
+#: ../src/ptk/ptk-file-misc.c:652
+msgid "<b>_Filename:</b>   <i>exists as file</i>"
+msgstr "<b>ファイル名(_F)</b> <i>すでに存在しているファイル</i>"
+
+#: ../src/ptk/ptk-file-misc.c:659
+msgid "<b>P_ath:</b>   <i>* overwrite existing file</i>"
+msgstr "<b>パス(_A)</b> <i>* 存在しているファイルを上書き</i>"
+
+#: ../src/ptk/ptk-file-misc.c:661
+msgid "<b>_Name:</b>   <i>* overwrite existing file</i>"
+msgstr "<b>名前(_N)</b> <i>* 存在しているファイルを上書き</i>"
+
+#: ../src/ptk/ptk-file-misc.c:663
+msgid "<b>_Filename:</b>   <i>* overwrite existing file</i>"
+msgstr "<b>ファイル名(_F)</b> <i>* 存在しているファイルを上書き</i>"
+
+#: ../src/ptk/ptk-file-misc.c:671
+msgid "<b>P_ath:</b>   <i>parent exists as file</i>"
+msgstr "<b>パス(_A)</b> <i>親にすでに存在しているファイル</i>"
+
+#: ../src/ptk/ptk-file-misc.c:673 ../src/ptk/ptk-file-misc.c:685
+#: ../src/ptk/ptk-file-misc.c:697 ../src/ptk/ptk-file-misc.c:2412
+msgid "<b>_Name:</b>"
+msgstr "<b>名前(_N)</b>"
+
+#: ../src/ptk/ptk-file-misc.c:675 ../src/ptk/ptk-file-misc.c:687
+#: ../src/ptk/ptk-file-misc.c:699 ../src/ptk/ptk-file-misc.c:2459
+msgid "<b>_Filename:</b>"
+msgstr "<b>ファイル名(_F)</b>"
+
+#: ../src/ptk/ptk-file-misc.c:677
+msgid "<b>_Parent:</b>   <i>parent exists as file</i>"
+msgstr "<b>親(_P)</b> <i>親にすでに存在しているファイル</i>"
+
+#: ../src/ptk/ptk-file-misc.c:683
+msgid "<b>P_ath:</b>   <i>* create parent</i>"
+msgstr "<b>パス(_A)</b> <i>* 親を作成</i>"
+
+#: ../src/ptk/ptk-file-misc.c:689
+msgid "<b>_Parent:</b>   <i>* create parent</i>"
+msgstr "<b>親(_P)</b> <i>* 親を作成</i>"
+
+#: ../src/ptk/ptk-file-misc.c:695 ../src/ptk/ptk-file-misc.c:2507
+msgid "<b>P_ath:</b>"
+msgstr "<b>パス(_A)</b>"
+
+#: ../src/ptk/ptk-file-misc.c:710 ../src/ptk/ptk-file-misc.c:1246
+msgid "_Move"
+msgstr "移動(_M)"
+
+#: ../src/ptk/ptk-file-misc.c:861
+msgid "Select Link Target"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:877
+msgid "Select Template File"
+msgstr "一時ファイルの選択"
+
+#: ../src/ptk/ptk-file-misc.c:896
+msgid "Select Template Folder"
+msgstr "一時フォルダの選択"
+
+#. action create folder does not work properly so not used:
+#. it creates a folder by default with no way to stop it
+#. it gives 'folder already exists' error popup
+#: ../src/ptk/ptk-file-misc.c:1038
+msgid "Browse"
+msgstr "参照"
+
+#: ../src/ptk/ptk-file-misc.c:1071
+msgid "Fil_ename"
+msgstr "ファイル名(_E)"
+
+#: ../src/ptk/ptk-file-misc.c:1073
+msgid "Pa_rent"
+msgstr "親(_R)"
+
+#: ../src/ptk/ptk-file-misc.c:1078
+msgid "Insert as"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:1223
+msgid "C_reate"
+msgstr "作成(_R)"
+
+#: ../src/ptk/ptk-file-misc.c:1224
+msgctxt "Title|"
+msgid "Create New"
+msgstr "新規作成"
+
+#: ../src/ptk/ptk-file-misc.c:1226
+msgctxt "Title|CreateNew|"
+msgid "File"
+msgstr "ファイル"
+
+#: ../src/ptk/ptk-file-misc.c:1228
+msgctxt "Title|CreateNew|"
+msgid "Folder"
+msgstr "フォルダ"
+
+#: ../src/ptk/ptk-file-misc.c:1230
+msgctxt "Title|CreateNew|"
+msgid "Link"
+msgstr "リンク"
+
+#: ../src/ptk/ptk-file-misc.c:1247 ../src/ptk/ptk-file-misc.c:2139
+msgid "Move"
+msgstr "移動"
+
+#: ../src/ptk/ptk-file-misc.c:1251 ../src/ptk/ptk-file-misc.c:1261
+msgid "C_opy"
+msgstr "コピー(_O)"
+
+#: ../src/ptk/ptk-file-misc.c:1252 ../src/ptk/ptk-file-misc.c:1262
+msgid "Copy"
+msgstr "コピー"
+
+#: ../src/ptk/ptk-file-misc.c:1257 ../src/ptk/ptk-file-misc.c:1268
+msgid "Create Link To"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:1263
+msgid "Link Target"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:1269
+msgid "Target"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:1274 ../src/ptk/ptk-file-misc.c:2838
+msgid " As Root"
+msgstr "root で"
+
+#: ../src/ptk/ptk-file-misc.c:2108
+msgid "Link"
+msgstr "リンク"
+
+#: ../src/ptk/ptk-file-misc.c:2112 ../src/ptk/ptk-handler.c:1332
+msgid "File"
+msgstr "ファイル"
+
+#. Buttons
+#: ../src/ptk/ptk-file-misc.c:2147 ../src/ptk/ptk-handler.c:2976
+msgid "Opt_ions"
+msgstr "オプション(_I)"
+
+#: ../src/ptk/ptk-file-misc.c:2163
+msgid "Re_vert"
+msgstr "元に戻す(_V)"
+
+#: ../src/ptk/ptk-file-misc.c:2183
+msgid "& _Open"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:2217
+#, c-format
+msgid "Link-> %s"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:2220
+#, c-format
+msgid "!Link-> %s (missing)"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:2276
+msgid "<b>_Target:</b>"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:2322
+msgid "<b>_Template:</b>"
+msgstr "<b>テンプレート(_T)</b>"
+
+#: ../src/ptk/ptk-file-misc.c:2338 ../src/ptk/ptk-file-misc.c:2942
+msgid "Empty File"
+msgstr "空のファイル"
+
+#: ../src/ptk/ptk-file-misc.c:2369 ../src/ptk/ptk-file-misc.c:3020
+msgid "Empty Folder"
+msgstr "空のフォルダ"
+
+#: ../src/ptk/ptk-file-misc.c:2437
+msgid "<b>E_xtension:</b>"
+msgstr "<b>拡張(_X):</b>"
+
+#. Options
+#: ../src/ptk/ptk-file-misc.c:2532
+msgid "Mov_e"
+msgstr "移動(_E)"
+
+#: ../src/ptk/ptk-file-misc.c:2534
+msgid "Cop_y"
+msgstr "コピー(_Y)"
+
+#: ../src/ptk/ptk-file-misc.c:2536
+msgid "Lin_k"
+msgstr "リンク(_K)"
+
+#: ../src/ptk/ptk-file-misc.c:2540
+msgid "Link Tar_get"
+msgstr "リンク先(_G)"
+
+#: ../src/ptk/ptk-file-misc.c:2541
+msgid "A_s Root"
+msgstr "root で(_S)"
+
+#: ../src/ptk/ptk-file-misc.c:2543
+msgctxt "New|Radio"
+msgid "Fil_e"
+msgstr "ファイル(_E)"
+
+#: ../src/ptk/ptk-file-misc.c:2545
+msgctxt "New|Radio"
+msgid "Fol_der"
+msgstr "フォルダ(_D)"
+
+#: ../src/ptk/ptk-file-misc.c:2547
+msgctxt "New|Radio"
+msgid "_Link"
+msgstr "リンク(_L)"
+
+#: ../src/ptk/ptk-file-misc.c:2650
+msgid "New"
+msgstr "新規"
+
+#: ../src/ptk/ptk-file-misc.c:2793
+msgid "Path contains linefeeds"
+msgstr "パスに改行が含まれています"
+
+#: ../src/ptk/ptk-file-misc.c:2848
+msgid "Create Parent Folder"
+msgstr "親フォルダ作成"
+
+#: ../src/ptk/ptk-file-misc.c:2850
+msgid "The parent folder does not exist.  Create it?"
+msgstr "親フォルダは存在しません。作成しますか?"
+
+#: ../src/ptk/ptk-file-misc.c:2863
+#, c-format
+msgid ""
+"Error creating parent folder\n"
+"\n"
+"%s"
+msgstr "親フォルダ作成エラー\n\n%s"
+
+#: ../src/ptk/ptk-file-misc.c:2866
+msgid "Mkdir Error"
+msgstr "ディレクトリ作成エラー"
+
+#: ../src/ptk/ptk-file-misc.c:2879
+msgid "Overwrite Existing File"
+msgstr "存在するファイルを上書き"
+
+#: ../src/ptk/ptk-file-misc.c:2881
+msgid "OVERWRITE WARNING"
+msgstr "上書きの警告"
+
+#: ../src/ptk/ptk-file-misc.c:2881
+msgid "The file path exists.  Overwrite existing file?"
+msgstr "ファイルパスは存在しています。上書きしますか?"
+
+#. new link task
+#. link task
+#: ../src/ptk/ptk-file-misc.c:2890 ../src/ptk/ptk-file-misc.c:3132
+#, c-format
+msgid "Create Link%s"
+msgstr "リンク作成 %s"
+
+#: ../src/ptk/ptk-file-misc.c:2952 ../src/ptk/ptk-file-misc.c:3030
+msgid "Template Missing"
+msgstr "テンプレートが見つかりません"
+
+#: ../src/ptk/ptk-file-misc.c:2953 ../src/ptk/ptk-file-misc.c:3031
+msgid "The specified template does not exist"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:2978
+#, c-format
+msgid "Create New File%s"
+msgstr "新規ファイル作成 %s"
+
+#: ../src/ptk/ptk-file-misc.c:3051
+#, c-format
+msgid "Create New Folder%s"
+msgstr "新規フォルダ作成 %s"
+
+#. copy task
+#: ../src/ptk/ptk-file-misc.c:3082
+#, c-format
+msgid "Copy%s"
+msgstr "コピー %s"
+
+#: ../src/ptk/ptk-file-misc.c:3095
+msgid "Copy Target Error"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:3096 ../src/ptk/ptk-file-misc.c:3144
+msgid "Error determining link's target"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:3143
+msgid "Link Target Error"
+msgstr ""
+
+#. move task - this is jumped to from the below rename block on
+#. EXDEV error
+#: ../src/ptk/ptk-file-misc.c:3178
+#, c-format
+msgid "Move%s"
+msgstr "移動 %s"
+
+#. Unknown error has occurred - alert user as usual
+#: ../src/ptk/ptk-file-misc.c:3217
+#, c-format
+msgid ""
+"Error renaming file\n"
+"\n"
+"%s"
+msgstr "ファイル名変更エラー\n\n%s"
+
+#: ../src/ptk/ptk-file-misc.c:3220 ../src/desktop/desktop-window.c:2061
+msgid "Rename Error"
+msgstr "名前変更エラー"
+
+#: ../src/ptk/ptk-file-misc.c:3391 ../src/ptk/ptk-file-misc.c:3393
+msgid "New Folder"
+msgstr "新規フォルダの作成"
+
+#: ../src/ptk/ptk-file-misc.c:3392
+msgid "New folder name:"
+msgstr "新規フォルダの名前:"
+
+#: ../src/ptk/ptk-file-misc.c:3398 ../src/ptk/ptk-file-misc.c:3400
+msgid "New File"
+msgstr "新規ファイルの作成"
+
+#: ../src/ptk/ptk-file-misc.c:3399
+msgid "New filename:"
+msgstr "新規ファイル名:"
+
+#: ../src/ptk/ptk-file-misc.c:3422
+msgid ""
+"Name already exists.\n"
+"\n"
+"Please input a new one:"
+msgstr "すでにその名前はあります。\n\n新しい名前を入力してください:"
+
+#: ../src/ptk/ptk-file-misc.c:3455
+msgid "The new file cannot be created"
+msgstr "新規ファイルを作成できません"
+
+#: ../src/ptk/ptk-file-misc.c:3910
+#, c-format
+msgid ""
+"This symlink's target is missing or you do not have permission to access it:\n"
+"%s\n"
+"\n"
+"Target: %s"
+msgstr ""
+
+#: ../src/ptk/ptk-file-misc.c:3916
+msgid "Broken Link"
+msgstr "壊れたリンク"
+
+#: ../src/ptk/ptk-file-misc.c:4087
+#, c-format
+msgid "Delete %d selected item as root ?"
+msgid_plural "Delete %d selected items as root ?"
+msgstr[0] "%d 個の選択されたアイテムを root で削除しますか?"
+
+#: ../src/ptk/ptk-file-misc.c:4091
+msgid "Confirm Delete As Root"
+msgstr "root による削除の確認"
+
+#: ../src/ptk/ptk-file-misc.c:4092
+msgid "DELETE AS ROOT"
+msgstr "root による削除"
+
+#: ../src/ptk/ptk-file-misc.c:4100
+msgid "Delete As Root"
+msgstr "root による削除"
+
+#: ../src/ptk/ptk-file-misc.c:4119
+msgid "Move As Root"
+msgstr "root による移動"
+
+#: ../src/ptk/ptk-file-misc.c:4125
+msgid "Copy As Root"
+msgstr "root によるコピー"
+
+#: ../src/ptk/ptk-file-properties.c:168 ../src/ptk/ptk-file-properties.c:172
+#, c-format
+msgid "%s ( %lu bytes )"
+msgstr "%s ( %lu bytes )"
+
+#: ../src/ptk/ptk-file-properties.c:179
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d フォルダ"
+
+#: ../src/ptk/ptk-file-properties.c:183
+#, c-format
+msgid "%d file, %s"
+msgid_plural "%d files, %s"
+msgstr[0] "%d ファイル, %s"
+
+#: ../src/ptk/ptk-file-properties.c:190
+#, c-format
+msgid "%d files"
+msgid_plural "%d files"
+msgstr[0] "%d ファイル"
+
+#: ../src/ptk/ptk-file-properties.c:341
+msgid "( multiple files )"
+msgstr "( 複数ファイル )"
+
+#: ../src/ptk/ptk-file-properties.c:443
+msgid "( multiple types )"
+msgstr "( 複数種類 )"
+
+#: ../src/ptk/ptk-file-properties.c:511
+msgid "Choose..."
+msgstr "選択..."
+
+#: ../src/ptk/ptk-file-properties.c:562
+msgid "<b>Folder _Name:</b>"
+msgstr "<b>フォルダ名(_N)</b>"
+
+#: ../src/ptk/ptk-file-properties.c:575 ../src/ptk/ptk-file-properties.c:582
+#, c-format
+msgid "%s  ( %lu bytes )"
+msgstr "%s  ( %lu bytes )"
+
+#: ../src/ptk/ptk-file-properties.c:586
+msgid "1 file"
+msgstr "1 ファイル"
+
+#: ../src/ptk/ptk-file-properties.c:623
+msgid "<b>Link _Name:</b>"
+msgstr "<b>リンク名(_N)</b>"
+
+#: ../src/ptk/ptk-file-properties.c:638
+msgid "( broken link )"
+msgstr "( 壊れたリンク )"
+
+#: ../src/ptk/ptk-file-properties.c:642
+msgid "( read link error )"
+msgstr "( リンク読み込みエラー )"
+
+#. The total file size displayed in "File Properties" is not
+#. completely calculated yet. So "Calculating..." is displayed.
+#: ../src/ptk/ptk-file-properties.c:653
+msgid "Calculating..."
+msgstr "計算中..."
+
+#: ../src/ptk/ptk-file-properties.c:843
+msgid "Change File Date"
+msgstr "ファイルの日付変更"
+
+#: ../src/ptk/ptk-file-properties.c:887
+msgid "Invalid User"
+msgstr "無効なユーザ"
+
+#: ../src/ptk/ptk-file-properties.c:898
+msgid "Invalid Group"
+msgstr "無効なグループ"
+
+#: ../src/ptk/ptk-path-entry.c:636
+#, c-format
+msgid ""
+"In addition to a folder or file path, commands can be entered in the Path Bar.  Prefixes:\n"
+"\t$\trun as task\n"
+"\t&\trun and forget\n"
+"\t+\trun in terminal\n"
+"\t!\trun as root\n"
+"Use:\n"
+"\t%%F\tselected files  or  %%f first selected file\n"
+"\t%%N\tselected filenames  or  %%n first selected filename\n"
+"\t%%d\tcurrent directory\n"
+"\t%%v\tselected device (eg /dev/sda1)\n"
+"\t%%m\tdevice mount point (eg /media/dvd);  %%l device label\n"
+"\t%%b\tselected bookmark\n"
+"\t%%t\tselected task directory;  %%p task pid\n"
+"\t%%a\tmenu item value\n"
+"\t$fm_panel, $fm_tab, $fm_command, etc\n"
+"\n"
+"Example:  $ echo \"Current Directory: %%d\"\n"
+"Example:  +! umount %%v"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:73
+msgid "Archive Handlers"
+msgstr "書庫ハンドラ"
+
+#: ../src/ptk/ptk-handler.c:74
+msgid "Device Handlers"
+msgstr "デバイスハンドラ"
+
+#: ../src/ptk/ptk-handler.c:75
+msgid "Protocol Handlers"
+msgstr "プロトコルハンドラ"
+
+#: ../src/ptk/ptk-handler.c:76
+msgid "File Handlers"
+msgstr "ファイルハンドラ"
+
+#: ../src/ptk/ptk-handler.c:81
+msgid "Archive Hand_lers"
+msgstr "書庫ハンドラ(_L)"
+
+#: ../src/ptk/ptk-handler.c:82
+msgid "Device Hand_lers"
+msgstr "デバイスハンドラ(_L)"
+
+#: ../src/ptk/ptk-handler.c:83
+msgid "Protocol Hand_lers"
+msgstr "プロトコルハンドラ(_L)"
+
+#: ../src/ptk/ptk-handler.c:84
+msgid "File Hand_lers"
+msgstr "ファイルハンドラ(_L)"
+
+#: ../src/ptk/ptk-handler.c:645 ../src/ptk/ptk-handler.c:657
+msgid "Error: unable to load command (internal error)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:671 ../src/ptk/ptk-handler.c:764
+msgid "Error: unable to save command (can't get script path?)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:744
+msgid "Error reading file"
+msgstr "ファイルの読み込みエラー"
+
+#: ../src/ptk/ptk-handler.c:757
+msgid "Error: unable to save command (internal error)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:828
+msgid "Error writing to file"
+msgstr "ファイルの書き込みエラー"
+
+#: ../src/ptk/ptk-handler.c:1328 ../src/item-prop.c:122
+msgid "Device"
+msgstr "デバイス"
+
+#: ../src/ptk/ptk-handler.c:1330
+msgid "Protocol"
+msgstr "プロトコル"
+
+#. failsafe
+#: ../src/ptk/ptk-handler.c:1335
+#, c-format
+msgid ""
+"The selected %s Handler file has been imported to the %s Handlers list."
+msgstr ""
+
+#. due to dialog run causes low level thread lock
+#: ../src/ptk/ptk-handler.c:1338
+msgid "Handler Imported"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:1353 ../src/ptk/ptk-handler.c:1537
+#: ../src/ptk/ptk-handler.c:1747 ../src/ptk/ptk-handler.c:1813
+msgid "(optional)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:1354 ../src/ptk/ptk-handler.c:1538
+#: ../src/ptk/ptk-handler.c:1748 ../src/ptk/ptk-handler.c:1814
+msgid "(disabled)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:1890
+msgid "Permanently remove the selected handler?"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2126 ../src/ptk/ptk-handler.c:2163
+msgid "Apply Changes ?"
+msgstr "変更を摘要しますか?"
+
+#: ../src/ptk/ptk-handler.c:2128 ../src/ptk/ptk-handler.c:2165
+msgid "Apply changes to the current handler?"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2247
+msgid "Restore Default Handlers"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2248
+msgid ""
+"Missing default handlers will be restored.\n"
+"\n"
+"Also OVERWRITE ALL EXISTING default handlers?"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2364
+msgid "Please enter a valid handler name."
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2376
+msgid "Please enter a valid MIME Type or Pathname pattern."
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2420
+#, c-format
+msgid ""
+"The following substitution variables should probably be in the compression command:\n"
+"\n"
+"One of the following:\n"
+"\n"
+"%%n: First selected file/directory to archive\n"
+"%%N: All selected files/directories to archive\n"
+"\n"
+"and one of the following:\n"
+"\n"
+"%%o: Resulting single archive\n"
+"%%O: Resulting archive per source file/directory"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2448
+#, c-format
+msgid ""
+"The following variables should probably be in the extraction command:\n"
+"\n"
+"%%x: Archive to extract"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2467
+#, c-format
+msgid ""
+"The following variables should probably be in the list command:\n"
+"\n"
+"%%x: Archive to list"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2749
+msgid "Choose Handler Plugin File"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2761
+msgid "Enter Handler Plugin URL"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2761
+msgid ""
+"Enter SpaceFM Handler Plugin URL:\n"
+"\n"
+"(wget will be used to download the handler plugin file)"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2854
+msgid "_Export"
+msgstr "エクスポート(_E)"
+
+#: ../src/ptk/ptk-handler.c:2858
+msgid "Import _File"
+msgstr "インポートファイル(_F)"
+
+#: ../src/ptk/ptk-handler.c:2860
+msgid "Import _URL"
+msgstr "インポート URL(_U)"
+
+#: ../src/ptk/ptk-handler.c:2862
+msgid "Restore _Default Handlers"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:2988
+msgid "Defa_ults"
+msgstr "デフォルト(_U)"
+
+#: ../src/ptk/ptk-handler.c:3085
+msgid "A_dd"
+msgstr "追加(_D)"
+
+#: ../src/ptk/ptk-handler.c:3093
+msgid "Appl_y"
+msgstr "適用(_Y)"
+
+#: ../src/ptk/ptk-handler.c:3102
+msgid "U_p"
+msgstr "上へ(_P)"
+
+#: ../src/ptk/ptk-handler.c:3111
+msgid "Do_wn"
+msgstr "下へ(_W)"
+
+#: ../src/ptk/ptk-handler.c:3123
+msgid "Ena_ble as a default opener"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:3124
+msgid "Ena_ble Handler"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:3131
+msgid "_Name:"
+msgstr "名前(_N):"
+
+#: ../src/ptk/ptk-handler.c:3137
+msgid "MIM_E Type:"
+msgstr "MIME タイプ(_E):"
+
+#: ../src/ptk/ptk-handler.c:3138
+msgid "Whit_elist:"
+msgstr "ホワイトリスト(_E):"
+
+#: ../src/ptk/ptk-handler.c:3144
+msgid "P_athname:"
+msgstr "パス名(_A):"
+
+#: ../src/ptk/ptk-handler.c:3145
+msgid "Bl_acklist:"
+msgstr "ブラックリスト(_A):"
+
+#: ../src/ptk/ptk-handler.c:3152
+msgid "_Icon:"
+msgstr "アイコン(_I):"
+
+#: ../src/ptk/ptk-handler.c:3160
+msgid "<b>Co_mpress:</b>"
+msgstr "<b>圧縮(_M):</b>"
+
+#: ../src/ptk/ptk-handler.c:3162
+msgid "<b>Open Co_mmand:</b>"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:3164
+msgid "<b>_Mount:</b>"
+msgstr "<b>マウント(_M):</b>"
+
+#: ../src/ptk/ptk-handler.c:3170
+msgid "<b>Ex_tract:</b>"
+msgstr "<b>展開(_T):</b>"
+
+#: ../src/ptk/ptk-handler.c:3171
+msgid "<b>Unmoun_t:</b>"
+msgstr "<b>アンマウント(_T):</b>"
+
+#: ../src/ptk/ptk-handler.c:3176
+msgid "<b>Li_st:</b>"
+msgstr "<b>リスト(_S):</b>"
+
+#: ../src/ptk/ptk-handler.c:3177
+msgid "<b>Propertie_s:</b>"
+msgstr "<b>プロパティ(_S):</b>"
+
+#: ../src/ptk/ptk-handler.c:3307 ../src/ptk/ptk-handler.c:3311
+#: ../src/ptk/ptk-handler.c:3313 ../src/item-prop.c:2162
+msgid "Run In Terminal"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:3310 ../src/item-prop.c:2142
+msgid "Run As Task"
+msgstr ""
+
+#: ../src/ptk/ptk-handler.c:3329 ../src/ptk/ptk-handler.c:3335
+#: ../src/ptk/ptk-handler.c:3341
+msgid "Edit"
+msgstr "編集"
+
+#: ../src/ptk/ptk-app-chooser.c:242
+msgid "Please choose an application:"
+msgstr "アプリケーションを選択してください:"
+
+#: ../src/ptk/ptk-app-chooser.c:498
+#, c-format
+msgid ""
+"Note:  MIME type '%s' is currently set to open with the '%s' file handler, rather than with your associated MIME application.\n"
+"\n"
+"You may also need to disable this handler in Open|File Handlers for this type to be opened with your associated application by default."
+msgstr ""
+
+#: ../src/ptk/ptk-app-chooser.c:501 ../src/ptk/ptk-app-chooser.c:517
+msgid "MIME Type Has Handler"
+msgstr ""
+
+#: ../src/ptk/ptk-app-chooser.c:514
+#, c-format
+msgid ""
+"Note:  MIME type '%s' is currently set to open with the '%s' archive handler, rather than with your associated MIME application.\n"
+"\n"
+"You may also need to disable this handler in Open|Archive Defaults|Archive Handlers, OR select global option Open|Archive Defaults|Open With App, for this type to be opened with your associated application by default."
+msgstr ""
+
+#: ../src/vfs/vfs-app-desktop.c:605
+msgid "Command not found"
+msgstr "コマンドが見つかりません"
+
+#: ../src/vfs/vfs-file-info.c:503 ../src/vfs/vfs-file-info.c:508
+#: ../src/vfs/vfs-file-info.c:602 ../src/vfs/vfs-file-info.c:607
+msgid "T"
+msgstr "T"
+
+#: ../src/vfs/vfs-file-info.c:521 ../src/vfs/vfs-file-info.c:526
+#: ../src/vfs/vfs-file-info.c:620 ../src/vfs/vfs-file-info.c:625
+msgid "G"
+msgstr "G"
+
+#: ../src/vfs/vfs-file-info.c:540 ../src/vfs/vfs-file-info.c:545
+#: ../src/vfs/vfs-file-info.c:639 ../src/vfs/vfs-file-info.c:644
+msgid "M"
+msgstr "M"
+
+#: ../src/vfs/vfs-file-info.c:558 ../src/vfs/vfs-file-info.c:563
+#: ../src/vfs/vfs-file-info.c:657 ../src/vfs/vfs-file-info.c:662
+msgid "K"
+msgstr "K"
+
+#. unit = size > 1 ? "Bytes" : "Byte";
+#: ../src/vfs/vfs-file-info.c:568 ../src/vfs/vfs-file-info.c:668
+msgid "B"
+msgstr "B"
+
+#: ../src/vfs/vfs-file-task.c:294
+#, c-format
+msgid "Destination directory \"%1$s\" is contained in source \"%2$s\""
+msgstr "送り先 \"%1$s\" は 送り元 \"%2$s\" に含まれています"
+
+#: ../src/vfs/vfs-file-task.c:381 ../src/vfs/vfs-file-task.c:526
+#: ../src/vfs/vfs-file-task.c:634 ../src/vfs/vfs-file-task.c:687
+#: ../src/vfs/vfs-file-task.c:835 ../src/vfs/vfs-file-task.c:866
+#: ../src/vfs/vfs-file-task.c:951 ../src/vfs/vfs-file-task.c:1093
+#: ../src/vfs/vfs-file-task.c:2114
+msgid "Accessing"
+msgstr "アクセス中"
+
+#: ../src/vfs/vfs-file-task.c:456 ../src/vfs/vfs-file-task.c:492
+#: ../src/vfs/vfs-file-task.c:510 ../src/vfs/vfs-file-task.c:555
+#: ../src/vfs/vfs-file-task.c:595 ../src/vfs/vfs-file-task.c:619
+#: ../src/vfs/vfs-file-task.c:899 ../src/vfs/vfs-file-task.c:908
+#: ../src/vfs/vfs-file-task.c:976
+msgid "Removing"
+msgstr "削除中"
+
+#: ../src/vfs/vfs-file-task.c:465
+msgid "Creating Dir"
+msgstr "ディレクトリ作成中"
+
+#: ../src/vfs/vfs-file-task.c:520 ../src/vfs/vfs-file-task.c:984
+msgid "Creating Link"
+msgstr "リンク作成中"
+
+#: ../src/vfs/vfs-file-task.c:584
+msgid "Writing"
+msgstr "書き込み中"
+
+#: ../src/vfs/vfs-file-task.c:627
+msgid "Creating"
+msgstr "作成中"
+
+#: ../src/vfs/vfs-file-task.c:751
+msgid "Renaming"
+msgstr "名前変更中"
+
+#: ../src/vfs/vfs-file-task.c:1386
+msgid ""
+"Please install /usr/bin/sha256sum so I can improve your security while "
+"running root commands\n"
+msgstr "root コマンドを実行する際のセキュリティを改善するために /usr/bin/sha256sum をインストールしてください\n"
+
+#: ../src/vfs/vfs-file-task.c:1478
+msgid ""
+"Please configure a valid Terminal SU command in View|Preferences|Advanced"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1483
+msgid "Terminal SU Not Available"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1489
+msgid ""
+"Please configure a valid Graphical SU command in View|Preferences|Advanced"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1494
+msgid "Graphical SU Not Available"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1508
+msgid "Cannot create temporary directory"
+msgstr "一時ディレクトリが作成できません"
+
+#: ../src/vfs/vfs-file-task.c:1540
+msgid "Please set a valid terminal program in View|Preferences|Advanced"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1843
+msgid "spacefm-auth not found in path - this reduces your security"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:1946
+#, c-format
+msgid ""
+"Error executing '%s'\n"
+"See stdout (run spacefm in a terminal) for debug info"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:2014
+msgid "Error writing temporary file"
+msgstr "一時ファイルの書き込みエラー"
+
+#: ../src/vfs/vfs-file-task.c:2198
+msgid "Timed out calculating total size\n"
+msgstr ""
+
+#: ../src/vfs/vfs-file-task.c:2532
+#, c-format
+msgid ""
+"\n"
+"%s %s\n"
+"Error: %s\n"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-hal.c:467 ../src/vfs/vfs-volume-hal.c:690
+#, c-format
+msgid "%s Volume"
+msgstr "%s ボリューム"
+
+#: ../src/vfs/vfs-volume-hal.c:482
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../src/vfs/vfs-volume-hal.c:484
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../src/vfs/vfs-volume-hal.c:486
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../src/vfs/vfs-volume-hal.c:490
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../src/vfs/vfs-volume-hal.c:492
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../src/vfs/vfs-volume-hal.c:494
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../src/vfs/vfs-volume-hal.c:496
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../src/vfs/vfs-volume-hal.c:498
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../src/vfs/vfs-volume-hal.c:500
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../src/vfs/vfs-volume-hal.c:509
+#, c-format
+msgid "%s/%s Drive"
+msgstr "%s/%s ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:511
+#, c-format
+msgid "%s Drive"
+msgstr "%s ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:516
+msgid "Floppy Drive"
+msgstr "フロッピードライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:519
+msgid "Compact Flash Drive"
+msgstr "コンパクトフラッシュドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:521
+msgid "Memory Stick Drive"
+msgstr "メモリースティックドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:523
+msgid "Smart Media Drive"
+msgstr "スマートメディアドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:525
+msgid "SD/MMC Drive"
+msgstr "SD/MMC ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:527
+msgid "Zip Drive"
+msgstr "Zip ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:530
+msgid "Jaz Drive"
+msgstr "Jaz ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:533
+msgid "Pen Drive"
+msgstr "USB フラッシュドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:539
+#, c-format
+msgid "%s %s Music Player"
+msgstr "%s %s ミュージックプレーヤ"
+
+#: ../src/vfs/vfs-volume-hal.c:547
+#, c-format
+msgid "%s %s Digital Camera"
+msgstr "%s %s デジタルカメラ"
+
+#: ../src/vfs/vfs-volume-hal.c:578
+msgid "Drive"
+msgstr "ドライブ"
+
+#: ../src/vfs/vfs-volume-hal.c:583
+#, c-format
+msgid "External %s"
+msgstr "外付け %s"
+
+#: ../src/vfs/vfs-volume-hal.c:617
+msgid "CD-ROM Disc"
+msgstr "CD-ROM ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:622
+msgid "Blank CD-R Disc"
+msgstr "空の CD-R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:624
+msgid "CD-R Disc"
+msgstr "CD-R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:629
+msgid "Blank CD-RW Disc"
+msgstr "空の CD-RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:631
+msgid "CD-RW Disc"
+msgstr "CD-RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:635
+msgid "DVD-ROM Disc"
+msgstr "DVD-ROM ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:640
+msgid "Blank DVD-RAM Disc"
+msgstr "空の DVD-RAM ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:642
+msgid "DVD-RAM Disc"
+msgstr "DVD-RAM ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:647
+msgid "Blank DVD-R Disc"
+msgstr "空の DVD-R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:649
+msgid "DVD-R Disc"
+msgstr "DVD-R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:654
+msgid "Blank DVD-RW Disc"
+msgstr "空の DVD-RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:656
+msgid "DVD-RW Disc"
+msgstr "DVD-RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:662
+msgid "Blank DVD+R Disc"
+msgstr "空の DVD+R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:664
+msgid "DVD+R Disc"
+msgstr "DVD+R ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:669
+msgid "Blank DVD+RW Disc"
+msgstr "空の DVD+RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:671
+msgid "DVD+RW Disc"
+msgstr "DVD+RW ディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:678
+msgid "Audio Disc"
+msgstr "オーディオディスク"
+
+#: ../src/vfs/vfs-volume-hal.c:688
+#, c-format
+msgid "%s Removable Volume"
+msgstr "%s のリムーバルボリューム"
+
+#: ../src/vfs/vfs-volume-hal.c:696
+msgid "Volume"
+msgstr "ボリューム"
+
+#: ../src/vfs/vfs-volume-hal.c:1092
+#, c-format
+msgid "Failed to connect to the HAL daemon: %s"
+msgstr "HAL デーモンへの接続に失敗しました: %s"
+
+#. definitely not a device that we're able to mount, eject or unmount
+#: ../src/vfs/vfs-volume-hal.c:1936 ../src/vfs/vfs-volume-hal.c:1992
+#, c-format
+msgid "Given device \"%s\" is not a volume or drive"
+msgstr "指定されたデバイス \"%s\" はボリュームやドライブではありません"
+
+#. tell the caller that no matching device was found
+#: ../src/vfs/vfs-volume-hal.c:2068
+#, c-format
+msgid "Device \"%s\" not found in file system device table"
+msgstr "デバイス \"%s\" はファイルシステムデバイスの一覧にありません"
+
+#: ../src/vfs/vfs-volume-hal.c:2251
+#, c-format
+msgid "You are not privileged to mount the volume \"%s\""
+msgstr "あなたにはボリューム \"%s\" をマウントする権限はありません"
+
+#: ../src/vfs/vfs-volume-hal.c:2252
+#, c-format
+msgid "You are not privileged to unmount the volume \"%s\""
+msgstr "あなたにはボリューム \"%s\" をアンマウントする権限はありません"
+
+#: ../src/vfs/vfs-volume-hal.c:2253
+#, c-format
+msgid "You are not privileged to eject the volume \"%s\""
+msgstr "あなたにはボリューム \"%s\" を取り出す権限はありません"
+
+#. TODO: slim down mount options to what is allowed, cf.
+#. volume.mount.valid_options
+#: ../src/vfs/vfs-volume-hal.c:2265
+#, c-format
+msgid "Invalid mount option when attempting to mount the volume \"%s\""
+msgstr "ボリューム \"%s\" をマウントしようとしましたが、マウントオプションが不正です"
+
+#: ../src/vfs/vfs-volume-hal.c:2267
+#, c-format
+msgid ""
+"The volume \"%s\" uses the <i>%s</i> file system which is not supported by "
+"your system"
+msgstr "ボリューム \"%s\" は、このシステムが非対応の <i>%s</i> ファイルシステムです"
+
+#: ../src/vfs/vfs-volume-hal.c:2269
+#, c-format
+msgid "An application is preventing the volume \"%s\" from being unmounted"
+msgstr "ボリューム \"%s\" のアンマウントを妨げているアプリケーションがあります"
+
+#: ../src/vfs/vfs-volume-hal.c:2271
+#, c-format
+msgid "The volume \"%s\" is not mounted"
+msgstr "ボリューム \"%s\" はマウントされていません"
+
+#: ../src/vfs/vfs-volume-hal.c:2273
+#, c-format
+msgid "Error <i>%s</i>"
+msgstr "エラー <i>%s</i>"
+
+#. TRANSLATORS: HAL can only unmount volumes that were mounted via HAL.
+#: ../src/vfs/vfs-volume-hal.c:2276
+#, c-format
+msgid "The volume \"%s\" was probably mounted manually on the command line"
+msgstr "ボリューム \"%s\" は、おそらくコマンドラインで手動でマウントされたものです"
+
+#: ../src/vfs/vfs-volume-hal.c:2284
+#, c-format
+msgid ""
+"Blank discs cannot be mounted, use a CD recording application to record "
+"audio or data on the disc"
+msgstr "空のディスクはマウントできません。オーディオやデータを記録するには書き込みソフトを使用してください"
+
+#: ../src/vfs/vfs-volume-hal.c:2295
+#, c-format
+msgid ""
+"Audio CDs cannot be mounted, use music players to play the audio tracks"
+msgstr "オーディオCDはマウントできません。再生するには音楽プレーヤを使用してください"
+
+#: ../src/vfs/vfs-volume-nohal.c:2370
+#, c-format
+msgid ":floppy"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:2391
+#, c-format
+msgid ":optical"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:2436
+#, c-format
+msgid "[blank]"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:2440
+#, c-format
+msgid "[audio]"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:2454
+#, c-format
+msgid "[no media]"
+msgstr "[メディアなし]"
+
+#: ../src/vfs/vfs-volume-nohal.c:3391
+msgid "Selected Device Handler"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:3392
+msgid "Selected Protocol Handler"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:3663
+#, c-format
+msgid "( no udev device )"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:3967
+#, c-format
+msgid ""
+"\n"
+"Autoexec: %s\n"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:4009
+#, c-format
+msgid ""
+"\n"
+"Auto Open Tab for %s in %s\n"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:4056
+#, c-format
+msgid ""
+"\n"
+"Auto-Unmount: %s\n"
+msgstr "\n自動アンマウント: %s\n"
+
+#: ../src/vfs/vfs-volume-nohal.c:4061
+#, c-format
+msgid ""
+"\n"
+"Auto-Unmount: error: no unmount command available\n"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:4080
+#, c-format
+msgid ""
+"\n"
+"Automount: %s\n"
+msgstr "\n自動マウント: %s\n"
+
+#: ../src/vfs/vfs-volume-nohal.c:4085
+#, c-format
+msgid ""
+"\n"
+"Automount: error: no mount command available\n"
+msgstr ""
+
+#: ../src/vfs/vfs-volume-nohal.c:4310
+#, c-format
+msgid "Unmount-If-Mounted: %s\n"
+msgstr ""
+
+#: ../src/desktop/desktop-window.c:2027
+#, c-format
+msgid ""
+"You do not have permission to edit the contents of file %s\n"
+"\n"
+"Consider copying the file to the desktop, or link to a copy placed in ~/.local/share/applications/"
+msgstr ""
+
+#: ../src/desktop/desktop-window.c:2028
+msgid "Unable To Rename"
+msgstr "名前を変更することができません"
+
+#: ../src/desktop/desktop-window.c:2037
+#, c-format
+msgid ""
+"Enter new desktop item name:\n"
+"\n"
+"Changing the name of this desktop item requires modifying the contents of desktop file %s"
+msgstr ""
+
+#: ../src/desktop/desktop-window.c:2039
+msgid "Change Desktop Item Name"
+msgstr ""
+
+#: ../src/desktop/desktop-window.c:2061
+msgid "An error occured renaming this desktop item."
+msgstr ""
+
+#: ../src/find-files.c:279
+msgid "Open Containing _Folder"
+msgstr "所属するフォルダを開く(_F)"
+
+#: ../src/find-files.c:776
+msgid "Select a folder"
+msgstr "フォルダの選択"
+
+#: ../src/find-files.c:825
+msgid "Browse..."
+msgstr "参照..."
+
+#: ../src/find-files.c:849
+msgid "Local Volumes"
+msgstr "ローカルボリューム"
+
+#: ../src/find-files.c:937
+msgid "Last Modified"
+msgstr "最終更新時刻"
+
+#: ../src/item-prop.c:22
+msgid ""
+"Enter program or bash command line(s):\n"
+"\n"
+"Use:\n"
+"\t%F\tselected files  or  %f first selected file\n"
+"\t%N\tselected filenames  or  %n first selected filename\n"
+"\t%d\tcurrent directory\n"
+"\t%v\tselected device (eg /dev/sda1)\n"
+"\t%m\tdevice mount point (eg /media/dvd);  %l device label\n"
+"\t%b\tselected bookmark\n"
+"\t%t\tselected task directory;  %p task pid\n"
+"\t%a\tmenu item value\n"
+"\t$fm_panel, $fm_tab, $fm_command, etc"
+msgstr "プログラムか bash コマンドライン行を入力してください:\n\n要素:\n\t%F\t選択されているファイル、%f は最初に選択されているファイル\n\t%N\t選択されているファイル名、%n は最初に選択されているファイル名\n\t%d\tカレントディレクトリ\n\t%v\t選択されているデバイス (例 /dev/sda1)\n\t%m\tデバイスのマウントポイント (例 /media/dvd); %l デバイスラベル\n\t%b\t選択されているブックマーク\n\t%t\t選択されているたすくでぃれくとり; %p タスク pid\n\t%a\t選択されているメニューアイテム値\n\t%fm_panel, %fm_tab, %fm_command, 等々"
+
+#: ../src/item-prop.c:106
+msgid "MIME Type"
+msgstr "MIME タイプ"
+
+#: ../src/item-prop.c:107
+msgid "Filename"
+msgstr "ファイル名"
+
+#: ../src/item-prop.c:108
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: ../src/item-prop.c:109
+msgid "Dir Write Access"
+msgstr ""
+
+#: ../src/item-prop.c:110
+msgid "File Is Text"
+msgstr ""
+
+#: ../src/item-prop.c:111
+msgid "File Is Dir"
+msgstr ""
+
+#: ../src/item-prop.c:112
+msgid "File Is Link"
+msgstr ""
+
+#: ../src/item-prop.c:113
+msgid "User Is Root"
+msgstr ""
+
+#: ../src/item-prop.c:114
+msgid "Multiple Selected"
+msgstr ""
+
+#: ../src/item-prop.c:115
+msgid "Clipboard Has Files"
+msgstr ""
+
+#: ../src/item-prop.c:116
+msgid "Clipboard Has Text"
+msgstr ""
+
+#: ../src/item-prop.c:117
+msgid "Current Panel"
+msgstr "現在のパネル"
+
+#: ../src/item-prop.c:118
+msgid "Panel Count"
+msgstr "パネルの数"
+
+#: ../src/item-prop.c:119
+msgid "Current Tab"
+msgstr "現在のタブ"
+
+#: ../src/item-prop.c:120
+msgid "Tab Count"
+msgstr "タブの数"
+
+#: ../src/item-prop.c:121 ../src/item-prop.c:221
+msgid "Bookmark"
+msgstr "ブックマーク"
+
+#: ../src/item-prop.c:123
+msgid "Device Mount Point"
+msgstr "デバイスのマウントポイント"
+
+#: ../src/item-prop.c:124
+msgid "Device Label"
+msgstr "デバイスラベル"
+
+#: ../src/item-prop.c:125
+msgid "Device FSType"
+msgstr "デバイス FSType"
+
+#: ../src/item-prop.c:126
+msgid "Device UDI"
+msgstr "デバイス UDI"
+
+#: ../src/item-prop.c:127
+msgid "Device Properties"
+msgstr "デバイスのプロパティ"
+
+#: ../src/item-prop.c:128
+msgid "Task Count"
+msgstr ""
+
+#: ../src/item-prop.c:129
+msgid "Task Directory"
+msgstr "タスクのディレクトリ"
+
+#: ../src/item-prop.c:130
+msgid "Task Type"
+msgstr "タスクの種類"
+
+#: ../src/item-prop.c:131
+msgid "Task Name"
+msgstr "タスクの名称"
+
+#: ../src/item-prop.c:132
+msgid "Panel 1 Directory"
+msgstr "パネル 1 ディレクトリ"
+
+#: ../src/item-prop.c:133
+msgid "Panel 2 Directory"
+msgstr "パネル 2 ディレクトリ"
+
+#: ../src/item-prop.c:134
+msgid "Panel 3 Directory"
+msgstr "パネル 3 ディレクトリ"
+
+#: ../src/item-prop.c:135
+msgid "Panel 4 Directory"
+msgstr "パネル 4 ディレクトリ"
+
+#: ../src/item-prop.c:136
+msgid "Panel 1 Has Sel"
+msgstr ""
+
+#: ../src/item-prop.c:137
+msgid "Panel 2 Has Sel"
+msgstr ""
+
+#: ../src/item-prop.c:138
+msgid "Panel 3 Has Sel"
+msgstr ""
+
+#: ../src/item-prop.c:139
+msgid "Panel 4 Has Sel"
+msgstr ""
+
+#: ../src/item-prop.c:140
+msgid "Panel 1 Device"
+msgstr "パネル 1 デバイス"
+
+#: ../src/item-prop.c:141
+msgid "Panel 2 Device"
+msgstr "パネル 2 デバイス"
+
+#: ../src/item-prop.c:142
+msgid "Panel 3 Device"
+msgstr "パネル 3 デバイス"
+
+#: ../src/item-prop.c:143
+msgid "Panel 4 Device"
+msgstr "パネル 4 デバイス"
+
+#: ../src/item-prop.c:205
+msgid "equals"
+msgstr "等しい"
+
+#: ../src/item-prop.c:206
+msgid "doesn't equal"
+msgstr "等しくない"
+
+#: ../src/item-prop.c:207
+msgid "contains"
+msgstr "含む"
+
+#: ../src/item-prop.c:208
+msgid "doesn't contain"
+msgstr "含まない"
+
+#: ../src/item-prop.c:209
+msgid "begins with"
+msgstr "～で始まる"
+
+#: ../src/item-prop.c:210
+msgid "doesn't begin with"
+msgstr "～で始まらない"
+
+#: ../src/item-prop.c:211
+msgid "ends with"
+msgstr "～で終わる"
+
+#: ../src/item-prop.c:212
+msgid "doesn't end with"
+msgstr "～で終わらない"
+
+#: ../src/item-prop.c:213
+msgid "is less than"
+msgstr "～より小さい"
+
+#: ../src/item-prop.c:214
+msgid "is greater than"
+msgstr "〜より大きい"
+
+#: ../src/item-prop.c:215
+msgid "matches"
+msgstr "一致"
+
+#: ../src/item-prop.c:216
+msgid "doesn't match"
+msgstr "一致しない"
+
+#: ../src/item-prop.c:222
+msgid "Application"
+msgstr "アプリケーション"
+
+#: ../src/item-prop.c:223
+msgid "Command"
+msgstr "コマンド"
+
+#: ../src/item-prop.c:493
+msgid "Current: Show"
+msgstr "現在: 表示"
+
+#: ../src/item-prop.c:498
+msgid "Current: Hide"
+msgstr "現在: 非表示"
+
+#: ../src/item-prop.c:500
+msgid "Current: Disable"
+msgstr "現在: 無効"
+
+#: ../src/item-prop.c:504
+msgid "Current: Enable"
+msgstr "現在: 有効"
+
+#: ../src/item-prop.c:839
+msgid "Save Modified Script?"
+msgstr "変更されたスクリプトを保存しますか？"
+
+#: ../src/item-prop.c:841
+msgid "Save your changes to the command script?"
+msgstr "変更をコマンドスクリプトに保存しますか？"
+
+#: ../src/item-prop.c:846
+msgid "Overwrite Script?"
+msgstr "スクリプトを上書きしますか?"
+
+#: ../src/item-prop.c:848
+msgid ""
+"The command script on disk has changed.\n"
+"\n"
+"Do you want to overwrite it?"
+msgstr "ディスク上のコマンドスクリプトが変更されました。\n\n上書きしてよろしいですか？"
+
+#: ../src/item-prop.c:902 ../src/item-prop.c:2257
+msgid "Command Dir"
+msgstr "コマンドディレクトリー"
+
+#: ../src/item-prop.c:903 ../src/item-prop.c:2258 ../src/item-prop.c:2267
+msgid "(no files)"
+msgstr "(ファイルなし)"
+
+#: ../src/item-prop.c:980
+msgid ""
+"The command line does not begin with a text file (script) to be opened, or "
+"the script was not found in your $PATH."
+msgstr ""
+
+#: ../src/item-prop.c:1100
+msgid "Targets:  (a semicolon-separated list of paths or URLs)"
+msgstr "ターゲット: (セミコロンで区切られたパスリストか URL)"
+
+#: ../src/item-prop.c:1110
+msgid "Target:  (a .desktop or executable file)"
+msgstr "対象: (.desktop または実行ファイル)"
+
+#: ../src/item-prop.c:1269
+msgid "Choose Executable"
+msgstr ""
+
+#: ../src/item-prop.c:1360
+msgid "Command Line Too Long"
+msgstr "コマンドラインが長すぎます"
+
+#: ../src/item-prop.c:1362
+msgid ""
+"Your command line is greater than 2000 characters and may be truncated when "
+"saved.  Consider using a command script instead by selecting Script on the "
+"Command tab."
+msgstr "あなたのコマンドラインは 2000 文字より長く、保存時に切り取られるかもしれません。コマンドタブでスクリプトを選択する代わりにコマンドスクリプトの使用を考えてください。"
+
+#: ../src/item-prop.c:1599
+msgid "Toolbar Item Properties"
+msgstr "ツールバーアイテムのプロパティ"
+
+#: ../src/item-prop.c:1600
+msgid "Menu Item Properties"
+msgstr "メニューアイテムのプロパティ"
+
+#: ../src/item-prop.c:1638
+msgid "_Toolbar Item"
+msgstr "ツールバーアイテム(_T)"
+
+#: ../src/item-prop.c:1639
+msgid "_Menu Item"
+msgstr "メニューアイテム(_M)"
+
+#: ../src/item-prop.c:1647
+msgid "Type:"
+msgstr "種類:"
+
+#: ../src/item-prop.c:1658
+msgid "Name:"
+msgstr "名前:"
+
+#: ../src/item-prop.c:1667
+msgid "Key:"
+msgstr "キー:"
+
+#: ../src/item-prop.c:1677
+msgid "Icon:"
+msgstr "アイコン:"
+
+#: ../src/item-prop.c:1769
+msgid "Con_text"
+msgstr "コンテキスト(_T)"
+
+#: ../src/item-prop.c:1820
+msgid "A_pply"
+msgstr "適用(_P)"
+
+#: ../src/item-prop.c:1852
+msgid "matches any rule:"
+msgstr "いずれかのルールと一致:"
+
+#: ../src/item-prop.c:1854
+msgid "matches all rules:"
+msgstr "すべてのルールと一致:"
+
+#: ../src/item-prop.c:1856
+msgid "doesn't match any rule:"
+msgstr "いずれのルールとも一致しない:"
+
+#: ../src/item-prop.c:1858
+msgid "doesn't match all rules:"
+msgstr "すべてのルールと一致しない:"
+
+#: ../src/item-prop.c:1865
+msgid "Show"
+msgstr "表示"
+
+#: ../src/item-prop.c:1867
+msgid "Enable"
+msgstr "有効"
+
+#: ../src/item-prop.c:1869
+msgid "Hide"
+msgstr "隠す"
+
+#: ../src/item-prop.c:1871
+msgid "Disable"
+msgstr "無効"
+
+#: ../src/item-prop.c:1901
+msgid "item if context"
+msgstr ""
+
+#: ../src/item-prop.c:1929
+msgid "Edit Rule"
+msgstr "編集ルール"
+
+#: ../src/item-prop.c:1946
+msgid "Value:"
+msgstr "値:"
+
+#: ../src/item-prop.c:1959
+msgid "If enabled, use as handler for:"
+msgstr ""
+
+#: ../src/item-prop.c:1964
+msgid "none"
+msgstr "なし"
+
+#: ../src/item-prop.c:1966
+msgid "files"
+msgstr "ファイル"
+
+#: ../src/item-prop.c:1968
+msgid "devices"
+msgstr "デバイス"
+
+#: ../src/item-prop.c:1976
+msgid "_Ignore Context / Show All  (global setting)"
+msgstr ""
+
+#: ../src/item-prop.c:2071
+msgid "Comm_and"
+msgstr "コマンド(_a)"
+
+#: ../src/item-prop.c:2075
+msgid "Command _Line"
+msgstr "コマンドライン(_L)"
+
+#: ../src/item-prop.c:2077
+msgid "_Script"
+msgstr "スクリプト(_S)"
+
+#: ../src/item-prop.c:2082
+msgid "Open In _Editor"
+msgstr "エディタで開く(_E)"
+
+#: ../src/item-prop.c:2088
+msgid "_Root Editor"
+msgstr "root エディタ(_R)"
+
+#: ../src/item-prop.c:2131
+msgid "Optio_ns"
+msgstr "オプション(_N)"
+
+#: ../src/item-prop.c:2133
+msgid "Run Options"
+msgstr "オプション実行"
+
+#: ../src/item-prop.c:2146
+msgid "Popup Task"
+msgstr "ポップアップタスク"
+
+#: ../src/item-prop.c:2147
+msgid "Popup Error"
+msgstr "ポップアップエラー"
+
+#: ../src/item-prop.c:2148
+msgid "Popup Output"
+msgstr "ポップアップ出力"
+
+#: ../src/item-prop.c:2149
+msgid "Scroll Output"
+msgstr "スクロール出力"
+
+#: ../src/item-prop.c:2163
+msgid "Keep Terminal Open"
+msgstr "ターミナルが開いた状態を保持"
+
+#: ../src/item-prop.c:2172
+msgid "Run As User:"
+msgstr "ユーザーで実行:"
+
+#: ../src/item-prop.c:2179
+msgid "( leave blank for current user )"
+msgstr ""
+
+#: ../src/item-prop.c:2186
+msgid "Style"
+msgstr "スタイル"
+
+#: ../src/item-prop.c:2197
+msgid "Normal"
+msgstr "通常"
+
+#: ../src/item-prop.c:2200
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: ../src/item-prop.c:2203
+msgid "Confirmation"
+msgstr "確認"
+
+#: ../src/item-prop.c:2206
+msgid "Input"
+msgstr "入力"
+
+#: ../src/item-prop.c:2220
+msgid "Confirmation/Input Message:"
+msgstr ""
+
+#: ../src/item-prop.c:2244
+msgid "Open In Browser:"
+msgstr "ブラウザーで開く:"
+
+#: ../src/item-prop.c:2266
+msgid "Data Dir"
+msgstr "データディレクトリ"
+
+#: ../src/item-prop.c:2275
+msgid "Plugin Dir"
+msgstr "プラグインディレクトリ"
+
+#: ../src/item-prop.c:2294
+msgid "Built-In Toolbar Item"
+msgstr "内蔵ツールバーアイテム"
+
+#: ../src/item-prop.c:2297
+msgid "Submenu"
+msgstr "サブメニュー"
+
+#: ../src/item-prop.c:2299
+msgid "Separator"
+msgstr "セパレーター"
+
+#. built-in
+#: ../src/item-prop.c:2303
+msgid "Built-In Command"
+msgstr "内蔵コマンド"
+
+#: ../src/exo/exo-cell-renderer-ellipsized-text.c:189
+#: ../src/exo/exo-cell-renderer-icon.c:170
+msgid "Follow state"
+msgstr ""
+
+#: ../src/exo/exo-cell-renderer-ellipsized-text.c:190
+#: ../src/exo/exo-cell-renderer-icon.c:171
+msgid "Render differently based on the selection state."
+msgstr ""
+
+#: ../src/exo/exo-cell-renderer-icon.c:193
+msgid "Icon"
+msgstr "アイコン"
+
+#: ../src/exo/exo-cell-renderer-icon.c:194
+msgid "The icon to render."
+msgstr ""
+
+#: ../src/exo/exo-cell-renderer-icon.c:212
+msgid "GIcon"
+msgstr ""
+
+#: ../src/exo/exo-cell-renderer-icon.c:213
+msgid "The GIcon to render."
+msgstr ""
+
+#: ../src/exo/exo-cell-renderer-icon.c:234
+msgid "size"
+msgstr "サイズ"
+
+#: ../src/exo/exo-cell-renderer-icon.c:235
+msgid "The size of the icon to render in pixels."
+msgstr ""
+
+#. EXO_ICON_CHOOSER_CONTEXT_ACTIONS
+#: ../src/exo/exo-icon-chooser-dialog.c:125
+msgid "Action Icons"
+msgstr "動作アイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_ANIMATIONS
+#: ../src/exo/exo-icon-chooser-dialog.c:127
+msgid "Animations"
+msgstr "アニメーション"
+
+#. EXO_ICON_CHOOSER_CONTEXT_APPLICATIONS
+#: ../src/exo/exo-icon-chooser-dialog.c:129
+msgid "Application Icons"
+msgstr "アプリケーションアイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_CATEGORIES
+#: ../src/exo/exo-icon-chooser-dialog.c:131
+msgid "Menu Icons"
+msgstr "メニューアイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_DEVICES
+#: ../src/exo/exo-icon-chooser-dialog.c:133
+msgid "Device Icons"
+msgstr "デバイスアイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_EMBLEMS
+#: ../src/exo/exo-icon-chooser-dialog.c:135
+msgid "Emblems"
+msgstr "エンブレム"
+
+#. EXO_ICON_CHOOSER_CONTEXT_EMOTES
+#: ../src/exo/exo-icon-chooser-dialog.c:137
+msgid "Emoticons"
+msgstr "感情アイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_INTERNATIONAL
+#: ../src/exo/exo-icon-chooser-dialog.c:139
+msgid "International Denominations"
+msgstr "国際単位"
+
+#. EXO_ICON_CHOOSER_CONTEXT_MIME_TYPES
+#: ../src/exo/exo-icon-chooser-dialog.c:141
+msgid "File Type Icons"
+msgstr "ファイル種別アイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_PLACES
+#: ../src/exo/exo-icon-chooser-dialog.c:143
+msgid "Location Icons"
+msgstr "場所アイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_STATUS
+#: ../src/exo/exo-icon-chooser-dialog.c:145
+msgid "Status Icons"
+msgstr "状態アイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_OTHER
+#: ../src/exo/exo-icon-chooser-dialog.c:147
+msgid "Uncategorized Icons"
+msgstr "未分類のアイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_ALL
+#: ../src/exo/exo-icon-chooser-dialog.c:151
+msgid "All Icons"
+msgstr "すべてのアイコン"
+
+#. EXO_ICON_CHOOSER_CONTEXT_FILE
+#: ../src/exo/exo-icon-chooser-dialog.c:155
+#: ../src/exo/exo-icon-chooser-dialog.c:314
+msgid "Image Files"
+msgstr "画像ファイル"
+
+#. setup the context combo box
+#: ../src/exo/exo-icon-chooser-dialog.c:226
+msgid "Select _icon from:"
+msgstr "アイコンの選択(_i):"
+
+#. search filter
+#: ../src/exo/exo-icon-chooser-dialog.c:242
+msgid "_Search icon:"
+msgstr "アイコンの検索(_S):"
+
+#: ../src/exo/exo-icon-chooser-dialog.c:253
+msgid "Clear search field"
+msgstr "検索欄をきれいにする"
+
+#: ../src/exo/exo-thumbnail-preview.c:140
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ../src/exo/exo-thumbnail-preview.c:156
+#: ../src/exo/exo-thumbnail-preview.c:245
+msgid "No file selected"
+msgstr ""
+
+#: ../src/exo/exo-thumbnail-preview.c:263
+msgid "Block Device"
+msgstr "ブロックデバイス"
+
+#: ../src/exo/exo-thumbnail-preview.c:268
+msgid "Character Device"
+msgstr "キャラクタデバイス"
+
+#: ../src/exo/exo-thumbnail-preview.c:278
+msgid "FIFO"
+msgstr "FIFO"
+
+#: ../src/exo/exo-thumbnail-preview.c:283
+msgid "Socket"
+msgstr "ソケット"
