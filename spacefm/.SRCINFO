@@ -1,0 +1,19 @@
+pkgbase = joshuarli-spacefm
+	pkgver = 1.0.6.r80.ge257d15
+	pkgrel = 1
+	url = https://ignorantguru.github.io/spacefm
+	arch = x86_64
+	license = GPL3
+	makedepends = intltool
+	makedepends = gettext
+	depends = ffmpegthumbnailer
+	depends = hicolor-icon-theme
+	depends = shared-mime-info
+	depends = desktop-file-utils
+	depends = cairo
+	depends = pango
+	provides = spacefm
+	conflicts = spacefm
+
+pkgname = joshuarli-spacefm
+
