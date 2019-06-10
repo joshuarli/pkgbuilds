@@ -1,0 +1,35 @@
+compared to official mpv package, this is roughly 40% the size and requires 72 MiB less dependencies
+
+    -- snip --
+
+    Packages (2) mpv-1:0.29.1-6 [removal]  joshuarli-mpv-0.29.1-1
+
+    Total Installed Size:   1.85 MiB
+    Net Upgrade Size:      -2.64 MiB
+
+    -- snip --
+
+    $ yay -Yc
+    checking dependencies...
+
+    Packages (20) cifs-utils-6.8-2  glslang-7.11.3214-1  jansson-2.12-1  ldb-1:1.5.4-2  libbsd-0.9.1-1  libcaca-0.99.beta19-2  libcddb-1.3.2-5
+              libcdio-2.1.0-1  libcdio-paranoia-10.2+2.0.0-2  libdvdnav-6.0.0-1  libdvdread-6.0.1-1  libwbclient-4.10.4-1  shaderc-2018.0-3
+              smbclient-4.10.4-1  spirv-tools-2018.5-1  talloc-2.2.0-1  tevent-1:0.9.39-2  uchardet-0.0.6-2  vulkan-headers-1:1.1.108-1
+              vulkan-icd-loader-1.1.107-1
+
+    Total Removed Size:  72.51 MiB
+
+
+features
+
+    - X (opengl backend)
+    - pulseaudio support
+    - full on screen controller
+    - zsh completions
+
+
+install
+
+    you'll need waf from the AUR
+    build with PKGEXT='.pkg.tar' makepkg -cs
+    install with pacman -U joshuarli-mpv-0.29.1-1-x86_64.pkg.tar
