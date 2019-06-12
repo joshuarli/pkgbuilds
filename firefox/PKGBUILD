@@ -11,10 +11,13 @@ provides=('firefox')
 # strip not needed; firefox build will do this
 options=(!strip)
 
-# depends omitted: libnotify
 depends=(libpulse gtk3 libxt)
-# mime-types ffmpeg
+# depends omitted: libnotify
+# depends not yet tested to be necessary: mime-types, ffmpeg
 
+# these are the minimal makedepends necessary to pass ./mach configure for the mozconfig later in the pkgbuild, in order
+makedepends=(which make grep python2 python autoconf2.13 pkgconf python
+    clang llvm rust cbindgen python nodejs gtk2 nasm unzip zip yasm gawk m4 diffutils)
 # makedepends omitted:
 # diffutils python2-setuptools mesa imake inetutils python2-psutil
 # xorg-server-xvfb required for PGO, which i'm omitting for now due to long build times and some other problems
@@ -26,10 +29,6 @@ depends=(libpulse gtk3 libxt)
 # python2 required for mach itself, python3.5+ required for some other build stuff
 # nasm required for firefox libdavid (av1)
 
-# these are the minimal makedepends necessary to pass ./mach configure for the mozconfig later in the pkgbuild, in order
-makedepends=(which make grep python2 python autoconf2.13 pkgconf python
-    clang llvm rust cbindgen python nodejs gtk2 nasm unzip zip yasm gawk m4 diffutils)
-
 source=("https://archive.mozilla.org/pub/firefox/releases/${pkgver}/source/firefox-${pkgver}.source.tar.xz")
 sha256sums=('6a0dd9a838c9532b143bb0322f73d03afd272f6afba92af5be5845061f0deb47')
 
@@ -40,6 +39,15 @@ sha256sums=('6a0dd9a838c9532b143bb0322f73d03afd272f6afba92af5be5845061f0deb47')
 # todo. requires a patch, see LFS notes
 # ac_add_options --with-system-graphite2
 # ac_add_options --with-system-harfbuzz
+
+# todo
+# ac_add_options --disable-printing
+# https://bugzilla.mozilla.org/show_bug.cgi?id=1433550
+
+# todo
+# ac_add_options --enable-address-sanitizer
+# ac_add_options --enable-undefined-sanitizer
+# *shrug* ==32701==LeakSanitizer has encountered a fatal error.
 
 # todo
 # ac_add_options --enable-optimize=
@@ -57,9 +65,6 @@ sha256sums=('6a0dd9a838c9532b143bb0322f73d03afd272f6afba92af5be5845061f0deb47')
 # ac_add_options --with-system-nspr  # depends package nspr
 # ac_add_options --with-system-nss   # depends package nss
 # ac_add_options --enable-system-sqlite   # depends package sqlite
-
-# --disable-printing
-# https://bugzilla.mozilla.org/show_bug.cgi?id=1433550
 
 # note: no geolocation/location services
 #   * omit wireless-tools, dbus-glib
@@ -79,15 +84,8 @@ ac_add_options --disable-debug-symbols
 ac_add_options --disable-gtest-in-build
 ac_add_options --enable-release
 ac_add_options --enable-hardening
-ac_add_options --enable-address-sanitizer
-ac_add_options --enable-undefined-sanitizer
 ac_add_options --enable-optimize
 ac_add_options --enable-lto=full
-export CC=clang
-export CXX=clang++
-export AR=llvm-ar
-export NM=llvm-nm
-export RANLIB=llvm-ranlib
 
 ac_add_options --disable-dbus
 ac_add_options --disable-gconf
@@ -110,7 +108,7 @@ EOF
 
 build () {
     cd "firefox-${pkgver}"
-    # SHELL=/usr/sbin/bash
+    export CC=clang CXX=clang++ AR=llvm-ar NM=llvm-nm RANLIB=llvm-ranlib
     ./mach build
 }
 
