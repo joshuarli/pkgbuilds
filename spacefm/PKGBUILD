@@ -9,22 +9,22 @@ pkgrel=1
 arch=('x86_64')
 url="https://ignorantguru.github.io/spacefm"
 license=('GPL3')
-conflicts=("spacefm")
-provides=("spacefm")
+conflicts=("$_pkgname")
+provides=("$_pkgname")
 makedepends=('intltool' 'gettext')
 depends=('ffmpegthumbnailer' 'hicolor-icon-theme' 'shared-mime-info' 'desktop-file-utils' 'cairo' 'pango')
 
 prepare () {
-    cd "../spacefm-${pkgver}"
+    cd "../${_pkgname}-${pkgver}"
     ./autogen.sh --prefix=/usr --with-gtk3
 }
 
 build () {
-    cd "../spacefm-${pkgver}"
+    cd "../${_pkgname}-${pkgver}"
     make
 }
 
 package () {
-    cd "../spacefm-${pkgver}"
+    cd "../${_pkgname}-${pkgver}"
     make DESTDIR="$pkgdir" install
 }
