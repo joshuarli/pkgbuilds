@@ -31,5 +31,4 @@ features
 install
 
     you'll need waf from the AUR
-    build with PKGEXT='.pkg.tar' makepkg -cs
-    install with pacman -U joshuarli-mpv-0.29.1-1-x86_64.pkg.tar
+    build and install with make.
