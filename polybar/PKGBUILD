@@ -1,0 +1,30 @@
+# XXX: if pyenv is active and not on system python, you'll need to temporarily switch to it.
+
+_pkgname=polybar
+pkgname="joshuarli-${_pkgname}"
+pkgver=3.4.1
+pkgrel=1
+pkgdesc="A fast and easy-to-use status bar"
+arch=("x86_64")
+url="https://github.com/polybar/polybar"
+license=("MIT")
+provides=("$_pkgname")
+conflicts=("$_pkgname")
+depends=("cairo" "xcb-util-wm" "xcb-util-xrm" "xcb-util-cursor" "libpulse")
+makedepends=("cmake" "pkg-config")
+source=("${url}/releases/download/${pkgver}/polybar-${pkgver}.tar")
+sha256sums=('9e37fa48a1027881f14546f2b4f6ace4c91d09a20a293685f845da9cbaedc4eb')
+
+prepare () {
+    mkdir -p "${_pkgname}/build"
+}
+
+build () {
+    cd "${_pkgname}/build"
+    cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+    cmake --build .
+}
+
+package () {
+    cmake --build "${_pkgname}/build" --target "${_pkgname}.install" -- DESTDIR="${pkgdir}"
+}
