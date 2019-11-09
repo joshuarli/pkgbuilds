@@ -3,7 +3,7 @@
 
 _pkgname=mpv
 pkgname="joshuarli-${_pkgname}"
-pkgver=0.29.1
+pkgver=0.30.0
 pkgrel=1
 pkgdesc='a free, open source, and cross-platform media player'
 arch=('x86_64')
@@ -23,7 +23,7 @@ makedepends=('waf' 'mesa' 'vulkan-headers')
 # https://github.com/mpv-player/mpv/issues/4404
 
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/mpv-player/${_pkgname}/archive/v${pkgver}.tar.gz")
-sha256sums=('f9f9d461d1990f9728660b4ccb0e8cb5dce29ccaa6af567bec481b79291ca623')
+sha256sums=('33a1bcb7e74ff17f070e754c15c52228cf44f2cefbfd8f34886ae81df214ca35')
 
 # https://raw.githubusercontent.com/mpv-player/mpv/master/wscript
 # ignore anything default disabled
@@ -35,7 +35,6 @@ build () {
     cd "${_pkgname}-${pkgver}"
     waf configure --prefix=/usr \
         --confdir=/etc/mpv \
-        --enable-zsh-comp \
         --lua=52arch \
         --disable-javascript \
         --disable-libbluray \
@@ -43,7 +42,6 @@ build () {
         --disable-rubberband \
         --disable-lcms2 \
         --disable-vapoursynth \
-        --disable-vapoursynth-lazy \
         --disable-libarchive \
         --disable-oss-audio \
         --disable-rsound \
