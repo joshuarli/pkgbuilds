@@ -2,7 +2,8 @@
 #   - removed automake generated files that were checked into upstream for some reason
 #   - removed locale files, it was getting too painful to strip away everything locale without breaking the build
 
-pkgname=joshuarli-spacefm
+_pkgname=spacefm
+pkgname="joshuarli-${_pkgname}"
 pkgver=1.0.6.r80.ge257d15
 pkgrel=1
 arch=('x86_64')
