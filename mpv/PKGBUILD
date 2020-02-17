@@ -1,9 +1,10 @@
 # slimmed down mpv package compared to the official one
 # assumes X, pulseaudio, and zsh completions are desired
+# TODO: wayland only
 
 _pkgname=mpv
 pkgname="joshuarli-${_pkgname}"
-pkgver=0.30.0
+pkgver=0.32.0
 pkgrel=1
 pkgdesc='a free, open source, and cross-platform media player'
 arch=('x86_64')
@@ -23,7 +24,7 @@ makedepends=('waf' 'mesa' 'vulkan-headers')
 # https://github.com/mpv-player/mpv/issues/4404
 
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/mpv-player/${_pkgname}/archive/v${pkgver}.tar.gz")
-sha256sums=('33a1bcb7e74ff17f070e754c15c52228cf44f2cefbfd8f34886ae81df214ca35')
+sha256sums=('9163f64832226d22e24bbc4874ebd6ac02372cd717bef15c28a0aa858c5fe592')
 
 # https://raw.githubusercontent.com/mpv-player/mpv/master/wscript
 # ignore anything default disabled
@@ -36,6 +37,11 @@ build () {
     waf configure --prefix=/usr \
         --confdir=/etc/mpv \
         --lua=52arch \
+        --disable-libmpv-shared \
+        --disable-cdda \
+        --disable-dvb \
+        --disable-dvdnav \
+        --disable-libsmbclient \
         --disable-javascript \
         --disable-libbluray \
         --disable-uchardet \
