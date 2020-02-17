@@ -1,6 +1,5 @@
 # slimmed down mpv package compared to the official one
-# assumes X, pulseaudio, and zsh completions are desired
-# TODO: wayland only
+# assumes X, pulseaudio, zsh completions, and vaapi (for intel iGPUs. does it apply to AMDGPU too?) are desired.
 
 _pkgname=mpv
 pkgname="joshuarli-${_pkgname}"
@@ -12,16 +11,20 @@ license=('GPL3')
 url='https://mpv.io/'
 conflicts=("$_pkgname")
 provides=("$_pkgname")
-# note: ffmpeg has a lot of the deps we need e.g. libass and various avcodecs
+
 depends=('ffmpeg' 'lua52' 'libxkbcommon' 'libxrandr' 'libxinerama')
-makedepends=('waf' 'mesa' 'vulkan-headers')
+# note: arch official ffmpeg has a lot of the deps we need e.g. libass and various avcodecs
 
 # lua is required for the useful on screen controller ui buttons and more
-# lua 5.3 isn't supported yet: https://github.com/mpv-player/mpv/issues/5205
+# lua 5.3 support is unlikely: https://github.com/mpv-player/mpv/issues/5205
 
-# i don't need xinerama, but sigh, too lazy to patch upstream
-# https://bugs.gentoo.org/617516
-# https://github.com/mpv-player/mpv/issues/4404
+# all the libx* stuff can be removed once i'm on pure wayland
+# except libxkbcommon
+
+# hwaccel notes
+# nvidia gpus probably need VDPAU and ffnvcodec-headers + the appropriate configures
+
+makedepends=('waf' 'mesa')
 
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/mpv-player/${_pkgname}/archive/v${pkgver}.tar.gz")
 sha256sums=('9163f64832226d22e24bbc4874ebd6ac02372cd717bef15c28a0aa858c5fe592')
@@ -29,38 +32,54 @@ sha256sums=('9163f64832226d22e24bbc4874ebd6ac02372cd717bef15c28a0aa858c5fe592')
 # https://raw.githubusercontent.com/mpv-player/mpv/master/wscript
 # ignore anything default disabled
 # for those that check_pkg_config, explicitly disable unneeded
-# for finer grained understanding, actually take some time to parse through waf syntax
-# oh, it is so hard to ensure you only get exactly what you need, what a manual process
 
 build () {
     cd "${_pkgname}-${pkgver}"
     waf configure --prefix=/usr \
         --confdir=/etc/mpv \
-        --lua=52arch \
         --disable-libmpv-shared \
-        --disable-cdda \
-        --disable-dvb \
-        --disable-dvdnav \
+        --disable-libmpv-static \
+        --disable-debug-build \
+        --disable-manpage-build \
         --disable-libsmbclient \
+        --lua=52arch \
         --disable-javascript \
+        --enable-libass \
         --disable-libbluray \
+        --disable-dvdnav \
+        --disable-cdda \
         --disable-uchardet \
         --disable-rubberband \
+        --disable-zimg \
         --disable-lcms2 \
         --disable-vapoursynth \
         --disable-libarchive \
+        --disable-dvb \
+        --disable-sdl2 \
         --disable-oss-audio \
         --disable-rsound \
         --enable-pulse \
         --disable-jack \
-        --disable-opensles \
+        --disable-openal \
         --disable-alsa \
+        --disable-opensles \
         --disable-drm \
         --disable-gbm \
-        --disable-wayland-protocols \
+        --disable-wayland \
         --enable-x11 \
         --disable-xv \
-        --disable-caca
+        --enable-gl-x11 \
+        --disable-egl \
+        --disable-vdpau \
+        --enable-vaapi-x11 \
+        --disable-vaapi-wayland \
+        --disable-caca \
+        --disable-jpeg \
+        --disable-shaderc \
+        --disable-spirv-cross \
+        --disable-libplacebo \
+        --disable-vulkan \
+        --disable-cuda-hwaccel
     waf build
 }
 
